@@ -185,6 +185,18 @@ def main():
     corr = os.path.join(R, 'correzioni.json')
     if os.path.exists(corr):
         C = json.load(open(corr, encoding='utf8'))
+
+        def sostituisci(x):
+            if isinstance(x, str):
+                for da, a in C.get('__testo__', []):
+                    x = x.replace(da, a)
+                return x
+            if isinstance(x, list):
+                return [sostituisci(v) for v in x]
+            if isinstance(x, dict):
+                return {k: sostituisci(v) for k, v in x.items()}
+            return x
+        out = sostituisci(out)
         for voce in out:
             for k, v in C.get(voce['nome'], {}).items():
                 if isinstance(v, dict) and isinstance(voce.get(k), dict):
@@ -193,6 +205,17 @@ def main():
                     voce[k] = v
         for nuova in C.get('__nuove__', []):
             out.append(nuova)
+    import unicodedata
+    visti = set()
+    for voce in out:
+        base = unicodedata.normalize('NFD', voce['nome'].split(',')[0].split('(')[0].strip().lower())
+        base = re.sub(r'[^a-z0-9]+', '_', ''.join(c for c in base if not unicodedata.combining(c))).strip('_')
+        i, slug = 2, base
+        while slug in visti:
+            slug = '%s_%d' % (base, i); i += 1
+        visti.add(slug)
+        voce['id'] = slug
+    out.sort(key=lambda v: (['animale', 'parassita', 'vegetale'].index(v['categoria']), v['nome'].lower()))
     json.dump(out, open(os.path.join(R, 'bestiario.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
     print('schede:', len(out))
 

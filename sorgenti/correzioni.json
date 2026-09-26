@@ -1,0 +1,48 @@
+{
+ "__testo__": [
+  [
+   "fornsice",
+   "fornisce"
+  ],
+  [
+   "immunità agli tutti gli effetti",
+   "immunità a tutti gli effetti"
+  ],
+  [
+   "in lotta con un cespuglio di fuoco",
+   "in lotta con un cespuglio bombardiere"
+  ],
+  [
+   "+8 Forza ,",
+   "+8 Forza,"
+  ],
+  [
+   "19- 20x2",
+   "19-20x2"
+  ],
+  [
+   "Forza/1920x2",
+   "Forza/19-20x2"
+  ],
+  [
+   "superando un tiro salvezza sulla Volontà",
+   "superando un Tiro Salvezza su Volontà"
+  ]
+ ],
+ "Bisonte": {
+  "car": {
+   "For": 14,
+   "Des": 10,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  }
+ },
+ "Struzzo": {
+  "esclusivo": null,
+  "tipi": [
+   "domestico"
+  ]
+ }
+}

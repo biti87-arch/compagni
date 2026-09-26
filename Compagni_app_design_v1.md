@@ -7,11 +7,11 @@ Repo: `biti87-arch/compagni` · Piattaforme: HTML → Android (APK) → Windows 
 | Fase | Stato |
 |---|---|
 | Analisi fonti (Bestiario, Vol. 2, Vol. 3, Vol. 1) | ✅ |
-| Incongruenze 1–8 | ✅ confermate 26/09/2026 (6 e 7: proposta in attesa) |
+| Incongruenze 1–8 | ✅ confermate 26/09/2026 |
 | Regole di calcolo A–K | ✅ confermate 26/09/2026 |
-| Cumulo delle fonti + Ottimo Compagno (L–M) | ⬜ in attesa di conferma |
+| Cumulo delle fonti + Ottimo Compagno (L–M) | ✅ confermate 26/09/2026 |
 | Estrazione Bestiario in JSON (dal PDF) | ✅ prima versione: 122 schede |
-| Bestiario in .docx corretto (Collana) | ⬜ |
+| Bestiario in .docx corretto (Collana) | ✅ v2.5 generato da `bestiario.json` (36 pagine), in revisione |
 | Correzioni Vol. 2 ("ma non conta") e Vol. 1 (tabella taglie) | ⬜ |
 | Fonti di classe in `fonti.json` | ⬜ |
 | Motore di calcolo del compagno | ⬜ |
@@ -67,8 +67,8 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 | 3 | Cumulo dei livelli | ✅ Si cumulano **tutte** le fonti di compagno o cavalcatura. Nel Vol. 2 "funziona (ma non conta) come" diventa "funziona come" |
 | 4 | Bardatura | ✅ Il privilegio dà il talento Addestramento nelle bardature leggere |
 | 5 | Struzzo "solo Hatamoto" | ✅ Restrizione tolta, diventa domestico |
-| 6 | Riassunto dei tipi | ⬜ Proposta: riassunto rigenerato dai tipi delle schede; nomi allineati alle schede |
-| 7 | Bisonte = copia dell'Alce | ⬜ Proposta: For 14, Des 10, Cos 12, Int 3, Sag 11, Car 4 |
+| 6 | Riassunto dei tipi | ✅ Rigenerato dai tipi delle schede; nomi allineati alle schede |
+| 7 | Bisonte = copia dell'Alce | ✅ For 14, Des 10, Cos 12, Int 3, Sag 11, Car 4 |
 | 8 | Refusi e rimando al "Libro dei compagni naturali" | ✅ Corretti nel .docx |
 
 ## REGOLE DI CALCOLO
@@ -86,8 +86,8 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 | I | Abilità | Punti dalla tabella (+ Int se ≥ 10), gradi max = DV, +3 di classe, +8 per le velocità speciali |
 | J | Talenti | Numero dalla tabella; menu dei Talenti Selvatici con requisiti; campo libero; talenti bonus automatici |
 | K | Talenti del padrone | Legame speciale (+4, max livello del personaggio), Richiamo naturale (+2 a una caratteristica), Addestratore (+1 TS) |
-| L | Più fonti insieme | ⬜ Spunte per ogni fonte; livelli effettivi sommati; la creatura deve essere ammessa da tutte le fonti spuntate |
-| M | Ottimo Compagno | ⬜ Spunta: +4 livelli fino al livello del personaggio; non cumulabile con Legame speciale |
+| L | Più fonti insieme | ✅ Spunte per ogni fonte; livelli effettivi sommati; la creatura deve essere ammessa da tutte le fonti spuntate |
+| M | Ottimo Compagno | ✅ Spunta: +4 livelli fino al livello del personaggio; non cumulabile con Legame speciale. Talento ufficiale: non si riscrive nei manuali |
 
 ## STRUTTURA DELL'APP
 
