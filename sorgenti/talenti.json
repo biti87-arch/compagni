@@ -1,0 +1,230 @@
+{
+ "selvatici": [
+  {
+   "id": "addestramento_nelle_bardature_leggere",
+   "nome": "Addestramento nelle bardature leggere",
+   "descrizione": "La creatura è in grado di indossare armature maggiormente protettive.",
+   "requisiti": "Compagno naturale di tipo animale o parassita.",
+   "testo": "Grazie ad un allenamento costante, la creatura può indossare le bardature leggere. In alcuni rari casi il DM potrebbe far rinvenire una bardatura magica ma si tenga presente che un compagno naturale non può utilizzare capacità speciali che richiedano un’attivazione.",
+   "speciale": ""
+  },
+  {
+   "id": "addestramento_nelle_bardature_medie",
+   "nome": "Addestramento nelle bardature medie",
+   "descrizione": "La creatura è in grado di indossare armature maggiormente protettive.",
+   "requisiti": "Compagno naturale di tipo animale o parassita non acquatico; Personaggio di 4° livello; Addestramento nelle bardature leggere.",
+   "testo": "Grazie ad un allenamento costante, la creatura può indossare le bardature medie. In alcuni rari casi il DM potrebbe far rinvenire una bardatura magica ma si tenga presente che un compagno naturale non può utilizzare capacità speciali che richiedano un’attivazione.",
+   "speciale": ""
+  },
+  {
+   "id": "attacco_naturale_migliorato",
+   "nome": "Attacco naturale migliorato",
+   "descrizione": "La creatura è in grado di effettuare specifici attacchi con maggiore efficienza.",
+   "requisiti": "Possedere almeno un attacco naturale; Bonus di attacco base +4.",
+   "testo": "Si sceglie uno degli attacchi naturali della creatura. Il danno di questo attacco naturale aumenta di un passo, come indicato di seguito, come se la taglia creatura fosse aumentata di una categoria: 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6. Un’arma o attacco che infligge 1d10 danni aumenta come segue: 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.",
+   "speciale": "Questo talento può essere selezionato più volte ma ognuna deve essere associata a un attacco naturale diverso."
+  },
+  {
+   "id": "attento",
+   "nome": "Attento",
+   "descrizione": "La creatura è in grado di individuare efficacemente le minacce nascoste.",
+   "requisiti": "Furtività 3 gradi; Percezione 3 gradi.",
+   "testo": "La creatura ottiene bonus +2 Percezione che diventa +10 quando cerca di individuare creature invisibili. Inoltre, quando usa con successo Percezione per notare una creatura invisibile o che usa Furtività, a questa viene negato il bonus di Destrezza alla CA contro il prossimo attacco della creatura, purché venga effettuato entro la fine del prossimo round della creatura.",
+   "speciale": ""
+  },
+  {
+   "id": "attento_migliorato",
+   "nome": "Attento migliorato",
+   "descrizione": "La creatura è in grado di attaccare i nemici nascosti quando meno se lo aspettano.",
+   "requisiti": "Attento; Furtività 5 gradi; Percezione 5 gradi.",
+   "testo": "Quando la creatura usa Percezione per individuare attivamente un nemico invisibile, come azione veloce può portare a +20 il bonus di Percezione derivante dal talento Attento. Inoltre, quando la creatura usa con successo Percezione per notare una creatura invisibile o che usa Furtività, a questa viene negato il bonus di Destrezza alla CA contro tutti gli attacchi della creatura, purché vengano effettuati entro la fine del prossimo round della creatura.",
+   "speciale": ""
+  },
+  {
+   "id": "capacita_focalizzata",
+   "nome": "Capacità focalizzata",
+   "descrizione": "È più difficile resistere a uno degli attacchi speciali della creatura.",
+   "requisiti": "Possedere almeno un attacco speciale.",
+   "testo": "Si sceglie uno degli attacchi speciali della creatura e la CD per resistere ai suoi effetti aumenta di 2.",
+   "speciale": "Questo talento può essere selezionato più volte ma ognuna deve essere associata a un attacco speciale diverso."
+  },
+  {
+   "id": "carica_potente",
+   "nome": "Carica potente",
+   "descrizione": "Le cariche della creatura spingono via i nemici.",
+   "requisiti": "Attacco poderoso; Spingere migliorato.",
+   "testo": "Una volta per round, quando la creatura colpisce un avversario al termine di una carica, come azione gratuita può effettuare contro di esso una manovra di Spingere. Se si è mossa a più della propria velocità base durante la carica, la creatura ottiene un bonus di +4 al tiro.",
+   "speciale": ""
+  },
+  {
+   "id": "carica_potente_migliorata",
+   "nome": "Carica potente migliorata",
+   "descrizione": "I nemici cadono davanti alle cariche della creatura.",
+   "requisiti": "Carica potente.",
+   "testo": "La creatura può effettuare manovre di Spingere contro avversari fino a due categorie di taglia più grandi di lei. Se spinge un avversario di almeno 3 m, come azione gratuita che provoca attacchi di opportunità, la creatura può tentare contro di esso anche una manovra gratuita di Sbilanciare che non provoca attacchi di opportunità.",
+   "speciale": ""
+  },
+  {
+   "id": "colpo_terrificante",
+   "nome": "Colpo terrificante",
+   "descrizione": "La creatura può scagliare lontano gli avversari.",
+   "requisiti": "Taglia grande o superiore; Forza 25; Attacco poderoso, Spingere migliorato.",
+   "testo": "Come azione standard il compagno naturale o la cavalcatura speciale può effettuare una manovra di combattimento di Colpo terrificante. Se la manovra ha successo contro un avversario corporeo di taglia inferiore alla sua, questi subisce il danno (tipicamente il danno dell’attacco + il bonus di Forza) e viene scagliato 3 m nella direzione scelta dalla creatura, finendo prono. Si può spingere solo in linea retta allontanando dalla creatura. Se un ostacolo impedisce il completamento del lancio, la vittima e l’ostacolo subiscono 1d6 danni contundenti e l’avversario cade prono nello spazio adiacente all’ostacolo.",
+   "speciale": ""
+  },
+  {
+   "id": "dirompente",
+   "nome": "Dirompente",
+   "descrizione": "La creatura è addestrata a interferire con la concentrazione dei suoi avversari, rendendo difficili anche i compiti più automatici.",
+   "requisiti": "",
+   "testo": "Quando sono minacciati dalla creatura, la CD delle prove di Concentrazione dei nemici per lanciare sulla difensiva aumenta di 2 e non possono prendere 10 nei tiri e nelle prove. Se un avversario ha un talento che gli consente di prendere 10 su determinate prove di abilità mentre è distratto, ottiene tale beneficio solo se i gradi posseduti in quella abilità sono superiori di almeno 4 punti rispetto ai Dadi Vita della creatura. Inoltre, la creatura conta come un guerriero di livello pari ai propri Dadi Vita al fine di soddisfare i requisiti del talento Dirompente e di qualsiasi talento che abbia Dirompente come requisito. La creatura aggiunge Dirompente all’elenco dei talenti selezionabili.",
+   "speciale": ""
+  },
+  {
+   "id": "feroce",
+   "nome": "Feroce",
+   "descrizione": "Attraverso l’addestramento o l’abilità naturale, la creatura è abile a innervosire i suoi nemici.",
+   "requisiti": "Intimidire 1 grado.",
+   "testo": "La creatura usa metà livello di personaggio del padrone al posto del proprio bonus di Carisma nelle prove di Intimidire e quando usa il talento Istigare. Inoltre, la creatura può effettuare prove di Intimidire (demoralizzare) come azione di movimento, anziché standard.",
+   "speciale": ""
+  },
+  {
+   "id": "fintare_astuto",
+   "nome": "Fintare astuto",
+   "descrizione": "Attraverso l’addestramento o l’abilità innata, la creatura è naturalmente abile a ingannare i propri nemici.",
+   "requisiti": "Raggirare 1 grado.",
+   "testo": "La creatura usa metà livello di personaggio del padrone al posto del proprio bonus di Carisma nelle prove di Raggirare (fintare). Inoltre, la creatura può effettuare prove di Raggirare (fintare) come azione di movimento.",
+   "speciale": ""
+  },
+  {
+   "id": "ghermire",
+   "nome": "Ghermire",
+   "descrizione": "La creatura può afferrare con facilità le altre creature.",
+   "requisiti": "Taglia enorme o superiore.",
+   "testo": "La creatura può iniziare una lotta quando colpisce con un attacco di Artiglio o di Morso come se avesse la capacità Afferrare. Se afferra un avversario di tre o più categorie di taglia inferiore alla propria, la stritola ogni round, infliggendole automaticamente i danni di Artiglio o di Morso con una manovra di Lottare effettuata con successo. Un avversario ghermito trattenuto nella bocca di una creatura non può effettuare Tiri Salvezza su Riflessi contro la sua arma a Soffio, se ne possiede una. La creatura può lasciar cadere la vittima come azione gratuita, o utilizzare un’azione standard per lanciarla via. Una creatura viene scagliata via per 1d6×3 m e subisce 1d6 danni contundenti per ogni 3 m percorsi.",
+   "speciale": "questo talento può essere selezionato anche dai personaggi."
+  },
+  {
+   "id": "grazia_selvaggia",
+   "nome": "Grazia selvaggia",
+   "descrizione": "La grazia e l’agilità della creatura sono perfette per la battaglia, rendendola un combattente mortale.",
+   "requisiti": "Arma accurata; Bonus di attacco base +3.",
+   "testo": "Si sceglie uno degli attacchi naturali della creatura. Quando la creatura attacca in mischia usando Arma accurata con l’attacco scelto, aggiunge un quarto dei propri Dadi Vita ai tiri per i danni (minimo +1).",
+   "speciale": "Questo talento può essere selezionato più volte ma ognuna deve essere associata a un attacco naturale diverso."
+  },
+  {
+   "id": "insensibile_al_soprannaturale",
+   "nome": "Insensibile al soprannaturale",
+   "descrizione": "La devozione della creatura al suo padrone gli consente di resistere alle forze soprannaturali.",
+   "requisiti": "Privilegio di classe Devozione.",
+   "testo": "La creatura ottiene bonus morale +2 ai Tiri Salvezza contro gli incantesimi, le capacità magiche e le capacità soprannaturali di aberrazioni, esterni e non morti. La creatura è inoltre immune all’Aura innaturale emanata da alcuni tipi di creature (come gli spettri).",
+   "speciale": ""
+  },
+  {
+   "id": "intercettare_pericolo",
+   "nome": "Intercettare pericolo",
+   "descrizione": "La creatura si lancia volontariamente nella mischia per difendere il proprio padrone.",
+   "requisiti": "Bonus di attacco base +1.",
+   "testo": "Quando la creatura è adiacente al padrone e questi è bersaglio di un attacco in mischia, come azione gratuita può usare un attacco di opportunità per tentare di intercettare l’attacco. La creatura effettua un tiro per colpire al bonus di attacco migliore ma con penalità -2 per ogni categoria di taglia di differenza con l’attaccante. Se il risultato è maggiore del tiro per colpire dell’attaccante, il padrone subisce solo metà danni dall’attacco mentre l’altra metà viene inflitta alla creatura. Gli effetti secondari dall’attacco (come il sanguinamento o l’effetto delle manovre) influenzano sia la creatura che il padrone, come se entrambi fossero stati colpiti; tuttavia, se l’attacco ha un effetto che si scarica (come un incantesimo a contatto), si considera la creatura come colpita per prima.",
+   "speciale": "Il padrone può ordinare alla creatura di seguire un alleato e questa potrà difenderlo come descritto sopra."
+  },
+  {
+   "id": "intercettare_pericolo_migliorato",
+   "nome": "Intercettare pericolo migliorato",
+   "descrizione": "L’intervento della creatura è ancora più efficace.",
+   "requisiti": "Intercettare pericolo, Bonus di attacco base +6.",
+   "testo": "Quando la creatura usa Intercettare pericolo con successo, diventa il nuovo e unico bersaglio dell’attacco.",
+   "speciale": ""
+  },
+  {
+   "id": "legame_speciale",
+   "nome": "Legame speciale",
+   "descrizione": "Il legame che lega il padrone alla creatura è insolitamente forte.",
+   "requisiti": "",
+   "testo": "Le abilità della creatura sono calcolate come se la classe che fornisce il compagno naturale o la cavalcatura speciale fosse di 4 livelli più alta (massimo pari al livello di personaggio).",
+   "speciale": ""
+  },
+  {
+   "id": "massiccio",
+   "nome": "Massiccio",
+   "descrizione": "La creatura potrebbe appartenere a una sottospecie insolita o essere un esemplare ben nutrito sin da cucciolo.",
+   "requisiti": "",
+   "testo": "La creatura conta come di una categoria di taglia superiore ai fini del BMC, della DMC, della capacità di carico e di qualsiasi attacco speciale basato sulla taglia.",
+   "speciale": ""
+  },
+  {
+   "id": "multiattacco",
+   "nome": "Multiattacco",
+   "descrizione": "La creatura è particolarmente abile nell’usare le sue armi naturali.",
+   "requisiti": "Tre o più attacchi naturali.",
+   "testo": "Gli attacchi secondari naturali della creatura subiscono solo penalità -2 al tiro per colpire, anziché -5.",
+   "speciale": "questo talento può essere selezionato anche dai personaggi."
+  },
+  {
+   "id": "passo_fermo",
+   "nome": "Passo fermo",
+   "descrizione": "La creatura procede sempre con un’andatura stabile e costante.",
+   "requisiti": "",
+   "testo": "La creatura non subisce la penalità di -2 alla CA dovuta alla carica. Le penalità agli attacchi a distanza effettuati dal padrone quando cavalca la creatura sono ridotte di 2. Il padrone ottiene bonus di +4 alle prove di Concentrazione causate dal movimento della creatura.",
+   "speciale": ""
+  },
+  {
+   "id": "privilegio_o_dote_condivisi",
+   "nome": "Privilegio o dote condivisi",
+   "descrizione": "La creatura espande le sue capacità e apprende uno dei privilegi di classe del suo padrone.",
+   "requisiti": "Personaggio di 7° livello.",
+   "testo": "Si sceglie uno dei privilegi di classe o una dote da ladro posseduta dal padrone scelta tra Mimetizzazione, Nascondersi in piena vista, ambienti prescelti, seguire tracce, resistenza al richiamo della natura, passo senza tracce, immunità ai veleni o andatura nel bosco. La creatura ottiene i benefici del privilegio di classe o della dote scelta, utilizzando i propri Dadi Vita come livello di classe ai fini di tale capacità. La creatura ottiene i benefici del privilegio di classe o della dote da ladro base, anche se il padrone li altera tramite un archetipo o altri mezzi, sebbene la creatura non conti come possedere il privilegio scelto allo scopo di soddisfare eventuali requisiti.",
+   "speciale": ""
+  },
+  {
+   "id": "postura_solida",
+   "nome": "Postura solida",
+   "descrizione": "La postura della creatura è salda, anche sui terreni più instabili.",
+   "requisiti": "Creatura con quattro o più zampe.",
+   "testo": "La creatura ottiene +2 Acrobazia (equilibrio) e +2 ai Tiri Salvezza su Riflessi (evitare di cadere). Inoltre, può muoversi a velocità normale su pendii scoscesi e scale, senza rischiare di cadere durante le corse o le cariche. Normale: Muoversi in salita costa il doppio del movimento. Correre o caricare in discesa richiede una prova di Acrobazia con CD 10 (o una prova di Cavalcare con CD 10 per i personaggi in sella), il tutto per evitare di cadere.",
+   "speciale": ""
+  },
+  {
+   "id": "riflessi_prodigiosi",
+   "nome": "Riflessi prodigiosi",
+   "descrizione": "La creatura può difendere il padrone in un battito di ciglia.",
+   "requisiti": "Bonus di attacco base +3; Intercettare pericolo; Privilegio di classe Eludere.",
+   "testo": "Quando è adiacente al padrone e questo effettua un Tiro Salvezza su Riflessi, come azione gratuita la creatura può usare un attacco di opportunità per effettuare a sua volta il Tiro Salvezza su Riflessi contro il medesimo effetto, subendone le normali conseguenze. Se il tiro riesce, la creatura perde i benefici di eludere ed eludere migliorato contro quell’effetto ma li concede però al padrone.",
+   "speciale": ""
+  },
+  {
+   "id": "saltatore",
+   "nome": "Saltatore",
+   "descrizione": "La creatura ha zampe o pinne possenti che le permettono grandi slanci.",
+   "requisiti": "Acrobazia 1 grado.",
+   "testo": "La creatura ottiene Acrobazia come abilità di classe. Inoltre, conta sempre come in corsa quando effettua dei salti.",
+   "speciale": ""
+  },
+  {
+   "id": "valoroso",
+   "nome": "Valoroso",
+   "descrizione": "Il coraggio della creatura è innaturalmente forte.",
+   "requisiti": "",
+   "testo": "La creatura ottiene bonus morale +4 ai Tiri Salvezza contro effetti di [PAURA] ed [EMOZIONE]. Quando è in arcione alla creatura, il padrone ottiene bonus morale +4 Cavalcare e +4 alle prove atte a placare la creatura mentre si trova nel raggio di un’Aura innaturale. Inoltre, la CD per spingere la creatura non aumenta se questa è ferita, ha subito danni non letali o danni ai punteggi di caratteristica.",
+   "speciale": ""
+  }
+ ],
+ "padrone": [
+  {
+   "id": "addestratore",
+   "nome": "Addestratore",
+   "descrizione": "Si è in grado di trovare i compagni naturali migliori e con più facilità in determinati ambienti specifici.",
+   "requisiti": "Privilegio di classe che fornisce un compagno naturale.",
+   "testo": "Si sceglie un ambiente tra Acquatico (sopra e sotto la superficie dell’acqua), Desertico (terre brulle e deserto sabbioso), Desolato (zone vulcaniche, infuocate o geotermiche), Boschivo (boschi e giungle), Freddo (ghiaccio, neve e tundra), Montano, Pianure e colline, Palustre, Sotterraneo (caverne e dungeon) e Urbano (fogne, folle, interni di edifici, mercati, mezzi parcheggiati, etc.). Quando si cerca in natura un compagno naturale all’interno dell’ambiente scelto, la probabilità di trovarlo aumentata del 10%. Inoltre, i compagni trovati in natura all’interno dell’ambiente scelto ottengono bonus +1 ai Tiri Salvezza. Nota: Un personaggio che scelga questo talento non può scegliere il talento Richiamo naturale.",
+   "speciale": ""
+  },
+  {
+   "id": "richiamo_naturale",
+   "nome": "Richiamo naturale",
+   "descrizione": "Si è in grado di attrarre compagni naturali migliori e con più facilità in determinati ambienti specifici.",
+   "requisiti": "Privilegio di classe Legame con la natura.",
+   "testo": "Si sceglie un tipo di creatura tra Animale, Parassita e Vegetale. Quando si cerca in natura un compagno naturale del tipo scelto, la probabilità di trovarlo aumentata del 10%. Inoltre, i compagni del tipo scelto trovati in natura ottengono bonus +2 a una caratteristica a scelta. Nota: Un personaggio che scelga questo talento non può scegliere il talento Addestratore.",
+   "speciale": ""
+  }
+ ]
+}

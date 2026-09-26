@@ -14,9 +14,9 @@ Repo: `biti87-arch/compagni` · Piattaforme: HTML → Android (APK) → Windows 
 | Bestiario in .docx corretto (Collana) | ✅ v2.5 generato da `bestiario.json` (36 pagine), in revisione |
 | Correzioni Vol. 2 ("ma non conta") | ✅ 14 frasi + rimando al Bestiario, anche nei 9 manuali singoli (`sorgenti/correzioni_vol2/sostituisci.py`) |
 | Correzione Vol. 1 (segni della tabella taglie) | ⬜ |
-| Fonti di classe in `fonti.json` | ⬜ |
-| Motore di calcolo del compagno | ⬜ |
-| Interfaccia HTML (mobile-first) | ⬜ |
+| Fonti di classe in `fonti.json` | ✅ 29 fonti (classi e archetipi) con restrizioni, scarti, resistenze e note |
+| Motore di calcolo del compagno | ✅ verificato su tutte le fonti × livelli × creature ammesse (nessun errore) |
+| Interfaccia HTML (mobile-first) | ✅ v1 da provare (Padrone, Bestiario, Compagno, In gioco) |
 | Build Android + Windows | ⬜ |
 
 ## FONTI DATI
@@ -96,3 +96,11 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 2. **Bestiario**: creature ammesse, filtri per tipo, taglia, habitat e rarità; ricerca e acquisto (insediamento, probabilità, costo).
 3. **Compagno**: scheda calcolata (PF Fatica/Ferita, CA con bardatura, TS, attacchi, BMC/DMC, velocità, abilità, talenti, aumenti, bonus della fonte).
 4. **In gioco**: contatore PF, riserva per Rifiatare, stampa della scheda.
+
+## NOTE DI IMPLEMENTAZIONE (v1)
+
+- Talenti generici con effetto calcolato: Arma Accurata, Arma Focalizzata, Robustezza, Schivare, Iniziativa Migliorata, Riflessi Fulminei, Tempra Possente, Volontà di Ferro (Attacco Poderoso come testo). Altri talenti: campo libero.
+- Talenti selvatici con effetto calcolato: Attacco naturale migliorato (passo di dado sull'attacco scelto), Attento (+2 Percezione), Legame speciale (+4 livelli), Massiccio (taglia +1 per BMC/DMC), Multiattacco. Requisiti controllati e segnalati.
+- Attacchi a distanza (sputi, spine) al BAB + Destrezza.
+- PF: riposo di 8 ore = Fatica piena e +DV Punti Ferita; Rifiatare = 1d8 + Cos dalla riserva di DV dadi.
+- Da verificare con Massy: Guardia nera con RD 10/male (il paladino ha la stessa RD; per una guardia nera ci si aspetterebbe RD/bene).
