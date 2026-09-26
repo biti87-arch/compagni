@@ -1,0 +1,2039 @@
+Bestiario dei
+compagni naturali
+
+Compagni naturali
+Dado Vita: d8
+Abilità di classe: Acrobazia, Artista della Fuga, Furtività, Intimidire, Nuotare, Percezione, Scalare, Sopravvivenza, Volare.
+Competenze offensive: Tutti gli attacchi naturali posseduti. Non possono acquisire talenti di competenza nelle armi.
+Competenze difensive: Nessuna. Non possono acquisire talenti di competenza nelle armature o negli scudi.
+
+Tabella del compagno naturale
+Livello DV BAB Tempra Riflessi Volontà Abilità Talenti
+
+Armatura
+For/Des Privilegi di classe
+Naturale
+
+1°
+
+2
+
++1
+
++3
+
++3
+
++0
+
+2
+
+1
+
++0
+
++0
+
+Legame, Cavalcatura, Condividere incantesimi
+
+2°
+
+3
+
++2
+
++3
+
++3
+
++1
+
+3
+
+2
+
++0
+
++0
+
+Bardatura
+
+3°
+
+3
+
++2
+
++3
+
++3
+
++1
+
+3
+
+2
+
++1
+
++1
+
+Eludere
+
+4°
+
+4
+
++3
+
++4
+
++4
+
++1
+
+4
+
+2
+
++1
+
++1
+
+Possibile avanzamento
+
+5°
+
+5
+
++3
+
++4
+
++4
+
++1
+
+5
+
+3
+
++1
+
++1
+
+6°
+
+6
+
++4
+
++5
+
++5
+
++2
+
+6
+
+3
+
++2
+
++2
+
+Devozione
+
+7°
+
+6
+
++4
+
++5
+
++5
+
++2
+
+6
+
+3
+
++2
+
++2
+
+Possibile avanzamento
+
+8°
+
+7
+
++5
+
++5
+
++5
+
++2
+
+7
+
+4
+
++2
+
++2
+
+Aumento di caratteristica
+Multiattacco
+
+–
+
+9°
+
+8
+
++6
+
++6
+
++6
+
++2
+
+8
+
+4
+
++3
+
++3
+
+10°
+
+9
+
++6
+
++6
+
++6
+
++3
+
+9
+
+5
+
++3
+
++3
+
+–
+
+11°
+
+9
+
++6
+
++6
+
++6
+
++3
+
+9
+
+5
+
++3
+
++3
+
+–
+
+12°
+
+10
+
++7
+
++7
+
++7
+
++3
+
+10
+
+5
+
++4
+
++4
+
+–
+
+13°
+
+11
+
++8
+
++7
+
++7
+
++3
+
+11
+
+6
+
++4
+
++4
+
+Aumento di caratteristica
+
+14°
+
+12
+
++9
+
++8
+
++8
+
++4
+
+12
+
+6
+
++4
+
++4
+
+15°
+
+12
+
++9
+
++8
+
++8
+
++4
+
+12
+
+6
+
++5
+
++5
+
+16°
+
+13
+
++9
+
++8
+
++8
+
++4
+
+13
+
+7
+
++5
+
++5
+
+–
+
+17°
+
+14 +10
+
++9
+
++9
+
++4
+
+14
+
+7
+
++5
+
++5
+
+–
+
+18°
+
+15 +11
+
++9
+
++9
+
++5
+
+15
+
+8
+
++6
+
++6
+
+–
+
+19°
+
+15 +11
+
++9
+
++9
+
++5
+
+15
+
+8
+
++6
+
++6
+
+–
+
+20°
+
+16 +12
+
++10
+
++10
+
++5
+
+16
+
+8
+
++6
+
++6
+
+Aumento di caratteristica
+
+Eludere migliorato
+
+Livello: Il livello di classe da druido. Questi livelli sono cumulativi con i livelli di qualsiasi altra classe che permetta di ottenere un compagno naturale al fine di
+determinarne le sue statistiche.
+DV: Il numero totale dei Dadi Vita del compagno naturale, su ognuno dei quali si applica il bonus di Costituzione.
+BAB: Il bonus di attacco base del compagno naturale. Salvo diversamente indicato, tutti gli attacchi del compagno naturale sono effettuati al bonus di attacco
+base migliore e aggiungono il bonus di Forza ai tiri per i danni, a meno che non abbia un solo attacco, nel qual caso lo si aggiunge una volta e mezzo. Si ricorda
+che gli attacchi secondari sono effettuati con -5 al tiro per colpire e applicano metà bonus di Forza al danno.
+Tempra/Riflessi/Volontà: Il bonus ai Tiri Salvezza del compagno naturale.
+Abilità: I punti abilità totali del compagno naturale. Se un compagno naturale aumenta la sua Intelligenza a 10 o più, ottiene gradi punti bonus come di norma.
+Un compagno naturale non può avere in un'abilità più punti dei suoi Dadi Vita.
+Talenti: Il numero totale di talenti posseduti dal compagno naturale, scelti tra quelli che è in grado fisicamente di usare. Si consiglia di dare un’occhiata ai Talenti
+Selvatici descritti nel Volume 3, espressamente pensati per compagni naturali e i relativi padroni.
+Armatura naturale: Il bonus di armatura naturale del compagno naturale, cumulabile con quello base della creatura e con quello derivante dall’avanzamento al
+4° o al 7° livello, entrambi indicati nella sua descrizione.
+For/Des: Il bonus alla Forza e alla Destrezza del compagno naturale.
+
+Privilegi di classe del compagno naturale
+Legame
+Un druido può gestire le azioni del suo compagno naturale parlandogli come un’azione gratuita. Il DM può imporre limiti alle azioni del Compagno naturale
+come più ritiene opportuno.
+Cavalcatura
+Un druido può cavalcare il proprio compagno animale o parassita fintanto che quest’ultimo è di taglia superiore alla sua. I compagni vegetali non possono essere
+cavalcati. Quando è in sella al suo compagno naturale, il druido non subisce penalità di armatura alle prove di Cavalcare e supera automaticamente quelle per
+“Guidare con le ginocchia” ed “Entrare in combattimento con cavalcatura addestrata”.
+Condividere incantesimi
+Un druido può lanciare qualsiasi incantesimo che abbia come bersaglio “sé stessi” sul suo compagno naturale (se è in vista), al posto di sé stesso. Può farlo anche
+se l’incantesimo normalmente non ha effetto su animali, parassiti o vegetali. Gli incantesimi così lanciati devono provenire dalla lista di incantesimi della classe
+che ha garantito il compagno naturale. Questa capacità non permette di condividere con l’animale capacità magiche.
+Bardatura
+I compagni animali e i compagni parassiti ottengono Competenza nelle armature leggere come talento bonus e possono indossare le armature con la qualità
+Bardatura. Esse possono essere anche armature magiche ritrovate nei tesori ma necessiteranno prima di essere riadattate al fisico della creatura, spendendo 1/10
+del valore totale dell’armatura (compreso quello dei potenziamenti e delle capacità speciali) e di 8 ore di lavoro nella relativa Professione. I compagni vegetali
+compensano la mancanza di bardatura con una CA naturale leggermente più alta e tratti razziali vantaggiosi.
+Eludere
+Il compagno naturale ottiene eludere (vedi privilegi di classe del ladro).
+Possibile avanzamento
+Al 4° o al 7° livello il compagno naturale ottiene l’avanzamento indicato nella sua descrizione. Anziché ottenere i benefici dell’avanzamento, il compagno
+naturale può ottenere +2 Destrezza e +2 Costituzione. Quando un compagno naturale cambia di taglia in seguito all’avanzamento, acquisisce anche le seguenti
+modifiche:
+Taglia Tiri per colpire CA Furtività Volare BCM e DMC
+
+Alta
+Lunga
+Spazio / Portata in caselle Spazio in caselle / Portata
+
+Piccola
+
++1
+
++1
+
++2
+
++2
+
+-2
+
+1 cs / 1,5 m
+
+Media
+
++0
+
++0
+
++0
+
++0
+
++0
+
+1 cs / 1,5 m
+
+-
+
+Grande
+
+-1
+
+-1
+
+-2
+
+-2
+
++2
+
+2x2 cs / 3 m
+
+2x1 cs / 1,5 m
+
+Devozione
+Il compagno naturale riceve bonus morale +4 ai Tiri Salvezza contro incantesimi ed effetti di [ammaliamento: charme e compulsione].
+Aumento di caratteristica
+Il compagno naturale aggiunge +1 ad un punteggio di caratteristica a scelta.
+Multiattacco
+Il compagno naturale ottiene Multiattacco come talento bonus. Se il compagno non soddisfa il requisito di tre o più attacchi naturali, ottiene un secondo attacco
+naturale primario effettuato con penalità -5.
+Eludere migliorato
+Il compagno naturale ottiene la dote da ladro avanzata Eludere migliorato.
+
+Morte del compagno e procurarsene uno nuovo
+Se il compagno naturale muore o viene liberato dal suo servizio, il personaggio può ottenerne uno nuovo seguendo le suddette regole:
+* Si deve trascorrere un’intera giornata di ricerca nell'ambiente in cui il compagno naturale vive (indicato nella sua descrizione) o presso le bancarelle di un
+mercato, di una fiera, di un serraglio o di un negozio specialistico.
+* Indipendentemente se li si cerca in natura o negli insediamenti, è possibile ricercare i compagni naturali una sola volta a settimana.
+* Indipendentemente se lo si cerca in natura o negli insediamenti, è possibile cercare il medesimo compagno una sola volta al mese.
+
+Habitat
+Ogni creatura può essere trovata in natura in uno o più ambienti specifici e caratterizzati da un clima ben definito, come indicato nell’elenco sottostante:
+Caldo: deserti, savane, zone tropicali, ambienti vulcanici o magmatici, acque molto calde e zone generiche con una temperatura di 40° o più.
+Freddo: zone innevate, zone ghiacciate e zone generiche con una temperatura inferiore agli 0°.
+Temperate: zone con una temperatura mite intorno ai 20°.
+
+Ritrovamento
+La probabilità che il personaggio ha di trovare uno specifico compagno varia in base alla sua rarità, come mostrato nella tabella sottostante:
+Rarità
+Comune
+Non comune
+Raro
+
+Probabilità di ritrovamento…
+…in natura
+…in un insediamento
+75%
+95%
+50%
+75%
+15%
+25%
+
+In base alla grandezza dell’insediamento, tramite la stessa ricerca è possibile informarsi riguardo la disponibilità di un numero variabile di compagni, come
+mostrato nella tabella sottostante. Una volta determinati quali compagni sono disponibili tra quelli ricercati, si può procedere all’acquisto di un singolo esemplare.
+I compagni naturali presenti in un insediamento sono esemplari catturati in tutte le parti del mondo, magari in transito poiché destinati a fiere più grandi e
+importanti: pertanto, gli esemplari presenti nei mercati non devono rispettare l'ambiente in cui il compagno naturale solitamente vive (verosimilmente in una fiera
+nel deserto è possibile trovare un orso polare che sta viaggiando verso nord, in direzione di una capitale lontana).
+Insediamento
+Piccolo insediamento
+Borgo
+Villaggio
+Piccolo paese
+Grande paese
+Piccola città
+Grande città
+Capitale o metropoli
+
+Numero e tipo di compagni ricercabili
+Uno comune
+Due comuni
+Due comuni e uno non comune
+Tre comuni e uno non comune
+Quattro comuni e due non comuni
+Quattro comuni e tre non comuni
+Quattro comuni, tre non comuni e uno raro
+Quattro comuni, tre non comuni e due rari
+
+Il costo di uno specifico compagno varia in base alla sua rarità, come mostrato nella tabella sottostante. La rarità rappresenta la difficoltà nel trovare tale creatura
+nel suo habitat, il riuscire a catturarla, il trasportarla o una commistione di tutte queste cose.
+Rarità
+
+Costo
+
+Comune
+Non comune
+Raro
+
+25 mo per Dado Vita
+50 mo per Dado Vita
+100 mo per Dado Vita
+
+Riassunto dei compagni naturali con un tipo specifico
+I compagni naturali che non appartengono ad alcun tipo non sono mostrati in questa tabella.
+
+Acquatico
+Anguilla elettrica
+Basilosauro
+Calamaro gigante
+Crostaceo gigante
+Delfino
+Elasmosauro, Squalo crudele
+Manta
+Murena gigante
+Orca
+Pastinaca
+Pesce gigante
+Piovra
+Squalo
+Tilosauro
+Gambero pistolero gigante
+Sanguisuga gigante
+Aracnide
+Ragno gigante
+Ragno gigante matriarca
+Ragno gigante scagliatela
+Solifugo gigante
+Canide
+Cane
+Cane di grossa taglia, Lupo, Iena
+Cane goblin
+Dingo alpha, Iena rex, Sciacallo gigante, Volpe bianca crudele
+Lupo crudele
+Metalupo
+Cervide
+Alce, Renna
+Ariete quadricorno
+Caprone
+Cervo, Daino
+Giraffa
+Dinosauro
+Allosauro
+Basilosauro
+Brachiosauro
+Dimetrodonte
+Diplodoco
+Elasmosauro, Squalo crudele
+Iguanodonte
+Pachicèfalosauro
+Parasauròlofo
+Spinosauro
+Stegosauro
+Stiracosauro
+Tilosauro
+Tirannosauro
+Triceratopo
+Domestico
+Cammello, Dromedario
+Cane
+Cane di grossa taglia, Lupo, Iena
+Cane goblin
+Cavallo, Zebra
+Felino piccolo
+Lucertola gigante
+Mustelide gigante (donnola, faina, furetto, ghiottone, mangusta, tasso)
+Pony
+Rana gigante
+Roditore gigante (ratto, castoro, nutria)
+Rospo gigante
+
+Felino
+Felino dai denti a sciabola
+Felino grande
+Felino piccolo
+Fungo
+Miceloide assalitore
+Miceloide lanciaspore
+Miceloide velenoso
+Miceloide guerriero
+Lucertoloide
+Coccodrillo
+Iguanodonte
+Lucertola gigante
+Lucertola gigante cacciatrice
+Salamandra
+Squig
+Varano
+Pesce
+Anguilla elettrica
+Elasmosauro, Squalo crudele
+Murena gigante
+Orca
+Pesce gigante
+Squalo
+Primate
+Lemure gigante frustatore
+Schienargento
+Scimmia grande
+Scimmia piccola
+Serpente
+Serpente nuotatore
+Serpente sputatore
+Serpente strangolatore
+Serpente velenoso
+Titanoboa
+Suino
+Cinghiale
+Cinghiale crudele
+Facocero spinato
+Potamocero gigante
+Urside
+Diavolo orsino
+Orso, Orso polare
+Orso crudele
+Orso grizzly
+Orso nero, Panda
+
+Elenco dei compagni animali
+
+Alce, Renna (cervide)
+Habitat: foreste (fredde o temperate).
+Statistiche iniziali: Taglia media; Velocità 15 m; +1 CA Naturale; Attacco: Corna (1d6) o 2 Zoccoli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 14, Int 3, Sag 15, Car 5.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (1d8) o 2 Zoccoli (1d4).
+
+Allosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +2 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4, attacco secondario).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 16, Costituzione 10, Int 3, Sag 15, Car 10.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Sbilanciare), 2 Artigli (1d6,
+attacco secondario).
+
+Anguilla elettrica (acquatico, pesce)
+Habitat: fiumi (caldi o temperati), laghi (caldi o temperati), mari (caldi o temperati).
+Statistiche iniziali: Taglia piccola; Velocità di Nuotare 9 m; +1 CA Naturale; Attacco: Morso (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 14, Costituzione 18, Int 3, Sag 10, Car 6.
+Capacità e attacchi speciali
+* RE (elettricità) 5.
+Avanzamento al 4° livello: +1 CA Naturale; Destrezza +2, Costituzione +2; RE (elettricità) 10.
+* Shock: con un critico riuscito, la vittima deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione) o è stordita per 1d4 round.
+
+Ariete quadricorno (cervide)
+Habitat: montagne (temperate), pianure (temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Scalare 3 m; +3 CA Naturale; Attacco: Corna (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 16, Costituzione 13, Int 3, Sag 12, Car 5.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (1d10).
+* Carica massacrante: quando la creatura colpisce un bersaglio con l’attacco di Corna al termine di una carica, come azione gratuita può effettuare una manovra
+Spingere per spostare il bersaglio lungo la medesima direzione della carica. La creatura non può spostarsi insieme alla vittima. Se infligge un colpo critico
+durante la carica massacrante, la vittima deve anche superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Forza o diventare barcollante per
+1 round.
+
+Armadillo gigante
+Habitat: foreste (temperate), pianure (temperate).
+Statistiche iniziali: Taglia media; Velocità 6 m; +6 CA Naturale; Attacco: 2 Artigli (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 12, Costituzione 13, Int 3, Sag 13, Car 6.
+Avanzamento al 7° livello: Taglia grande; +1 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Artigli (1d8).
+
+Basilosauro (acquatico, dinosauro)
+Habitat: mari (caldi).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 12 m; +3 CA Naturale; Attacco: Morso (1d6), Coda (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 11, Destrezza 14, Costituzione 12, Int 3, Sag 14, Car 6.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8), Coda (1d8).
+* Percezione cieca 12 m.
+
+Bisonte
+Habitat: pianure (temperate).
+Statistiche iniziali: Taglia media; Velocità 15 m; +3 CA Naturale; Attacco: Corna (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 14, Int 3, Sag 15, Car 5.
+Avanzamento al 7° livello: Taglia grande; +1 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (2d6), 2 Zoccoli (1d4, attacco secondario).
+* Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx).
+
+Brachiosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +3 CA Naturale; Attacco: Coda (2d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 14, Costituzione 11, Int 3, Sag 13, Car 10.
+Capacità e attacchi speciali
+* Collo lungo: +4 Percezione (individuare imboscate).
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Coda (2d6).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno della Coda + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Bufalo, Gnu, Toro
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; +2 CA Naturale, Attacco: Corna (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 12, Costituzione 12, Int 3, Sag 11, Car 4.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale, +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (1d8).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno delle Corna + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+* Fuga precipitosa: quando effettua un’azione di Ritirata, può effettuare una deviazione di fino a 45° e Travolgere i nemici sul proprio percorso.
+
+Calamaro gigante (acquatico)
+Habitat: mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia media; +1 CA naturale; Velocità di Nuotare 12 m, Propulsione 72 m; Attacco: Morso (1d3), Tentacoli (1d4 più Afferrare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 15, Costituzione 11, Int 3, Sag 12, Car 2.
+Capacità e attacchi speciali
+* Nube di inchiostro: una volta al minuto, può emettere una nube di inchiostro di raggio 1,5 m. Questa nuvola fornisce occultamento totale e permane per 1
+round.
+Avanzamento al 4° livello: +2 CA naturale; +2 Forza, +2 Costituzione; Attacco: Morso (1d3), Tentacoli (1d4 più Afferrare e Stritolare).
+* Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare.
+
+Cammello, Dromedario (domestico)
+Habitat: pianure (calde).
+Statistiche iniziali: Taglia grande; Velocità 15 m; +2 CA Naturale; Attacco: Morso (1d4) o Sputo (attacco di contatto a distanza entro 4,5 m, il bersaglio deve
+superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 18, Destrezza 16, Costituzione 14, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Pelliccia: la pelliccia del cammello lo protegge dagli effetti degli ambienti caldi e concede bonus razziale +2 ai Tiri Salvezza contro gli effetti di [malattia].
+Avanzamento al 4° livello: +2 Forza, +2 Costituzione.
+
+Cane (canide, domestico)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +1 CA Naturale; Attacco: Morso (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 15, Int 3, Sag 12, Car 6.
+Capacità e attacchi speciali
+* Fedele: fintanto che lo accompagna, fornsice Allerta come talento bonus al padrone.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6).
+
+Cane di grossa taglia, Lupo, Iena (canide, domestico)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia media; Velocità 15 m; +2 CA Naturale; Attacco: Morso (1d6 più Sbilanciare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 14, Costituzione 15, Int 3, Sag 12, Car 6.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Sbilanciare).
+
+Cane goblin (canide, domestico)
+Habitat: ambienti sotterranei (caldi o temperati), foreste (temperate), paludi (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 15 m; Attacco: Morso (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 11, Destrezza 16, Costituzione 11, Int 3, Sag 12, Car 8.
+Capacità e attacchi speciali
+* Reazione allergica: se una creatura non pelleverde entra in contatto con il cane goblin, viene ferita dal suo morso oppure infligge danni al cane goblin con
+un'arma naturale, deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o subisce penalità -2 a Destrezza e -2 Carisma per
+1 giorno (massimo un tiro per round; penalità non cumulabile). Questo è un effetto di [malattia].
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6).
+
+Canguro
+Habitat: pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +1 CA Naturale; Attacco: Calcio (1d6 più una volta e mezzo il bonus di Forza).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 14, Costituzione 13, Int 3, Sag 11, Car 7.
+Capacità e attacchi speciali
+* Saltatore: bonus +4 Acrobazia (saltare).
+Avanzamento al 4° livello: Velocità 15 m; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione.
+
+Caprone (cervide)
+Habitat: pianure (temperate), montagne (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m, Scalare 3 m; Attacco: Corno (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 11, Int 3, Sag 14, Car 7
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Corno (1d8).
+* Ottiene Spingere migliorato come talento bonus (non deve soddisfarne i requisiti).
+
+Cavallo, Zebra (domestico)
+Habitat: pianure (calde, fredde o temperate).
+Statistiche iniziali: Taglia grande; Velocità 15 m; +4 CA Naturale; Attacco: Morso (1d4), 2 Zoccoli (1d6, attacco secondario).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 16, Destrezza 13, Costituzione 15, Int 3, Sag 12, Car 6.
+Avanzamento al 4° livello: +1 CA naturale; +2 Forza, +2 Costituzione;
+* Ottiene Correre come talento bonus.
+
+Cervo, Daino (cervide)
+Habitat: foreste (fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 15 m; Attacco: Corna (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 19, Costituzione 14, Int 3, Sag 15, Car 8.
+Avanzamento al 4° livello: Taglia media; +1 CA naturale; +2 Forza, -2 Destrezza, +2 Costituzione; Attacco: Corna (1d6), 2 Zoccoli (1d4).
+* Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx).
+
+Cinghiale (suino)
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +3 CA Naturale; Attacco: Zanne (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 12, Costituzione 15, Int 3, Sag 13, Car 4.
+Avanzamento al 4° livello: Taglia media; +1 CA naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Zanne (1d8).
+* Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.
+
+Cinghiale crudele (suino)
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; +4 CA Naturale; Attacco: Zanne (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 12, Costituzione 15, Int 3, Sag 12, Car 5.
+Avanzamento al 7° livello: Taglia grande; +2 CA naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Zanne (1d8).
+* Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno delle Zanne + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Coccodrillo (lucertoloide)
+Habitat: fiumi (caldi), laghi (caldi), paludi (calde).
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Nuotare 9 m; +3 CA Naturale; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 14, Costituzione 15, Int 3, Sag 12, Car 2.
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8 più Afferrare) o Coda (1d12).
+* Rotolata letale: quando è in lotta con un nemico della sua taglia o inferiore, può effettuare una manovra di Lottare per infliggergli i danni del Morso e farlo
+cadere prono. Se la prova riesce, il coccodrillo si mantiene in lotta.
+* Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento.
+
+Crostaceo gigante (acquatico)
+Habitat: zone costiere (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Nuotare 6 m; +3 CA Naturale; Attacco: 2 Artigli (1d4 più Afferrare e Stritolare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 13, Destrezza 13, Costituzione 13, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Anfibio: può sopravvivere sia dentro che fuori dall’acqua.
+* Dipendenza dall'acqua: può sopravvivere fuori dall'acqua per 24 ore.
+* Molti arti: +12 DMC contro Sbilanciare.
+* Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può
+ancora utilizzare l’attacco di morso mentre stritola.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +2 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Artigli (1d4 più Afferrare e Stritolare).
+
+Delfino (acquatico)
+Habitat: mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 24 m; +1 CA Naturale; Attacco: Schianto (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 16, Costituzione 13, Int 3, Sag 12, Car 6.
+Capacità e attacchi speciali
+* Visione crepuscolare.
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+Avanzamento al 4° livello: +2 Forza, +2 Destrezza, +2 Costituzione.
+* Vista cieca 36 m.
+
+Diavolo orsino (domestico, urside)
+Habitat: foreste (temperate), montagne (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 3 m, Scavare 3 m; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 15, Int 3, Sag 12, Car 10.
+Capacità e attacchi speciali
+* Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro).
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6), 2 Artigli (1d4).
+
+Dimetrodonte (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +2 CA Naturale; Attacco: Morso (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 16, Costituzione 14, Int 3, Sag 12, Car 3.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (2d8+1 volta e mezzo il bonus di Forza/1920x2).
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+
+Dingo alpha, Iena rex, Sciacallo gigante, Volpe bianca gigante (canide)
+Habitat: pianure (calde o fredde).
+Statistiche iniziali: Taglia piccola; Velocità 15 m; +1 CA Naturale; Attacco: Morso (1d6/19-20 più Sbilanciare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 13, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8/19-20x2 più Sbilanciare).
+
+Diplodoco (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +4 CA Naturale; Attacco: Coda (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 14, Costituzione 10, Int 3, Sag 12, Car 10.
+Capacità e attacchi speciali
+* Collo lungo: +4 Percezione (individuare imboscate).
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +6 Forza, +4 Costituzione; Attacco: Coda (2d6).
+* Sferzata di coda: come azione standard, può effettuare due attacchi con la Coda.
+
+Elasmosauro, Squalo crudele (dinosauro, acquatico, pesce)
+Habitat: mari (caldi).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 15 m; +2 CA Naturale; Attacco: Morso (1d8).
+Sensi: Scurovisione 36 m, Fiuto (100 m ma solo per rilevare la presenza di sangue).
+Caratteristiche: Forza 10, Destrezza 18, Costituzione 12, Int 3, Sag 13, Car 9.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (2d6).
+
+Elefante, Mammut
+Habitat: foreste (calde), pianure (calde o fredde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +4 CA Naturale; Attacco: Zanne (1d6), Schianto (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 14, Costituzione 13, Int 3, Sag 13, Car 7.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Zanne (1d8), Schianto (1d8).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno di Schianto + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Facocero spinato (suino)
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +3 CA Naturale; Attacco: Zanne (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 10, Costituzione 15, Int 3, Sag 11, Car 4.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Zanne (1d8 più Spine).
+* Aculei: una creatura che attacca un facocero spinato con un'arma naturale o senza portata, subisce 1d4 danni perforanti dopo aver risolto ciascun attacco. Una
+creatura in lotta con un facocero spinato subisce 2d4 danni perforanti all’inizio del proprio turno.
+
+Felino dai denti a sciabola (felino)
+Habitat: foreste (calde o fredde), montagne (fredde o temperate), pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +1 CA Naturale; Attacco: 2 Artigli (1d4 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 15, Costituzione 13, Int 3, Sag 13, Car 8.
+Capacità e attacchi speciali
+* Morso trafiggente: quando tenta di infliggere danni a un avversario in lotta (opzione Danno), infligge 1d10 danni di Morso.
+Avanzamento al 7° livello: Taglia grande; +1 CA Naturale; +6 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più Sbilanciare), 2 Artigli (1d4).
+* Morso trafiggente: infligge 2d8 danni.
+
+Felino grande (felino)
+Habitat: foreste (calde o fredde), montagne (fredde o temperate), pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +1 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 15, Costituzione 13, Int 3, Sag 15, Car 10.
+Capacità e attacchi speciali
+* Sperone: quando comincia il turno in lotta con un avversario ottiene 2 attacchi di Artigli extra.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare), 2 Artigli (1d6 più
+Afferrare).
+* Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento.
+
+Felino piccolo (domestico, felino)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 15 m; Attacco: Morso (1d3 più Sbilanciare), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 21, Costituzione 13, Int 3, Sag 12, Car 6.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d4 più Sbilanciare), 2 Artigli (1d4).
+* Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento.
+
+Giraffa (cervide)
+Habitat: foreste (temperate), pianure (calde).
+Statistiche iniziali: Taglia media; +3 CA Naturale; Velocità 12 m; Attacco: 2 Zoccoli (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 14, Costituzione 15, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Collo lungo: +4 Percezione (individuare imboscate).
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Zoccoli (1d6).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno degli Zoccoli + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Iguanodonte (dinosauro, lucertoloide)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +3 CA Naturale; Attacco: Artigli (1d8/x3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 17, Destrezza 15, Costituzione 15, Int 3, Sag 12, Car 7.
+Capacità e attacchi speciali
+* Pollice-aculeo: l’attacco di Artigli infligge danni tripli in caso di colpo critico.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Artigli (2d6/3).
+* Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento.
+
+Ippocampo gigante (solo Cavalcaonde, archetipo del cavaliere)
+Habitat: mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia grande; Velocità di Nuotare 15 m; +4 CA Naturale; Attacco: Morso (1d8).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 16, Destrezza 13, Costituzione 15, Int 3, Sag 12, Car 6.
+Avanzamento al 4° livello: +2 CA Naturale; +2 Forza, +2 Costituzione.
+* Ancorarsi: come azione di movimento, può avvolgere la coda attorno a un oggetto fermo. Un ippocampo ancorato ottiene bonus +4 alla DMC e +4 alle prove
+e ai Tiri Salvezza contro effetti che lo sposterebbero.
+
+Ippopotamo
+Habitat: pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 12 m; +4 CA Naturale; Attacco: Morso (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 11, Destrezza 12, Costituzione 12, Int 3, Sag 13, Car 5.
+Capacità e attacchi speciali
+* Sudore: il sudore dell'ippopotamo lo protegge dagli effetti degli ambienti caldi e concede bonus razziale +2 ai Tiri Salvezza contro gli effetti di [malattia].
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno del Morso + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (2d6).
+
+Istrice scagliaculei
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m; +3 CA Naturale; Attacco: Morso (1d6) o Salva di aculei (1d6, attacco a distanza entro 9 m).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 13, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Aculei: una creatura che attacca l’istrice scagliaculei con un'arma naturale o senza portata, subisce 1d4 danni perforanti dopo aver risolto ciascun attacco. Una
+creatura in lotta con un istrice scagliaculei subisce 2d4 danni perforanti all’inizio del proprio turno.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8) o Salva di aculei (1d8, attacco a distanza entro 9 m).
+
+Lemure gigante frustatore (primate)
+Habitat: foreste (calde), pianure (calde).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m; Attacco: Morso (1d6), Coda (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 15, Int 3, Sag 14, Car 6.
+Avanzamento al 7° livello: Taglia media; +2 CA Naturale; +6 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8), Coda (1d8).
+
+Lucertola gigante (domestico, lucertoloide)
+Habitat: foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 9 m; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 11, Destrezza 16, Costituzione 12, Int 3, Sag 14, Car 7.
+Avanzamento al 4° livello: Taglia media; Velocità 12 m, Scalare 12 m; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (2d4).
+
+Lucertola gigante cacciatrice (lucertoloide)
+Habitat: foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia media; +2 CA naturale; Velocità 9 m, Scalare 9 m; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 14, Costituzione 14, Int 3, Sag 11, Car 7.
+Capacità e attacchi speciali
+* Lingua trascinante: questo è un attacco con la lingua con una portata di 4,5 metri. L'attacco non infligge danni, ma permette di effettuare una manovra di
+Afferrare senza ottenere la condizione in lotta. Inoltre, quando la creatura afferra con successo con la lingua o inizia il proprio turno con una creatura afferrata
+con la lingua, come azione gratuita può effettuare una manovra in combattimento che, se riesce, avvicina la vittima di 1,5 m verso di sè. Le vittime trascinate
+in questo modo non provocano attacchi d'opportunità per il movimento, e il trascinamento si interrompe se costringerebbe la creatura ad attraversare un oggetto
+solido o un’altra creatura.
+Avanzamento al 4° livello: Taglia grande; Velocità 12 m, Scalare 12 m; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8).
+
+Lupo crudele (canide)
+Habitat: foreste (temperate o fredde), pianure (temperate o fredde).
+Statistiche iniziali: Taglia media; Velocità 15 m; +2 CA Naturale; Attacco: Morso (1d6 più Sbilanciare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 16, Destrezza 14, Costituzione 12, Int 3, Sag 13, Car 7.
+Avanzamento al 4° livello: Taglia grande; +2 CA Naturale; +4 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Sbilanciare), Artigli (1d6).
+
+Manta (acquatico)
+Habitat: mari (caldi o temperati).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 18 m; +1 CA Naturale; Attacco: Schianto (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 8, Destrezza 15, Costituzione 11, Int 3, Sag 13, Car 2.
+Avanzamento al 4° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Schianto (1d8).
+* Percezione cieca 9 m.
+
+Metalupo (canide)
+Habitat: foreste (temperate o fredde), pianure (temperate o fredde).
+Statistiche iniziali: Taglia media; Velocità 15 m; +3 CA Naturale; Attacco: Morso (1d8 più Sbilanciare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 17, Destrezza 14, Costituzione 12, Int 3, Sag 13, Car 7.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Sbilanciare), Artigli (1d6).
+* Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.
+* Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro).
+
+Murena gigante (acquatico, pesce)
+Habitat: mari (caldi o temperati).
+Statistiche iniziali: Taglia media; +2 CA Naturale; Velocità di Nuotare 12 m; Attacco: Morso (1d6 più Afferrare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 16, Costituzione 12, Int 3, Sag 12, Car 8.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare).
+* Doppia mascella: se una murena gigante inizia un round con un nemico afferrato, gli infligge automaticamente danni del Morso. Inoltre, può sferrare un secondo
+attacco di Morso contro tale nemico.
+
+Mustelide gigante (donnola, faina, furetto, ghiottone, mangusta, tasso) (domestico)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 3 m; Attacco: Morso (1d4 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 19, Costituzione 13, Int 3, Sag 12, Car 10.
+Capacità e attacchi speciali
+* Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Costituzione a un avversario con cui è in lotta.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più Afferrare).
+
+Orca (acquatico, pesce)
+Habitat: mari (freddi).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 24 m; +1 CA Naturale; Attacco: Morso (1d8).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 11, Destrezza 19, Costituzione 10, Int 3, Sag 14, Car 6.
+Capacità e attacchi speciali
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (2d6).
+* Vista cieca 36 m.
+
+Orso, Orso polare (urside)
+Habitat: foreste (fredde o temperate), montagne (temperate), pianure (fredde), zone costiere (fredde).
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +2 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 15, Int 3, Sag 12, Car 6;
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6), 2 Artigli (1d4).
+
+Orso crudele (urside)
+Habitat: foreste (fredde o temperate), montagne (temperate), pianure (fredde), zone costiere (fredde).
+Statistiche iniziali: Taglia media; Velocità 12 m, Scalare 3 m; +4 CA Naturale; Attacco: 2 Artigli (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 12, Costituzione 16, Int 3, Sag 13, Car 6.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Artigli (1d8 più Squartare). Attacchi speciali:
+Squartare (2 artigli, 1d8).
+* Squartare: se colpisce una vittima con due o più Artigli in 1 round, gli infligge nuovamente il danno di Artigli più una volta e mezzo il bonus di Forza.
+
+Orso grizzly (urside)
+Habitat: foreste (temperate), montagne (temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; +1 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 15, Int 3, Sag 13, Car 6;
+Avanzamento al 4° livello: Taglia grande; +1 CA Naturale; +4 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8), 2 Artigli (1d6 più Afferrare).
+
+Orso nero, Panda (urside)
+Habitat: foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +2 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 13, Costituzione 15, Int 3, Sag 13, Car 9;
+Avanzamento al 7° livello: Taglia media; +3 CA Naturale; +4 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8/19-20x2), 2 Artigli (1d6).
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+
+Pachicèfalosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +3 CA Naturale; Attacco: Schianto (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 16, Costituzione 13, Int 3, Sag 13, Car 5.
+Avanzamento al 7° livello: Taglia grande; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Schianto (1d10).
+* Carica massacrante: quando un pachicefalosauro colpisce un bersaglio con l’attacco di schianto al termine di una carica, come azione gratuita può effettuare
+una manovra Spingere per spostare il bersaglio lungo la medesima direzione della carica. Il pachicefalosauro non può spostarsi insieme alla vittima. Se infligge
+un colpo critico durante la carica massacrante, la vittima deve anche superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Forza o diventare
+barcollante per 1 round.
+
+Parasauròlofo (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +2 CA Naturale; Attacco: Coda (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 11, Destrezza 18, Costituzione 9, Int 3, Sag 13, Car 10.
+Avanzamento al 7° livello: Taglia grande; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Coda (2d6).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno della Coda + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Pastinaca (acquatico)
+Habitat: mari (caldi o temperati).
+Statistiche iniziali: Taglia piccola; Velocità di Nuotare 12 m; Attacco: Coda (1d3 più Veleno).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 6, Destrezza 15, Costituzione 13, Int 3, Sag 13, Car 2.
+Capacità e attacchi speciali
+* Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza e 1 danno a Costituzione; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +2 CA naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Coda (1d4 più Veleno).
+* Percezione cieca 9 m.
+
+Pesce gigante (acquatico, pesce)
+Habitat: fiumi (caldi, freddi o temperati), laghi (caldi, freddi o temperati), mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 18 m; +2 CA Naturale; Attacco: Morso (1d6 più Afferrare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 14, Costituzione 15, Int 3, Sag 13, Car 2.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare).
+
+Piovra (acquatico)
+Habitat: mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia piccola; Velocità di Nuotare 9 m; Attacco: Morso (1d3), Tentacoli (1d2 non letali senza bonus di Forza più Sbilanciare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 14, Int 3, Sag 12, Car 3.
+Capacità e attacchi speciali
+* Propulsione: come azione di round completo, può schizzare indietro in linea retta di 60 m, senza provocare attacchi d'opportunità.
+* Nube di inchiostro: una volta al minuto, può emettere una nube di inchiostro di raggio 1,5 m. Questa nuvola fornisce occultamento totale e permane per 1
+round.
+Avanzamento al 4° livello: Taglia media; +2 Forza, +2 Destrezza, +2 Costituzione; Attacco: Morso (1d4 più Veleno).
+* Veleno: frequenza 1 round (massimo 6); 1 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Pony (domestico)
+Habitat: pianure (calde, fredde o temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; +2 CA Naturale; Morso (1d3), 2 Zoccoli (1d3, attacco secondario).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 13, Costituzione 12, Int 3, Sag 11, Car 4.
+Avanzamento al 4° livello: +2 Forza, +2 Costituzione.
+* Ottiene Correre come talento bonus.
+
+Porcospino gigante
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m; +1 CA Naturale; Attacco: Morso (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 12, Costituzione 15, Int 3, Sag 13, Car 5.
+Capacità e attacchi speciali
+* Aculei: una creatura che attacca il porcospino gigante con un'arma naturale o senza portata, subisce 1d2 danni perforanti dopo aver risolto ciascun attacco. Una
+creatura in lotta con un porcospino gigante subisce 2d2 danni perforanti all’inizio del proprio turno.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +2 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8).
+
+Potamocero gigante (suino)
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia media; Velocità 15 m; +2 CA Naturale; Attacco: Zanne (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 12, Costituzione 12, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.
+Avanzamento al 7° livello: Taglia grande; +2 CA naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Zanne (1d8).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno delle Zanne + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Puzzola gigante
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m; +2 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d4, attacco secondario).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 11, Destrezza 16, Costituzione 11, Int 3, Sag 12, Car 9.
+Capacità e attacchi speciali
+* Odore molesto: due volte al giorno, come azione standard può emettere una zaffata di tanfo tossico contro un nemico entro 9 m effettuando un attacco di
+contatto a distanza. Se l’attacco riesce, la vittima deve superare un TS su Tempra con CD 10 + metà DV + bonus di Costituzione o è nauseata per 1d3 round e
+poi inferma per 1d3 minuti. Se il tiro riesce, la vittima è invece inferma per 1d3 round. Una creatura non può usare la capacità Fiuto fintanto che è influenzata
+dall’odore molesto.
+Avanzamento al 7° livello: Taglia grande; +1 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6) 2 Artigli (1d6).
+
+Rana gigante (domestico)
+Habitat: acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Nuotare 9 m; +1 CA Naturale; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 14, Costituzione 16, Int 3, Sag 9, Car 6.
+Capacità e attacchi speciali
+* Lingua trascinante: questo è un attacco con la lingua con una portata di 4,5 metri. L'attacco non infligge danni, ma permette di effettuare una manovra di
+Afferrare senza ottenere la condizione in lotta. Inoltre, quando la creatura afferra con successo con la lingua o inizia il proprio turno con una creatura afferrata
+con la lingua, come azione gratuita può effettuare una manovra in combattimento che, se riesce, avvicina la vittima di 1,5 m verso di sè. Le vittime trascinate
+in questo modo non provocano attacchi d'opportunità per il movimento, e il trascinamento si interrompe se costringerebbe la creatura ad attraversare un oggetto
+solido o un’altra creatura.
+Avanzamento al 4° livello: Forza +2, Destrezza +2.
+* Inghiottire: Se comincia il proprio turno con un avversario in lotta all'interno della sua bocca, può effettuare una manovra in combattimento come se cercasse
+di bloccare un avversario. Se la manovra ha successo, ingoia la preda, che subisce i danni del Morso. L'avversario deve essere di almeno una categoria di taglia
+inferiore a quella della creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in lotta,
+ma non la creatura che l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno da
+infliggere è pari a 1/10 dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire
+è normalmente 10 + metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha
+inghiottita non può utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo
+la riporta nella bocca della creatura, dove può essere morsa o inghiottita di nuovo.
+
+Roditore gigante (capibara, castoro, nutria, ratto) (domestico)
+Habitat: ambienti urbani, fiumi (caldi freddi o temperati), pianure (calde, fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m, Nuotare 6 m; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 12, Int 3, Sag 12, Car 4.
+Avanzamento al 4° livello: +2 Forza, +2 Costituzione; Attacco: Morso (1d6 più Veleno).
+* Veleno: frequenza 1 round (massimo 6); 1 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Rinoceronte
+Habitat: pianure (calde).
+Statistiche iniziali: Taglia media; CA +4 naturale; Velocità 12 m; Attacco: Corno (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 14, Costituzione 15, Intelligenza 3, Saggezza 13, Carisma 5;
+Capacità e attacchi speciali
+* Carica possente: quando effettua una carica, l’attacco di Corno infligge tre volte il dado di danno (esempio 1dx diventa 3dx).
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza, -4 Destrezza, +4 Costituzione; Attacco: Corno (2d6).
+
+Roncaccia
+Habitat: foreste (temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; Attacco: Morso (1d6 + una volta e mezzo il bonus di Forza).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 19, Costituzione 12, Int 3, Sag 11, Car 10.
+Avanzamento al 4° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 + 1 volta e mezzo il bonus di Forza).
+* Carica improvvisa: quando carica, la roncaccia effettua un singolo attacco di Morso. Se l'attacco colpisce, come azione gratuita che non provoca attacchi
+d'opportunità, la roncaccia può effettuare una manovra di Sbilanciare contro la vittima. Se la manovra fallisce, la roncaccia non può essere sbilanciata a sua
+volta.
+
+Rospo gigante (domestico)
+Habitat: acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Nuotare 9 m; +1 CA Naturale; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 15, Costituzione 16, Int 3, Sag 9, Car 6.
+Avanzamento al 4° livello: Forza +2, Destrezza +2.
+* Inghiottire: Se comincia il proprio turno con un avversario in lotta, può effettuare una manovra in combattimento come se cercasse di bloccare un avversario.
+Se la manovra ha successo, ingoia la preda, che subisce i danni del Morso. L'avversario deve essere di almeno una categoria di taglia inferiore a quella della
+creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in lotta, ma non la creatura che
+l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno da infliggere è pari a 1/10
+dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire è normalmente 10 +
+metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha inghiottita non può
+utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo la riporta nella bocca
+della creatura, dove può essere morsa o inghiottita di nuovo.
+* Pelle tossica: una creatura che infligge danni al rospo gigante con un'arma naturale o che vi entra semplicemente in contatto, viene avvelenato dalla seguente
+tossina: frequenza 1 round (massimo 4); 1 danni a Saggezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Salamandra (lucertoloide)
+Habitat: foreste (calde, fredde o temperate), montagne (calde, fredde o temperate), pianure (calde, fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Nuotare 9 m; +1 CA Naturale; Attacco: Morso (1d4 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 12, Int 3, Sag 12, Car 6.
+Avanzamento al 7° livello: Taglia media; +2 CA Naturale; Forza +4, Destrezza -2, Costituzione +4; Attacco: Morso (1d6 più Afferrare) o Sputo (attacco di
+contatto a distanza entro 4,5 m, il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni).
+
+Schienargento (primate)
+Habitat: foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m, Scalare 9 m; +3 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 16, Destrezza 12, Costituzione 12, Int 3, Sag 12, Car 10.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6), 2 Artigli (1d6 più Afferrare).
+
+Scimmia grande (primate)
+Habitat: foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Scalare 6 m; +1 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 14, Costituzione 12, Int 3, Sag 12, Car 7.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6), 2 Artigli (1d4).
+
+Scimmia piccola (primate)
+Habitat: foreste (calde o temperate), montagne (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 9 m; Attacco: Morso (1d3), 2 Artigli (1d2) o Scagliare oggetti (1d4, come arma da lancio con incremento
+di gittata 6 m e gittata massima 30 m, utilizzabile solo con pietre e piccoli oggetti raccolti).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 10, Int 3, Sag 12, Car 5.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +2 Forza, +2 Destrezza, Attacco: Morso (1d4), 2 Artigli (1d3).
+
+Serpente nuotatore (serpente)
+Habitat: acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 6 m, Nuotare 12 m, Scalare 3 m; +2 CA Naturale; Attacco: Morso (1d6 più Veleno).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 15, Costituzione 12, Int 3, Sag 13, Car 2.
+Capacità e attacchi speciali
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+* Veleno: frequenza 1 round (massimo 6); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 7° livello: +2 Forza, +2 Destrezza.
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 2 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Serpente sputatore (serpente)
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Nuotare 6 m, Scalare 3 m; +2 CA Naturale; Attacco: Morso (1d6 più Veleno).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 8, Destrezza 15, Costituzione 11, Int 3, Sag 12, Car 2.
+Capacità e attacchi speciali
+* Veleno: 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+* Sputare veleno: ogni 1d3+1 round, come azione standard può effettuare attacco di contatto entro 4,5 m che inocula il seguente veleno: frequenza 1 round
+(massimo 6); Offuscato 20%; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 7° livello: Taglia media; +2 CA Naturale; +2 Forza, +2 Destrezza; Attacco: Morso (1d8 più veleno).
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 2 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Serpente strangolatore (domestico, serpente)
+Habitat: fiumi (caldi), laghi (caldi), foreste (calde), paludi (calde).
+Statistiche iniziali: Taglia media; Velocità 6 m, Nuotare 6 m, Scalare 3 m; +1 CA Naturale; Attacco: Morso (1d4 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 17, Costituzione 13, Int 3, Sag 12, Car 2.
+Avanzamento al 4° livello: Taglia grande; +1 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6 più Afferrare e Stritolare).
+* Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può
+ancora utilizzare l’attacco di Morso mentre stritola.
+
+Serpente velenoso (serpente)
+Habitat: foreste (calde o temperate), montagne (calde o temperate), paludi (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Nuotare 6 m, Scalare 6 m; +1 CA Naturale; Attacco: Morso (1d4 più Veleno).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 8, Destrezza 17, Costituzione 11, Int 3, Sag 12, Car 2.
+Capacità e attacchi speciali
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Costituzione; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più veleno).
+
+Spinosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m, Nuotare 6 m; +3 CA Naturale; Attacco: Morso (1d6), 2 Artigli (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 18, Destrezza 15, Costituzione 15, Int 3, Sag 13, Car 3.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8), 2 Artigli (1d6).
+
+Squalo (acquatico, pesce)
+Habitat: mari (caldi, freddi o temperati).
+Statistiche iniziali: Taglia piccola; Velocità di Nuotare 18 m; +2 CA Naturale; Attacco: Morso (1d6 più Sanguinamento 1d3).
+Sensi: Scurovisione 36 m, Fiuto 100 m (ma solo per rilevare la presenza di sangue).
+Caratteristiche: Forza 13, Destrezza 15, Costituzione 15, Int 3, Sag 12, Car 2.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8 più Sanguinamento 1d4).
+* Percezione cieca 9 m.
+
+Squig (lucertoloide)
+Habitat: ambienti sotterranei (caldi o temperati), foreste (calde o temperate), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m; +1 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 13, Int 3, Sag 15, Car 10.
+Capacità e attacchi speciali
+* Saltatore: +4 Acrobazia (saltare).
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6 più Afferrare), 2 Artigli (1d4).
+
+Stegosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +3 CA Naturale; Attacco: Coda (2d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 10, Int 3, Sag 12, Car 10.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Coda (2d8 più Sbilanciare).
+
+Stiracosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +5 CA Naturale; Attacco: Corna (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 13, Costituzione 11, Int 3, Sag 12, Car 7.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (2d6).
+* Colpo riflessivo: può effettuare tre attacchi di opportunità aggiuntivi ogni round, cumulabili con quelli concessi dal talento Riflessi in combattimento.
+* Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.
+
+Struzzo (solo Hatamoto, archetipo del cavaliere)
+Habitat: pianure (calde).
+Statistiche iniziali: Taglia grande; Velocità 15 m; +4 CA Naturale; Attacco: Becco (1d6), Calcio (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 17, Destrezza 10, Costituzione 17, Int 3, Sag 13, Car 6.
+Avanzamento al 4° livello: +2 CA Naturale; +2 Forza, +2 Destrezza, +2 Costituzione.
+* Ottiene Robustezza come talento bonus.
+
+Tartaruga azzannatrice (domestico)
+Habitat: fiumi (caldi, freddi o temperati), laghi (caldi, freddi o temperati), paludi (calde, fredde o temperate).
+Statistiche iniziali: Taglia media; Velocità 4,5 m, Nuotare 9 m; +6 CA armatura naturale; Attacco: Morso (1d6/19-20x2).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 10, Costituzione 9, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8/19-20x2 più Afferrare).
+
+Testuggine gigante
+Habitat: isole (calde), pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 4,5 m; +7 CA Naturale; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 8, Costituzione 16, Int 3, Sag 13, Car 9.
+Avanzamento al 7° livello: Taglia grande; CA +3 armatura naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8).
+* Ottiene Tempra possente come talento bonus.
+
+Tilacino
+Habitat: pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m; +1 CA Naturale; Attacco: Morso (1d4/19-20x2).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 16, Int 3, Sag 13, Car 7.
+Capacità e attacchi speciali
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; Forza +4, Destrezza -2, Costituzione +4; Attacco: Morso (1d6/19-20x2).
+
+Tilosauro (dinosauro, acquatico)
+Habitat: mari (caldi).
+Statistiche iniziali: Taglia media; Velocità di Nuotare 15 m; +3 CA Naturale; Attacco: Morso (1d6 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 10, Int 3, Sag 13, Car 9.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare).
+
+Tirannosauro (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +4 CA Naturale; Attacco: Morso (1d8/19-20x2).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 16, Costituzione 10, Int 3, Sag 15, Car 10.
+Capacità e attacchi speciali
+* Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.
+* Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (2d6 + 2 volte il bonus di Forza più
+Afferrare).
+* Morso possente: un tirannosauro applica due volte il bonus di Forza ai danni del Morso.
+
+Titanoboa (serpente)
+Habitat: fiumi (caldi), laghi (caldi), foreste (calde), paludi (calde).
+Statistiche iniziali: Taglia media; Velocità 6 m, Nuotare 6 m, Scalare 6 m; +4 CA Naturale; Attacco: Morso (1d8 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 15, Destrezza 15, Costituzione 11, Int 3, Sag 17, Car 8.
+Avanzamento al 4° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare e Stritolare).
+* Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può
+ancora utilizzare l’attacco di morso mentre stritola.
+
+Triceratopo (dinosauro)
+Habitat: jungle remote (calde), pianure remote (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +5 CA Naturale; Attacco: Corna (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 13, Costituzione 11, Int 3, Sag 12, Car 7.
+Capacità e attacchi speciali
+* Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx).
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Corna (2d6).
+
+Tricheco
+Habitat: zone costiere (fredde).
+Statistiche iniziali: Taglia media; Velocità 4,5 m, Nuotare 12 m; +3 CA Naturale; Attacco: Morso (1d6).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 13, Costituzione 14, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8).
+
+Toro diavolo
+Habitat: pianure (temperate o calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +3 CA Naturale; Attacco: Corna (1d8).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 12, Costituzione 15, Int 3, Sag 13, Car 3.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza , -2 Destrezza, +4 Costituzione; Attacco: Corna (2d8).
+* Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno delle Corna + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Uccello rapace gigante diurno (solo Falconiere, archetipo del ranger)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 3 m, Volare 24 m (media); +1 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 10, Destrezza 15, Costituzione 12, Int 3, Sag 14, Car 6.
+Capacità e attacchi speciali
+* Vista acuta: +4 Percezione (giorno).
+* Ottiene Attacco in volo come talento bonus.
+Avanzamento al 4° livello: +2 Forza, +2 Costituzione.
+
+Uccello rapace gigante notturno (solo Falconiere, archetipo del ranger)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 3 m, Volare 24 m (media); +1 CA Naturale; Attacco: Morso (1d4), 2 Artigli (1d3).
+Sensi: Scurovisione, Fiuto.
+Caratteristiche: Forza 10, Destrezza 15, Costituzione 12, Int 3, Sag 14, Car 6.
+Capacità e attacchi speciali
+* Predatore notturno: +4 Furtività (notte).
+* Ottiene Attacco in volo come talento bonus.
+Avanzamento al 4° livello: +2 Forza, +2 Costituzione.
+
+Varano (lucertoloide)
+Habitat: foreste (calde), pianure (calde).
+Statistiche iniziali: Taglia media; Velocità 9 m; +1 CA Naturale; Attacco: Morso (1d6 più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 12, Int 3, Sag 12, Car 6.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +4 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Afferrare e Veleno)
+* Veleno: frequenza 1 round (massimo 6); 1d3 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Elenco dei compagni parassiti
+
+Blatta gigante
+Habitat: ambienti sotterranei (caldi o temperati), ambienti urbani, foreste (temperate), paludi (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m; +2 CA Naturale; Attacco: Morso (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 10, Destrezza 12, Costituzione 17, Int 3, Sag 11, Car 2.
+Capacità e attacchi speciali
+* Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di
+rischiare l’annegamento.
+* Molti arti: +8 DMC contro Sbilanciare.
+* Ottiene Robustezza come talento bonus.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +2 Forza, +2 Destrezza, +2 Costituzione.
+
+Bruco gigante
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 9 m; +2 CA Naturale; Attacco: Morso (1d4), Setole (1d4 più Veleno, attacco secondario)
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 13, Costituzione 13, Int 3, Sag 11, Car 2.
+Capacità e attacchi speciali
+* Stabilità assoluta: non può essere sbilanciato.
+* Setole: una creatura che attacca il bruco gigante con un'arma naturale o senza portata, deve superare un Tiro Salvezza su Riflessi con CD 10 + metà DV +
+bonus di Destrezza o viene colpita dal Veleno delle Setole (si effettua un unico Tiro Salvezza dopo aver effettuato tutti gli attacchi).
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6), Setole (1d6 più Veleno, attacco secondario).
+
+Formica gigante
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m; +2 CA Naturale; Attacco: Morso (1d4 più Afferrare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 10, Destrezza 12, Costituzione 15, Int 3, Sag 12, Car 10.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più Afferrare), Pungiglione (1d4).
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Gambero pistolero gigante (acquatico)
+Habitat: mari (caldi o temperati).
+Statistiche iniziali: Taglia piccola; Velocità di Nuotare 12 m; +2 CA Naturale; Attacco: Artiglio (1d6).
+Sensi: Scurovisione 36 m, Vista cieca 4,5 m.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 14, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* RE 5 (suono).
+* Colpo esplosivo: ogni 1d3+1 round, come azione standard può effettuare un attacco di contatto a distanza entro 9 m; il bersaglio deve superare un Tiro Salvezza
+su Tempra con CD 10 + metà DV + bonus di Costituzione o è stordito per 1 turno).
+Avanzamento al 7° livello: Taglia media; +2 CA Naturale; +6 Forza, -2 Destrezza, +2 Costituzione; Attacco: Artiglio (1d8).
+* Vista cieca 9 m.
+* RE 10 (suono).
+
+Insetto assassino gigante
+Habitat: ambienti sotterranei (caldi o temperati), foreste (calde, fredde o temperate), pianure (calde, fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m; +2 CA Naturale; Attacco: Morso (1d6 più Veleno), 2 Artigli (1d4).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 13, Destrezza 15, Costituzione 13, Int 3, Sag 10, Car 2.
+Capacità e attacchi speziali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Getto di veleno: ogni 1d3+1 round, come azione standard può emettere un getto velenoso in una linea di 6 m. Le creature colpite devono superare un Tiro
+Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione o sono afflitte dal Veleno.
+* Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; Velocità 9 m, Scalare 9 m; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8 più veleno),
+2 Artigli (1d6).
+
+Locusta gigante
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m; +2 CA Naturale; Attacco: Morso (1d8) o Sputare muco (attacco di contatto a distanza entro 9 m, il bersaglio
+deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 17, Costituzione 11, Int 3, Sag 10, Car 7.
+Capacità e attacchi speciali
+* Saltatrice: +4 Acrobazia (saltare)
+* Molti arti: +8 DMC contro Sbilanciare.
+Avanzamento al 4° livello: Taglia media; Velocità 9 m; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; +2 CA Naturale; Attacco: Morso (2d6).
+* Vorace: il danno di Morso infligge danni doppi a creature e oggetti fatti di carta, legno e materiale vegetale in genere.
+
+Lumaca gigante
+Habitat: acquitrini (caldi o temperati), ambienti sotterranei (caldi o temperati), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 6 m; +4 CA Naturale; Attacco: Morso (1d6 danni +1 danno da acido).
+Sensi: Percezione cieca 9 m.
+Caratteristiche: Forza 13, Destrezza 8, Costituzione 13, Int 3, Sag 10, Car 1.
+Capacità e attacchi speciali
+* RD 5/perforante o tagliente
+* Stabilità assoluta: non può essere sbilanciata.
+* Sputare acido: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da acido ogni 2 Dadi Vita (massimo
+5d6).
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +2 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8 danni +2 danni da acido)
+* Vista cieca 9 m.
+
+Mantide gigante
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Scalare 9 m. +3 CA Naturale; Attacco: 2 Artigli (1d6 più Afferrare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 10, Destrezza 15, Costituzione 10, Int 3, Sag 12, Car 7.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Allungo: come azione di attacco completo, può sferrare fino a due attacchi di Artigli al doppio della normale portata e con +4 al tiro per colpire.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco 2 artigli (1d8).
+* Mandibole: quando afferra con successo un nemico, può effettuare contro di esso un attacco secondario di Morso.
+
+Millepiedi gigante
+Habitat: foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 6 m; +2 CA Naturale; Attacco: Morso (1d6 più Veleno).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 8, Destrezza 17, Costituzione 11, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Stabilità assoluta: non può essere sbilanciato.
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8 più Veleno).
+* Veleno: frequenza 1 round (massimo 6); 1d3 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Ragno gigante (aracnide)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 9 m; CA +1 armatura naturale; Attacco: Morso (1d4 più Veleno).
+Sensi: Scurovisione 36 m, Percezione tellurica 9 m.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 10, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più Veleno).
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Ragno gigante matriarca (aracnide)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia media; Velocità 12 m, Scalare 9 m; CA +3 armatura naturale; Attacco: Morso (1d6 più Veleno).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 13, Costituzione 13, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d8 più Veleno), Zampe: (1d2 più
+Sbilanciare).
+
+Ragno gigante scagliatela (aracnide)
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 9 m, Scalare 9 m; Attacco: Morso (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 10, Destrezza 17, Costituzione 10, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Un ragno scagliatela può creare ragnatele in grado di sostenerlo. Inoltre, può lanciare una ragnatela 8 volte al giorno. È simile a un attacco con la rete, ma ha
+una gittata massima di 15 m e un incremento di gittata di 3 m, e ha effetto su bersagli al massimo di una categoria di taglia superiore al ragno scagliatela. Una
+creatura intralciata dalla ragnatela può fuggire con una prova di Artista della fuga o liberarsi rompendo la tela con una prova di Forza, ed entrambe sono azioni
+standard con CD pari a 15. I tentativi di rompere la ragnatela effettuati da chi vi è intrappolato subiscono penalità di -4. Un ragno scagliatela può creare veli di
+ragnatela appiccicosa grandi fino a 3 volte la propria taglia. Le creature in avvicinamento alla tela devono effettuare una prova di Percezione con CD 20 per
+notarla, altrimenti vi cadono dentro e ne vengono intralciate. I tentativi di fuggire o di rompere la ragnatela ottengono bonus +5 se la creatura intrappolata ha
+qualcosa su cui camminare o cui aggrapparsi mentre cerca di liberarsi. Ogni sezione di tela di 1,5 metri ha un numero di Punti Ferita pari a 11 e ha RD 5/-. Un
+ragno scagliatela può muoversi lungo la propria tela alla propria velocità di Scalare, e individuare automaticamente la posizione di qualsiasi creatura che stia
+toccando la ragnatela.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8).
+
+Sanguisuga gigante (acquatico)
+Habitat: paludi (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 4,5 m, Nuotare 6 m; Attacco: Morso (1d4 più Attaccarsi).
+Sensi: Percezione cieca 9 m, Fiuto.
+Caratteristiche: Forza 10, Destrezza 14, Costituzione 12, Int 3, Sag 10, Car 1.
+Capacità e attacchi speciali
+* Anfibio: può sopravvivere sia dentro che fuori dall’acqua.
+* Stabilità assoluta: non può essere sbilanciata.
+* Attaccarsi: quando colpisce con il morso, entra automaticamente in lotta con una vittima. Una volta attaccata, la sanguisuga perde il bonus di Destrezza alla
+CA, infligge automaticamente il danno del Morso a ogni round e ottiene bonus razziale +8 alle manovre di Lottare. Una sanguisuga attaccata può essere
+attaccata in mischia o ingaggiata a sua volta in lotta. La vittima può superare una prova di lotta o di Artista della fuga per rimuovere la sanguisuga.
+* Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Costituzione a un avversario con cui è in lotta.
+Avanzamento al 7° livello: Taglia media; +2 Forza, +2 Destrezza, +2 Costituzione; Attacco: Morso (1d6 più Attaccarsi)
+* Vista cieca 9 m.
+* Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Forza e 1 danno a Costituzione all’avversario con cui è in lotta.
+
+Scarabeo gigante
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 9 m; +3 CA Naturale; Attacco: Morso (1d8 più una volta e mezzo il bonus di Forza).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 14, Destrezza 12, Costituzione 13, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (2d6).
+* Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul
+cammino. Le vittime subiscono il danno del Morso + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o
+effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun
+bersaglio danni da travolgimento solo una volta per round.
+
+Scolopendra gigante
+Habitat: ambienti sotterranei (caldi o temperati), paludi (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m, Scalare 6 m; +3 CA Naturale; Attacco: Morso (1d4 più Veleno).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 9, Destrezza 13, Costituzione 13, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Stabilità assoluta: non può essere sbilanciato.
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Destrezza; cura 1 TS, CD basata su Costituzione.
+Avanzamento al 7° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Morso (1d6 più Veleno), Antenne (1d2 non letali
+senza bonus di Forza più Sbilanciare)
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+
+Scorpione gigante
+Habitat: ambienti sotterranei (caldi o temperati), foreste (calde o temperate), paludi (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 12 m; +2 CA Naturale; Attacco: 2 Artigli (1d4 più Afferrare), Pungiglione (1d4 più Veleno).
+Sensi: Scurovisione 36 m, Percezione tellurica 9 m.
+Caratteristiche: Forza 11, Destrezza 12, Costituzione 12, Int 3, Sag 10, Car 2.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Veleno: frequenza 1 round (massimo 6); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Artigli (1d6 + Afferrare), Pungiglione (1d6 più
+Veleno).
+* Afferra e pungi: se colpisce una vittima con due o più Artigli in 1 round, colpisce automaticamente la vittima con il pungiglione.
+
+Solifugo gigante (aracnide)
+Habitat: ambienti sotterranei (caldi o temperati), foreste (calde o temperate), pianure (calde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 12 m, Scalare 9 m; CA +1 armatura naturale; Attacco: Morso (1d6), 2 Artigli (1d3 più Squartare).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 15, Int 3, Sag 11, Car 2.
+Capacità e attacchi speciali
+* Molti arti: +8 DMC contro Sbilanciare.
+* Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +3 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d8), 2 Artigli (1d4).
+* Squartare: se colpisce una vittima con due o più Artigli in 1 round, gli infligge nuovamente il danno di Artigli più una volta e mezzo il bonus di Forza.
+
+Elenco dei compagni vegetali
+
+Cespuglio bombardiere
+Habitat: pianure (calde o temperate), foreste (calde o temperate), montagne (calde o temperate).
+Statistiche iniziali: Taglia media; Velocità 6 m; +2 CA Naturale; Attacco: 2 Schianti (1d6+1d2 da fuoco più Afferrare e Ustionare).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 14, Destrezza 17, Costituzione 13, Int 3, Sag 12, Car 6.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando un comune cespuglio del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Bacche esplosive: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da fuoco ogni 2 Dadi Vita (massimo
+5d6).
+* Ustionare: una creatura in lotta con un cespuglio di fuoco subisce 1d6 danni da fuoco all’inizio del proprio turno.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +6 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Schianti (1d8+1d3 da fuoco più Afferrare e
+Ustionare).
+
+Fiore carnivoro
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Scalare 3 m; +3 CA Naturale; Attacco: Morso (1d4).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 14, Destrezza 15, Costituzione 13, Int 3, Sag 12, Car 10.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6).
+* Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro).
+
+Miceloide assalitore (fungo)
+Habitat: ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +2 CA Naturale; Attacco: Pungiglione (1d6 +1d6 danni da Attacco furtivo).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 12, Int 3, Sag 14, Car 6.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: +1 CA Naturale; +2 Forza, +2 Costituzione; Attacco: Pungiglione (1d6 +2d6 danni da Attacco furtivo).
+* Ottiene Abilità focalizzata (furtività) come talento bonus.
+
+Miceloide lanciaspore (fungo)
+Habitat: ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +2 CA Naturale; Attacco: Schianto (1d4).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 13, Int 3, Sag 11, Car 4.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Spore acide: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da acido ogni 2 Dadi Vita (massimo 5d6).
+Avanzamento al 4° livello: Taglia media; +3 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Schianto (1d8).
+* Scurovisione.
+
+Miceloide tossico (fungo)
+Habitat: ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +2 CA Naturale; Attacco: Schianto (1d4 più Veleno).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 13, Destrezza 14, Costituzione 14, Int 3, Sag 12, Car 9.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Sbuffo difensivo: una volta al minuto, come azione immediata quando viene colpito, il fungo strisciante può esporre l’attaccante al suo veleno.
+* Veleno: frequenza 1 round (massimo 6); 1d2 danni a Saggezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione; Attacco: Schianto (1d6 più Veleno).
+
+Miceloide guerriero (fungo)
+Habitat: ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate).
+Statistiche iniziali: Taglia piccola; Velocità 6 m, Scalare 6 m; +2 CA Naturale; Attacco: Schianto (1d6).
+Sensi: Scurovisione 36 m.
+Caratteristiche: Forza 10, Destrezza 15, Costituzione 12, Int 3, Sag 11, Car 2.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +4 Forza, -2 Destrezza, +2 Costituzione.
+
+Pianta assassina
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +2 CA Naturale; Attacco: 2 Schianti (1d4 più Sanguinamento 1d3).
+Sensi: Visione crepuscolare, Percezione tellurica 9 m.
+Caratteristiche: Forza 10, Destrezza 16, Costituzione 15, Int 3, Sag 11, Car 15.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Cambiare fogliame: Tre volte al giorno, come azione immediata che non provoca attacchi di opportunità, può apparire come un diverso tipo di pianta della
+stessa propria taglia (come una vite di zucca, una pianta di fragole o di pomodori). Non può assumere la forma di un'altra creatura vegetale e può imitare solo
+l'aspetto delle piante che normalmente sono considerate parte del terreno circostante. Questo effetto è solo un'illusione visiva e non altera l'odore percepito o
+le proprietà tattili della pianta. Mentre utilizza questa capacità, la pianta ottiene bonus razziale +10 Furtività. Per identificare la vera natura della pianta è
+necessaria una prova di Conoscenze (natura) o Sopravvivenza con CD 20. Una creatura che interagisce con una pianta assassina mentre sta utilizzando questa
+capacità può dubitare dell'illusione superando un tiro salvezza sulla Volontà con CD 10 + metà DV + bonus di carisma. Ritornare alla sua vera forma richiede
+un'azione immediata. Questo è un effetto di [illusione: mascheramento].
+Avanzamento al 4° livello: Taglia media; +1 CA Naturale; +2 Forza, -2 Destrezza, +2 Costituzione; Attacco: 3 Schianti (1d4 più Sanguinamento 1d4).
+* Fioritura accecante: una volta al giorno, come azione standard che non provoca attacchi di opportunità, una pianta assassina può rilasciare una nuvola stazionaria
+con gli effetti dell’incantesimo Foschia occultante ma della durata di 1 round, dopodiché si dissipa. Tutte le altre creature all’interno della nube devono superare
+un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Carisma o essere accecate per 1 round.
+
+Pianta carnivora
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia media; Velocità 6 m, Scalare 3 m; +2 CA Naturale; Attacco: 2 Viticci (1d4 contundenti più Afferrare).
+Sensi: Visione crepuscolare, Fiuto.
+Caratteristiche: Forza 12, Destrezza 11, Costituzione 13, Int 3, Sag 13, Car 3.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Inghiottire: Se comincia il proprio turno con un avversario in lotta all'interno della sua bocca, può effettuare una manovra in combattimento come se cercasse
+di bloccare un avversario. Se la manovra ha successo, ingoia la preda, che subisce 1d6 danni da acido. L'avversario deve essere di almeno una categoria di
+taglia inferiore a quella della creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in
+lotta, ma non la creatura che l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno
+da infliggere è pari a 1/10 dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire
+è normalmente 10 + metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha
+inghiottita non può utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo
+la riporta nella bocca della creatura, dove può essere morsa o inghiottita di nuovo.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +6 Forza, -2 Destrezza, +2 Costituzione; Attacco: 2 Viticci (1d6 più Afferrare).
+* Inghiottire (1d8 danni da acido).
+
+Pianta rampicante
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia media; Velocità 6 m, Scalare 6 m; +3 CA Naturale; Attacco: Schianto (1d4 più Afferrare).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 13, Destrezza 17, Costituzione 13, Int 3, Sag 12, Car 2.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: Taglia grande; +2 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: Schianto (1d6 più Afferrare e Stritolare).
+* Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare.
+
+Pianta spinosa cecchino
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +3 CA Naturale; Attacco: Schianto (1d3 danni contundenti e perforanti) o Salva di spine (attacco a distanza
+entro 12 m che infligge 1d6 danni perforanti).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 10, Destrezza 14, Costituzione 13, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: Taglia media; +3 CA Naturale; +2 Destrezza, +2 Costituzione; Attacco: Schianto (1d4 danni contundenti e perforanti) o Salva di
+spine (attacco a distanza entro 12 m che infligge 1d8 danni perforanti).
+
+Pianta spinosa cacciatrice
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia media; Velocità 6 m; +4 CA Naturale; Attacco: 2 Schianti (1d4 danni contundenti e perforanti).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 14, Destrezza 13, Costituzione 17, Int 3, Sag 13, Car 6.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Spine: una creatura che entra in lotta o attacca il cactus cacciatore con un'arma naturale subisce 1d4 danni perforanti.
+Avanzamento al 7° livello: Taglia grande; +3 CA Naturale; +8 Forza, -2 Destrezza, +2 Costituzione; Attacco: 2 Schianti (1d8 contundenti e perforanti).
+
+Uomoalbero
+Habitat: foreste (calde, fredde o temperate).
+Statistiche iniziali: Taglia media; Velocità 9 m; +2 CA Naturale; Attacco: 2 Schianti (1d6).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 15, Destrezza 10, Costituzione 15, Int 3, Sag 12, Car 7.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 4° livello: Taglia grande; +3 CA Naturale; +8 Forza, -2 Destrezza, +4 Costituzione; Attacco: 2 Schianti (1d8).
+
+Venere acchiappamosche
+Habitat: qualsiasi.
+Statistiche iniziali: Taglia piccola; Velocità 6 m; +3 CA Naturale; Attacco: 2 Morsi (1d3 più Afferrare).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 12, Destrezza 15, Costituzione 14, Int 3, Sag 12, Car 5.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+Avanzamento al 7° livello: Taglia media; +2 CA Naturale; +2 Destrezza, +2 Costituzione; Attacco: 3 Morsi (1d4 più Afferrare).
+
+Zucca di fuoco
+Habitat: pianure (temperate).
+Statistiche iniziali: Taglia piccola; Velocità 4,5 m; +3 CA Naturale; Attacco: Morso (1d4), Schianto (1d4 più Viticci strangolanti).
+Sensi: Visione crepuscolare.
+Caratteristiche: Forza 13, Destrezza 9, Costituzione 10, Int 3, Sag 14, Car 7.
+Capacità e attacchi speciali
+* Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.
+* Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi],
+[stordimento] e [veleno].
+* Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune zucca).
+* Radici: +8 DMC contro Sbilanciare e Oltrepassare.
+* Viticci strangolanti: se l’attacco infligge danni, la vittima deve superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione o essere
+impossibilitata a muoversi fuori portata della zucca di fuoco; inoltre, è intralciata e incapace di parlare o lanciare incantesimi con componenti vocali. Come
+azione di round completo, una vittima intralciata può tentare di spezzare i viticci superando una prova di Forza con CD 12. Quando intralcia una vittima in
+questo modo, la zucca di fuoco perde il suo attacco di Schianto, ma può porre termine a questa capacità come azione gratuita. Non si può intralciare in questo
+modo più di una creatura alla volta. Le creature di due taglie superiori a quella della zucca di fuoco sono immuni a questa capacità.
+Avanzamento al 4° livello: Taglia media; +2 CA Naturale; +2 Forza, -2 Destrezza, +2 Costituzione; Attacco: Morso (1d6), Schianto (1d6 più Viticci
+strangolanti).
+* Soffio di fuoco: ogni 1d3+1 turni, come azione standard può emettere un cono di 4,5 m che infligge 1d8 danni da fuoco + 1d8 ogni 3 livelli oltre il primo
+(massimo 4d8). Le creature colpite possono superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione per dimezzare il danno.
+
+

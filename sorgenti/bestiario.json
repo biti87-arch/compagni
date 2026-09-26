@@ -1,0 +1,8379 @@
+[
+ {
+  "nome": "Alce, Renna",
+  "categoria": "animale",
+  "tipi": [
+   "cervide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (fredde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Corna (1d6) o 2 Zoccoli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 2,
+     "nome": "Zoccoli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (1d8) o 2 Zoccoli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ],
+    [
+     {
+      "n": 2,
+      "nome": "Zoccoli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Allosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4, attacco secondario)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": true
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 16,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 10
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Sbilanciare), 2 Artigli (1d6, attacco secondario)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": true
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Anguilla elettrica",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi o temperati), laghi (caldi o temperati), mari (caldi o temperati)",
+  "taglia": "piccola",
+  "velocita": {
+   "nuotare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 14,
+   "Cos": 18,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 6
+  },
+  "speciali": [
+   "RE (elettricità) 5."
+  ],
+  "avanzamento": {
+   "ca_nat": 1,
+   "mod_car": {
+    "Des": 2,
+    "Cos": 2
+   },
+   "altro": [
+    "RE (elettricità) 10"
+   ],
+   "livello": 4,
+   "speciali": [
+    "Shock: con un critico riuscito, la vittima deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione) o è stordita per 1d4 round."
+   ]
+  }
+ },
+ {
+  "nome": "Ariete quadricorno",
+  "categoria": "animale",
+  "tipi": [
+   "cervide"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "montagne (temperate), pianure (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Corna (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 16,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (1d10)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "1d10",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Carica massacrante: quando la creatura colpisce un bersaglio con l’attacco di Corna al termine di una carica, come azione gratuita può effettuare una manovra Spingere per spostare il bersaglio lungo la medesima direzione della carica. La creatura non può spostarsi insieme alla vittima. Se infligge un colpo critico durante la carica massacrante, la vittima deve anche superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Forza o diventare barcollante per 1 round."
+   ]
+  }
+ },
+ {
+  "nome": "Armadillo gigante",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate), pianure (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 6,
+  "attacchi_testo": "2 Artigli (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 12,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Artigli (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Basilosauro",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "mari (caldi)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 12.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6), Coda (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 11,
+   "Des": 14,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8), Coda (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Percezione cieca 12 m."
+   ]
+  }
+ },
+ {
+  "nome": "Bisonte",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Corna (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (2d6), 2 Zoccoli (1d4, attacco secondario)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Zoccoli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": true
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx)."
+   ]
+  }
+ },
+ {
+  "nome": "Brachiosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Coda (2d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "2d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 14,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 10
+  },
+  "speciali": [
+   "Collo lungo: +4 Percezione (individuare imboscate)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Coda (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno della Coda + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Bufalo, Gnu, Toro",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Corna (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 12,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "attacchi_testo": "Corna (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno delle Corna + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round.",
+    "Fuga precipitosa: quando effettua un’azione di Ritirata, può effettuare una deviazione di fino a 45° e Travolgere i nemici sul proprio percorso."
+   ]
+  }
+ },
+ {
+  "nome": "Calamaro gigante",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi, freddi o temperati)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 12.0,
+   "propulsione": 72.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d3), Tentacoli (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Tentacoli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 15,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [
+   "Nube di inchiostro: una volta al minuto, può emettere una nube di inchiostro di raggio 1,5 m. Questa nuvola fornisce occultamento totale e permane per 1 round."
+  ],
+  "avanzamento": {
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d3), Tentacoli (1d4 più Afferrare e Stritolare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d3",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Tentacoli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Afferrare e Stritolare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare."
+   ]
+  }
+ },
+ {
+  "nome": "Cammello, Dromedario",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde)",
+  "taglia": "grande",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d4) o Sputo (attacco di contatto a distanza entro 4,5 m, il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 1,
+     "nome": "Sputo",
+     "dado": null,
+     "nota": "attacco di contatto a distanza entro 4,5 m",
+     "extra": "il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 18,
+   "Des": 16,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Pelliccia: la pelliccia del cammello lo protegge dagli effetti degli ambienti caldi e concede bonus razziale +2 ai Tiri Salvezza contro gli effetti di [malattia]."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Cane",
+  "categoria": "animale",
+  "tipi": [
+   "canide",
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [
+   "Fedele: fintanto che lo accompagna, fornsice Allerta come talento bonus al padrone."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Cane di grossa taglia, Lupo, Iena",
+  "categoria": "animale",
+  "tipi": [
+   "canide",
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Sbilanciare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Sbilanciare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 14,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Sbilanciare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Cane goblin",
+  "categoria": "animale",
+  "tipi": [
+   "canide",
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), foreste (temperate), paludi (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 11,
+   "Des": 16,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 8
+  },
+  "speciali": [
+   "Reazione allergica: se una creatura non pelleverde entra in contatto con il cane goblin, viene ferita dal suo morso oppure infligge danni al cane goblin con un'arma naturale, deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o subisce penalità -2 a Destrezza e -2 Carisma per 1 giorno (massimo un tiro per round; penalità non cumulabile). Questo è un effetto di [malattia]."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Canguro",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Calcio (1d6 più una volta e mezzo il bonus di Forza)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Calcio",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "una volta e mezzo il bonus di Forza",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 14,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 7
+  },
+  "speciali": [
+   "Saltatore: bonus +4 Acrobazia (saltare)."
+  ],
+  "avanzamento": {
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "velocita": {
+    "terra": 15.0
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Caprone",
+  "categoria": "animale",
+  "tipi": [
+   "cervide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (temperate), montagne (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Corno (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corno",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Corno (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corno",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Ottiene Spingere migliorato come talento bonus (non deve soddisfarne i requisiti)."
+   ]
+  }
+ },
+ {
+  "nome": "Cavallo, Zebra",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde, fredde o temperate)",
+  "taglia": "grande",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d4), 2 Zoccoli (1d6, attacco secondario)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Zoccoli",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": true
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 16,
+   "Des": 13,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Ottiene Correre come talento bonus."
+   ]
+  }
+ },
+ {
+  "nome": "Cervo, Daino",
+  "categoria": "animale",
+  "tipi": [
+   "cervide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Corna (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 19,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 8
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Corna (1d6), 2 Zoccoli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Zoccoli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx)."
+   ]
+  }
+ },
+ {
+  "nome": "Cinghiale",
+  "categoria": "animale",
+  "tipi": [
+   "suino"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Zanne (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Zanne",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 12,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 4
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Zanne (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Zanne",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita."
+   ]
+  }
+ },
+ {
+  "nome": "Cinghiale crudele",
+  "categoria": "animale",
+  "tipi": [
+   "suino"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Zanne (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Zanne",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 12,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Zanne (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Zanne",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.",
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno delle Zanne + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Coccodrillo",
+  "categoria": "animale",
+  "tipi": [
+   "lucertoloide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi), laghi (caldi), paludi (calde)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 14,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare) o Coda (1d12)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ],
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "1d12",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Rotolata letale: quando è in lotta con un nemico della sua taglia o inferiore, può effettuare una manovra di Lottare per infliggergli i danni del Morso e farlo cadere prono. Se la prova riesce, il coccodrillo si mantiene in lotta.",
+    "Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento."
+   ]
+  }
+ },
+ {
+  "nome": "Crostaceo gigante",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "zone costiere (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "2 Artigli (1d4 più Afferrare e Stritolare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare e Stritolare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 13,
+   "Des": 13,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Anfibio: può sopravvivere sia dentro che fuori dall’acqua.",
+   "Dipendenza dall'acqua: può sopravvivere fuori dall'acqua per 24 ore.",
+   "Molti arti: +12 DMC contro Sbilanciare.",
+   "Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può ancora utilizzare l’attacco di morso mentre stritola."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Artigli (1d4 più Afferrare e Stritolare)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Afferrare e Stritolare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Delfino",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi, freddi o temperati)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 24.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Schianto (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 16,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [
+   "Visione crepuscolare.",
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Des": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Vista cieca 36 m."
+   ]
+  }
+ },
+ {
+  "nome": "Diavolo orsino",
+  "categoria": "animale",
+  "tipi": [
+   "domestico",
+   "urside"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate), montagne (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 3.0,
+   "scavare": 3.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [
+   "Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro)."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Dimetrodonte",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 16,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 3
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (2d8+1 volta e mezzo il bonus di Forza/19- 20x2)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d8",
+      "nota": "+1 volta e mezzo il bonus di Forza/19- 20x2",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2."
+   ]
+  }
+ },
+ {
+  "nome": "Dingo alpha, Iena rex, Sciacallo gigante, Volpe bianca gigante",
+  "categoria": "animale",
+  "tipi": [
+   "canide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde o fredde)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6/19-20 più Sbilanciare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": "/19-20 più Sbilanciare",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8/19-20x2 più Sbilanciare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": "/19-20x2 più Sbilanciare",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Diplodoco",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Coda (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 14,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [
+   "Collo lungo: +4 Percezione (individuare imboscate)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 6,
+    "Cos": 4
+   },
+   "attacchi_testo": "Coda (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Sferzata di coda: come azione standard, può effettuare due attacchi con la Coda."
+   ]
+  }
+ },
+ {
+  "nome": "Elasmosauro, Squalo crudele",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro",
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "mari (caldi)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 15.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m, Fiuto (100 m ma solo per rilevare la presenza di sangue)",
+  "car": {
+   "For": 10,
+   "Des": 18,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 9
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Elefante, Mammut",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde), pianure (calde o fredde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Zanne (1d6), Schianto (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Zanne",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 14,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Zanne (1d8), Schianto (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Zanne",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno di Schianto + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Facocero spinato",
+  "categoria": "animale",
+  "tipi": [
+   "suino"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Zanne (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Zanne",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 10,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Zanne (1d8 più Spine)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Zanne",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Spine",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Aculei: una creatura che attacca un facocero spinato con un'arma naturale o senza portata, subisce 1d4 danni perforanti dopo aver risolto ciascun attacco. Una creatura in lotta con un facocero spinato subisce 2d4 danni perforanti all’inizio del proprio turno."
+   ]
+  }
+ },
+ {
+  "nome": "Felino dai denti a sciabola",
+  "categoria": "animale",
+  "tipi": [
+   "felino"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o fredde), montagne (fredde o temperate), pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "2 Artigli (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 8
+  },
+  "speciali": [
+   "Morso trafiggente: quando tenta di infliggere danni a un avversario in lotta (opzione Danno), infligge 1d10 danni di Morso."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 6,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Sbilanciare), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Morso trafiggente: infligge 2d8 danni."
+   ]
+  }
+ },
+ {
+  "nome": "Felino grande",
+  "categoria": "animale",
+  "tipi": [
+   "felino"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o fredde), montagne (fredde o temperate), pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 10
+  },
+  "speciali": [
+   "Sperone: quando comincia il turno in lotta con un avversario ottiene 2 attacchi di Artigli extra."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare), 2 Artigli (1d6 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento."
+   ]
+  }
+ },
+ {
+  "nome": "Felino piccolo",
+  "categoria": "animale",
+  "tipi": [
+   "domestico",
+   "felino"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d3 più Sbilanciare), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d3",
+     "nota": null,
+     "extra": "Sbilanciare",
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 21,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d4 più Sbilanciare), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento."
+   ]
+  }
+ },
+ {
+  "nome": "Giraffa",
+  "categoria": "animale",
+  "tipi": [
+   "cervide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate), pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "2 Zoccoli (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Zoccoli",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 14,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Collo lungo: +4 Percezione (individuare imboscate)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Zoccoli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Zoccoli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno degli Zoccoli + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Iguanodonte",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro",
+   "lucertoloide"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Artigli (1d8/x3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Artigli",
+     "dado": "1d8",
+     "nota": "/x3",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 17,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [
+   "Pollice-aculeo: l’attacco di Artigli infligge danni tripli in caso di colpo critico."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Artigli (2d6/3)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Artigli",
+      "dado": "2d6",
+      "nota": "/3",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento."
+   ]
+  }
+ },
+ {
+  "nome": "Ippocampo gigante",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": "Cavalcaonde, archetipo del cavaliere",
+  "habitat": "mari (caldi, freddi o temperati)",
+  "taglia": "grande",
+  "velocita": {
+   "nuotare": 15.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 16,
+   "Des": 13,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Ancorarsi: come azione di movimento, può avvolgere la coda attorno a un oggetto fermo. Un ippocampo ancorato ottiene bonus +4 alla DMC e +4 alle prove e ai Tiri Salvezza contro effetti che lo sposterebbero."
+   ]
+  }
+ },
+ {
+  "nome": "Ippopotamo",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 11,
+   "Des": 12,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 5
+  },
+  "speciali": [
+   "Sudore: il sudore dell'ippopotamo lo protegge dagli effetti degli ambienti caldi e concede bonus razziale +2 ai Tiri Salvezza contro gli effetti di [malattia].",
+   "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno del Morso + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Istrice scagliaculei",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6) o Salva di aculei (1d6, attacco a distanza entro 9 m)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 1,
+     "nome": "Salva di aculei",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "attacco a distanza entro 9 m",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Aculei: una creatura che attacca l’istrice scagliaculei con un'arma naturale o senza portata, subisce 1d4 danni perforanti dopo aver risolto ciascun attacco. Una creatura in lotta con un istrice scagliaculei subisce 2d4 danni perforanti all’inizio del proprio turno."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8) o Salva di aculei (1d8, attacco a distanza entro 9 m)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ],
+    [
+     {
+      "n": 1,
+      "nome": "Salva di aculei",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "attacco a distanza entro 9 m",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Lemure gigante frustatore",
+  "categoria": "animale",
+  "tipi": [
+   "primate"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde), pianure (calde)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d6), Coda (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 6,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8), Coda (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Lucertola gigante",
+  "categoria": "animale",
+  "tipi": [
+   "domestico",
+   "lucertoloide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 11,
+   "Des": 16,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (2d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "velocita": {
+    "terra": 12.0,
+    "scalare": 12.0
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Lucertola gigante cacciatrice",
+  "categoria": "animale",
+  "tipi": [
+   "lucertoloide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 14,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 7
+  },
+  "speciali": [
+   "Lingua trascinante: questo è un attacco con la lingua con una portata di 4,5 metri. L'attacco non infligge danni, ma permette di effettuare una manovra di Afferrare senza ottenere la condizione in lotta. Inoltre, quando la creatura afferra con successo con la lingua o inizia il proprio turno con una creatura afferrata con la lingua, come azione gratuita può effettuare una manovra in combattimento che, se riesce, avvicina la vittima di 1,5 m verso di sè. Le vittime trascinate in questo modo non provocano attacchi d'opportunità per il movimento, e il trascinamento si interrompe se costringerebbe la creatura ad attraversare un oggetto solido o un’altra creatura."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "velocita": {
+    "terra": 12.0,
+    "scalare": 12.0
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Lupo crudele",
+  "categoria": "animale",
+  "tipi": [
+   "canide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate o fredde), pianure (temperate o fredde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Sbilanciare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Sbilanciare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 16,
+   "Des": 14,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Sbilanciare), Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Manta",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi o temperati)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 18.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Schianto (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 8,
+   "Des": 15,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 2
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Schianto (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Percezione cieca 9 m."
+   ]
+  }
+ },
+ {
+  "nome": "Metalupo",
+  "categoria": "animale",
+  "tipi": [
+   "canide"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (temperate o fredde), pianure (temperate o fredde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d8 più Sbilanciare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": "Sbilanciare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 17,
+   "Des": 14,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Sbilanciare), Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita.",
+    "Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro)."
+   ]
+  }
+ },
+ {
+  "nome": "Murena gigante",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi o temperati)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 16,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 8
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Doppia mascella: se una murena gigante inizia un round con un nemico afferrato, gli infligge automaticamente danni del Morso. Inoltre, può sferrare un secondo attacco di Morso contro tale nemico."
+   ]
+  }
+ },
+ {
+  "nome": "Mustelide gigante (donnola, faina, furetto, ghiottone, mangusta, tasso)",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 19,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [
+   "Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Costituzione a un avversario con cui è in lotta."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Orca",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "mari (freddi)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 24.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 11,
+   "Des": 19,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Vista cieca 36 m."
+   ]
+  }
+ },
+ {
+  "nome": "Orso, Orso polare",
+  "categoria": "animale",
+  "tipi": [
+   "urside"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (fredde o temperate), montagne (temperate), pianure (fredde), zone costiere (fredde)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Orso crudele",
+  "categoria": "animale",
+  "tipi": [
+   "urside"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (fredde o temperate), montagne (temperate), pianure (fredde), zone costiere (fredde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "2 Artigli (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 12,
+   "Cos": 16,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Artigli (1d8 più Squartare). Attacchi speciali: Squartare (2 artigli, 1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Squartare). Attacchi speciali: Squartare (2 artigli, 1d8",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Squartare: se colpisce una vittima con due o più Artigli in 1 round, gli infligge nuovamente il danno di Artigli più una volta e mezzo il bonus di Forza."
+   ]
+  }
+ },
+ {
+  "nome": "Orso grizzly",
+  "categoria": "animale",
+  "tipi": [
+   "urside"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate), montagne (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8), 2 Artigli (1d6 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Orso nero, Panda",
+  "categoria": "animale",
+  "tipi": [
+   "urside"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 13,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 9
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8/19-20x2), 2 Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": "/19-20x2",
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2."
+   ]
+  }
+ },
+ {
+  "nome": "Pachicèfalosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Schianto (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 16,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Schianto (1d10)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d10",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Carica massacrante: quando un pachicefalosauro colpisce un bersaglio con l’attacco di schianto al termine di una carica, come azione gratuita può effettuare una manovra Spingere per spostare il bersaglio lungo la medesima direzione della carica. Il pachicefalosauro non può spostarsi insieme alla vittima. Se infligge un colpo critico durante la carica massacrante, la vittima deve anche superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Forza o diventare barcollante per 1 round."
+   ]
+  }
+ },
+ {
+  "nome": "Parasauròlofo",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Coda (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 11,
+   "Des": 18,
+   "Cos": 9,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 10
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Coda (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno della Coda + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Pastinaca",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi o temperati)",
+  "taglia": "piccola",
+  "velocita": {
+   "nuotare": 12.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Coda (1d3 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "1d3",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 6,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 2
+  },
+  "speciali": [
+   "Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza e 1 danno a Costituzione; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Coda (1d4 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Percezione cieca 9 m."
+   ]
+  }
+ },
+ {
+  "nome": "Pesce gigante",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi, freddi o temperati), laghi (caldi, freddi o temperati), mari (caldi, freddi o temperati)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 18.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 14,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 2
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Piovra",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi, freddi o temperati)",
+  "taglia": "piccola",
+  "velocita": {
+   "nuotare": 9.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d3), Tentacoli (1d2 non letali senza bonus di Forza più Sbilanciare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Tentacoli",
+     "dado": "1d2",
+     "nota": "non letali senza bonus di Forza più Sbilanciare",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 3
+  },
+  "speciali": [
+   "Propulsione: come azione di round completo, può schizzare indietro in linea retta di 60 m, senza provocare attacchi d'opportunità.",
+   "Nube di inchiostro: una volta al minuto, può emettere una nube di inchiostro di raggio 1,5 m. Questa nuvola fornisce occultamento totale e permane per 1 round."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 2,
+    "Des": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d4 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Pony",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde, fredde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d3), 2 Zoccoli (1d3, attacco secondario)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Zoccoli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": true
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 13,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Ottiene Correre come talento bonus."
+   ]
+  }
+ },
+ {
+  "nome": "Porcospino gigante",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 12,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 5
+  },
+  "speciali": [
+   "Aculei: una creatura che attacca il porcospino gigante con un'arma naturale o senza portata, subisce 1d2 danni perforanti dopo aver risolto ciascun attacco. Una creatura in lotta con un porcospino gigante subisce 2d2 danni perforanti all’inizio del proprio turno."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Potamocero gigante",
+  "categoria": "animale",
+  "tipi": [
+   "suino"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Zanne (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Zanne",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 12,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Zanne (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Zanne",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno delle Zanne + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Puzzola gigante",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d4, attacco secondario)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": true
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 11,
+   "Des": 16,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 9
+  },
+  "speciali": [
+   "Odore molesto: due volte al giorno, come azione standard può emettere una zaffata di tanfo tossico contro un nemico entro 9 m effettuando un attacco di contatto a distanza. Se l’attacco riesce, la vittima deve superare un TS su Tempra con CD 10 + metà DV + bonus di Costituzione o è nauseata per 1d3 round e poi inferma per 1d3 minuti. Se il tiro riesce, la vittima è invece inferma per 1d3 round. Una creatura non può usare la capacità Fiuto fintanto che è influenzata dall’odore molesto."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6) 2 Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": ") 2 Artigli (1d6",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Rana gigante",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "nuotare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 14,
+   "Cos": 16,
+   "Int": 3,
+   "Sag": 9,
+   "Car": 6
+  },
+  "speciali": [
+   "Lingua trascinante: questo è un attacco con la lingua con una portata di 4,5 metri. L'attacco non infligge danni, ma permette di effettuare una manovra di Afferrare senza ottenere la condizione in lotta. Inoltre, quando la creatura afferra con successo con la lingua o inizia il proprio turno con una creatura afferrata con la lingua, come azione gratuita può effettuare una manovra in combattimento che, se riesce, avvicina la vittima di 1,5 m verso di sè. Le vittime trascinate in questo modo non provocano attacchi d'opportunità per il movimento, e il trascinamento si interrompe se costringerebbe la creatura ad attraversare un oggetto solido o un’altra creatura."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Des": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Inghiottire: Se comincia il proprio turno con un avversario in lotta all'interno della sua bocca, può effettuare una manovra in combattimento come se cercasse di bloccare un avversario. Se la manovra ha successo, ingoia la preda, che subisce i danni del Morso. L'avversario deve essere di almeno una categoria di taglia inferiore a quella della creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in lotta, ma non la creatura che l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno da infliggere è pari a 1/10 dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire è normalmente 10 + metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha inghiottita non può utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo la riporta nella bocca della creatura, dove può essere morsa o inghiottita di nuovo."
+   ]
+  }
+ },
+ {
+  "nome": "Roditore gigante (capibara, castoro, nutria, ratto)",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "ambienti urbani, fiumi (caldi freddi o temperati), pianure (calde, fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0,
+   "nuotare": 6.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 4
+  },
+  "speciali": [],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Rinoceronte",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Corno (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corno",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 14,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 5
+  },
+  "speciali": [
+   "Carica possente: quando effettua una carica, l’attacco di Corno infligge tre volte il dado di danno (esempio 1dx diventa 3dx)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -4,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corno (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corno",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Roncaccia",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d6 + una volta e mezzo il bonus di Forza)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": "+ una volta e mezzo il bonus di Forza",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 19,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 10
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 + 1 volta e mezzo il bonus di Forza)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": "+ 1 volta e mezzo il bonus di Forza",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Carica improvvisa: quando carica, la roncaccia effettua un singolo attacco di Morso. Se l'attacco colpisce, come azione gratuita che non provoca attacchi d'opportunità, la roncaccia può effettuare una manovra di Sbilanciare contro la vittima. Se la manovra fallisce, la roncaccia non può essere sbilanciata a sua volta."
+   ]
+  }
+ },
+ {
+  "nome": "Rospo gigante",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "nuotare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 15,
+   "Cos": 16,
+   "Int": 3,
+   "Sag": 9,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Des": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Inghiottire: Se comincia il proprio turno con un avversario in lotta, può effettuare una manovra in combattimento come se cercasse di bloccare un avversario. Se la manovra ha successo, ingoia la preda, che subisce i danni del Morso. L'avversario deve essere di almeno una categoria di taglia inferiore a quella della creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in lotta, ma non la creatura che l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno da infliggere è pari a 1/10 dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire è normalmente 10 + metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha inghiottita non può utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo la riporta nella bocca della creatura, dove può essere morsa o inghiottita di nuovo.",
+    "Pelle tossica: una creatura che infligge danni al rospo gigante con un'arma naturale o che vi entra semplicemente in contatto, viene avvelenato dalla seguente tossina: frequenza 1 round (massimo 4); 1 danni a Saggezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Salamandra",
+  "categoria": "animale",
+  "tipi": [
+   "lucertoloide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste  (calde, fredde o temperate), montagne (calde, fredde o temperate), pianure (calde, fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "nuotare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6 più Afferrare) o Sputo (attacco di contatto a distanza entro 4,5 m, il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ],
+    [
+     {
+      "n": 1,
+      "nome": "Sputo",
+      "dado": null,
+      "nota": "attacco di contatto a distanza entro 4,5 m",
+      "extra": "il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Schienargento",
+  "categoria": "animale",
+  "tipi": [
+   "primate"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 16,
+   "Des": 12,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6), 2 Artigli (1d6 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Scimmia grande",
+  "categoria": "animale",
+  "tipi": [
+   "primate"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 14,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Scimmia piccola",
+  "categoria": "animale",
+  "tipi": [
+   "primate"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d3), 2 Artigli (1d2) o Scagliare oggetti (1d4, come arma da lancio con incremento di gittata 6 m e gittata massima 30 m, utilizzabile solo con pietre e piccoli oggetti raccolti)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d2",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 1,
+     "nome": "Scagliare oggetti",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "come arma da lancio con incremento di gittata 6 m e gittata massima 30 m, utilizzabile solo con pietre e piccoli oggetti raccolti",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 5
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 2,
+    "Des": 2
+   },
+   "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d3",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Serpente nuotatore",
+  "categoria": "animale",
+  "tipi": [
+   "serpente"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "acquitrini (caldi o temperati), fiumi (caldi o temperati), laghi (caldi o temperati), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 12.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 15,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 2
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento.",
+   "Veleno: frequenza 1 round (massimo 6); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Des": 2
+   },
+   "livello": 7,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 2 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Serpente sputatore",
+  "categoria": "animale",
+  "tipi": [
+   "serpente"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 6.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 8,
+   "Des": 15,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [
+   "Veleno: 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione.",
+   "Sputare veleno: ogni 1d3+1 round, come azione standard può effettuare attacco di contatto entro 4,5 m che inocula il seguente veleno: frequenza 1 round (massimo 6); Offuscato 20%; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": 2
+   },
+   "attacchi_testo": "Morso (1d8 più veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 2 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Serpente strangolatore",
+  "categoria": "animale",
+  "tipi": [
+   "domestico",
+   "serpente"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi), laghi (caldi), foreste (calde), paludi (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 6.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 17,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6 più Afferrare e Stritolare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare e Stritolare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può ancora utilizzare l’attacco di Morso mentre stritola."
+   ]
+  }
+ },
+ {
+  "nome": "Serpente velenoso",
+  "categoria": "animale",
+  "tipi": [
+   "serpente"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), montagne (calde o temperate), paludi (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 6.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 8,
+   "Des": 17,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [
+   "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Costituzione; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Spinosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "nuotare": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 18,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 3
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8), 2 Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Squalo",
+  "categoria": "animale",
+  "tipi": [
+   "acquatico",
+   "pesce"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "mari (caldi, freddi o temperati)",
+  "taglia": "piccola",
+  "velocita": {
+   "nuotare": 18.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Sanguinamento 1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Sanguinamento 1d3",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m, Fiuto 100 m (ma solo per rilevare la presenza di sangue)",
+  "car": {
+   "For": 13,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8 più Sanguinamento 1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Sanguinamento 1d4",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Percezione cieca 9 m."
+   ]
+  }
+ },
+ {
+  "nome": "Squig",
+  "categoria": "animale",
+  "tipi": [
+   "lucertoloide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), foreste (calde o temperate), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 10
+  },
+  "speciali": [
+   "Saltatore: +4 Acrobazia (saltare)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6 più Afferrare), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Stegosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Coda (2d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Coda",
+     "dado": "2d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Coda (2d8 più Sbilanciare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Coda",
+      "dado": "2d8",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Stiracosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 5,
+  "attacchi_testo": "Corna (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 13,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Colpo riflessivo: può effettuare tre attacchi di opportunità aggiuntivi ogni round, cumulabili con quelli concessi dal talento Riflessi in combattimento.",
+    "Furia: ottiene +2 alla CA quando si trova a metà o meno Punti ferita."
+   ]
+  }
+ },
+ {
+  "nome": "Struzzo",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": "Hatamoto, archetipo del cavaliere",
+  "habitat": "pianure (calde)",
+  "taglia": "grande",
+  "velocita": {
+   "terra": 15.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Becco (1d6), Calcio (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Becco",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Calcio",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 17,
+   "Des": 10,
+   "Cos": 17,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": [
+    "Ottiene Robustezza come talento bonus."
+   ]
+  }
+ },
+ {
+  "nome": "Tartaruga azzannatrice",
+  "categoria": "animale",
+  "tipi": [
+   "domestico"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi, freddi o temperati), laghi (caldi, freddi o temperati), paludi (calde, fredde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 4.5,
+   "nuotare": 9.0
+  },
+  "ca_nat": 6,
+  "attacchi_testo": "Morso (1d6/19-20x2)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": "/19-20x2",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 10,
+   "Cos": 9,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento.",
+   "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8/19-20x2 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": "/19-20x2 più Afferrare",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Testuggine gigante",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "isole (calde), pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 4.5
+  },
+  "ca_nat": 7,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 8,
+   "Cos": 16,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 9
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Ottiene Tempra possente come talento bonus."
+   ]
+  }
+ },
+ {
+  "nome": "Tilacino",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4/19-20x2)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": "/19-20x2",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 16,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 7
+  },
+  "speciali": [
+   "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6/19-20x2)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": "/19-20x2",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Tilosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro",
+   "acquatico"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "mari (caldi)",
+  "taglia": "media",
+  "velocita": {
+   "nuotare": 15.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 9
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Tirannosauro",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d8/19-20x2)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": "/19-20x2",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 16,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 15,
+   "Car": 10
+  },
+  "speciali": [
+   "Fauci possenti: l’attacco di Morso ha un intervallo di minaccia di 19-20x2.",
+   "Scatto: una volta al minuto, può raddoppiare la propria velocità base su terreno per un singolo movimento."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (2d6 + 2 volte il bonus di Forza più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": "+ 2 volte il bonus di Forza più Afferrare",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Morso possente: un tirannosauro applica due volte il bonus di Forza ai danni del Morso."
+   ]
+  }
+ },
+ {
+  "nome": "Titanoboa",
+  "categoria": "animale",
+  "tipi": [
+   "serpente"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "fiumi (caldi), laghi (caldi), foreste (calde), paludi (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0,
+   "nuotare": 6.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d8 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 15,
+   "Des": 15,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 17,
+   "Car": 8
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare e Stritolare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare e Stritolare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare. Inoltre, può ancora utilizzare l’attacco di morso mentre stritola."
+   ]
+  }
+ },
+ {
+  "nome": "Triceratopo",
+  "categoria": "animale",
+  "tipi": [
+   "dinosauro"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "jungle remote (calde), pianure remote (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 5,
+  "attacchi_testo": "Corna (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 13,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [
+   "Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Tricheco",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "zone costiere (fredde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 4.5,
+   "nuotare": 12.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 13,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Toro diavolo",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "pianure (temperate o calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Corna (1d8)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Corna",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 12,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 3
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Corna (2d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Corna",
+      "dado": "2d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Carica possente: quando effettua una carica, l’attacco di Corna infligge tre volte il dado di danno (esempio 1dx diventa 3dx).",
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno delle Corna + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Uccello rapace gigante diurno",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": "Falconiere, archetipo del ranger",
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 3.0,
+   "volare": 24.0,
+   "manovrabilita": "media"
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 15,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [
+   "Vista acuta: +4 Percezione (giorno).",
+   "Ottiene Attacco in volo come talento bonus."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Uccello rapace gigante notturno",
+  "categoria": "animale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": "Falconiere, archetipo del ranger",
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 3.0,
+   "volare": 24.0,
+   "manovrabilita": "media"
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4), 2 Artigli (1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 15,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [
+   "Predatore notturno: +4 Furtività (notte).",
+   "Ottiene Attacco in volo come talento bonus."
+  ],
+  "avanzamento": {
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Varano",
+  "categoria": "animale",
+  "tipi": [
+   "lucertoloide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde), pianure (calde)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Afferrare e Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Afferrare e Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d3 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Blatta gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), ambienti urbani, foreste (temperate), paludi (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 10,
+   "Des": 12,
+   "Cos": 17,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 2
+  },
+  "speciali": [
+   "Trattenere il fiato: non può respirare sott’acqua ma può trattenere il fiato per un numero di round pari a 6 volte il suo punteggio di Costituzione prima di rischiare l’annegamento.",
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Ottiene Robustezza come talento bonus."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": 2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Bruco gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d4), Setole (1d4 più Veleno, attacco secondario)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Setole",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": true
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 13,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 2
+  },
+  "speciali": [
+   "Stabilità assoluta: non può essere sbilanciato.",
+   "Setole: una creatura che attacca il bruco gigante con un'arma naturale o senza portata, deve superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Destrezza o viene colpita dal Veleno delle Setole (si effettua un unico Tiro Salvezza dopo aver effettuato tutti gli attacchi).",
+   "Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6), Setole (1d6 più Veleno, attacco secondario)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Setole",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": true
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Formica gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 10,
+   "Des": 12,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Afferrare), Pungiglione (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Pungiglione",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Gambero pistolero gigante",
+  "categoria": "parassita",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "mari (caldi o temperati)",
+  "taglia": "piccola",
+  "velocita": {
+   "nuotare": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Artiglio (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Artiglio",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m, Vista cieca 4,5 m",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "RE 5 (suono).",
+   "Colpo esplosivo: ogni 1d3+1 round, come azione standard può effettuare un attacco di contatto a distanza entro 9 m; il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è stordito per 1 turno)."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 6,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Artiglio (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Artiglio",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Vista cieca 9 m.",
+    "RE 10 (suono)."
+   ]
+  }
+ },
+ {
+  "nome": "Insetto assassino gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), foreste (calde, fredde o temperate), pianure (calde, fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Veleno), 2 Artigli (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 13,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Getto di veleno: ogni 1d3+1 round, come azione standard può emettere un getto velenoso in una linea di 6 m. Le creature colpite devono superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione o sono afflitte dal Veleno.",
+   "Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8 più veleno), 2 Artigli (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "veleno",
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "velocita": {
+    "terra": 9.0,
+    "scalare": 9.0
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Locusta gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d8) o Sputare muco (attacco di contatto a distanza entro 9 m, il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 1,
+     "nome": "Sputare muco",
+     "dado": null,
+     "nota": "attacco di contatto a distanza entro 9 m",
+     "extra": "il bersaglio deve superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Costituzione o è infermo per 1d4 turni",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 17,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 7
+  },
+  "speciali": [
+   "Saltatrice: +4 Acrobazia (saltare)",
+   "Molti arti: +8 DMC contro Sbilanciare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "velocita": {
+    "terra": 9.0
+   },
+   "livello": 4,
+   "speciali": [
+    "Vorace: il danno di Morso infligge danni doppi a creature e oggetti fatti di carta, legno e materiale vegetale in genere."
+   ]
+  }
+ },
+ {
+  "nome": "Lumaca gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "acquitrini (caldi o temperati), ambienti sotterranei (caldi o temperati), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "Morso (1d6 danni +1 danno da acido)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": "danni +1 danno da acido",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Percezione cieca 9 m",
+  "car": {
+   "For": 13,
+   "Des": 8,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 1
+  },
+  "speciali": [
+   "RD 5/perforante o tagliente",
+   "Stabilità assoluta: non può essere sbilanciata.",
+   "Sputare acido: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da acido ogni 2 Dadi Vita (massimo 5d6)."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8 danni +2 danni da acido)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": "danni +2 danni da acido",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Vista cieca 9 m."
+   ]
+  }
+ },
+ {
+  "nome": "Mantide gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "2 Artigli (1d6 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 10,
+   "Des": 15,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Allungo: come azione di attacco completo, può sferrare fino a due attacchi di Artigli al doppio della normale portata e con +4 al tiro per colpire."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 artigli (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "artigli",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Mandibole: quando afferra con successo un nemico, può effettuare contro di esso un attacco secondario di Morso."
+   ]
+  }
+ },
+ {
+  "nome": "Millepiedi gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Morso (1d6 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 8,
+   "Des": 17,
+   "Cos": 11,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Stabilità assoluta: non può essere sbilanciato.",
+   "Veleno: frequenza 1 round (massimo 4); 1 danno a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d3 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Ragno gigante",
+  "categoria": "parassita",
+  "tipi": [
+   "aracnide"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d4 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m, Percezione tellurica 9 m",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Ragno gigante matriarca",
+  "categoria": "parassita",
+  "tipi": [
+   "aracnide"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d6 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 13,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Veleno: frequenza 1 round (massimo 4); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d8 più Veleno), Zampe: (1d2 più Sbilanciare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Zampe:",
+      "dado": "1d2",
+      "nota": null,
+      "extra": "Sbilanciare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Ragno gigante scagliatela",
+  "categoria": "parassita",
+  "tipi": [
+   "aracnide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 10,
+   "Des": 17,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Un ragno scagliatela può creare ragnatele in grado di sostenerlo. Inoltre, può lanciare una ragnatela 8 volte al giorno. È simile a un attacco con la rete, ma ha una gittata massima di 15 m e un incremento di gittata di 3 m, e ha effetto su bersagli al massimo di una categoria di taglia superiore al ragno scagliatela. Una creatura intralciata dalla ragnatela può fuggire con una prova di Artista della fuga o liberarsi rompendo la tela con una prova di Forza, ed entrambe sono azioni standard con CD pari a 15. I tentativi di rompere la ragnatela effettuati da chi vi è intrappolato subiscono penalità di -4. Un ragno scagliatela può creare veli di ragnatela appiccicosa grandi fino a 3 volte la propria taglia. Le creature in avvicinamento alla tela devono effettuare una prova di Percezione con CD 20 per notarla, altrimenti vi cadono dentro e ne vengono intralciate. I tentativi di fuggire o di rompere la ragnatela ottengono bonus +5 se la creatura intrappolata ha qualcosa su cui camminare o cui aggrapparsi mentre cerca di liberarsi. Ogni sezione di tela di 1,5 metri ha un numero di Punti Ferita pari a 11 e ha RD 5/-. Un ragno scagliatela può muoversi lungo la propria tela alla propria velocità di Scalare, e individuare automaticamente la posizione di qualsiasi creatura che stia toccando la ragnatela."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Sanguisuga gigante",
+  "categoria": "parassita",
+  "tipi": [
+   "acquatico"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "paludi (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 4.5,
+   "nuotare": 6.0
+  },
+  "ca_nat": 0,
+  "attacchi_testo": "Morso (1d4 più Attaccarsi)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Attaccarsi",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Percezione cieca 9 m, Fiuto",
+  "car": {
+   "For": 10,
+   "Des": 14,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 1
+  },
+  "speciali": [
+   "Anfibio: può sopravvivere sia dentro che fuori dall’acqua.",
+   "Stabilità assoluta: non può essere sbilanciata.",
+   "Attaccarsi: quando colpisce con il morso, entra automaticamente in lotta con una vittima. Una volta attaccata, la sanguisuga perde il bonus di Destrezza alla CA, infligge automaticamente il danno del Morso a ogni round e ottiene bonus razziale +8 alle manovre di Lottare. Una sanguisuga attaccata può essere attaccata in mischia o ingaggiata a sua volta in lotta. La vittima può superare una prova di lotta o di Artista della fuga per rimuovere la sanguisuga.",
+   "Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Costituzione a un avversario con cui è in lotta."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "mod_car": {
+    "For": 2,
+    "Des": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6 più Attaccarsi)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Attaccarsi",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Vista cieca 9 m.",
+    "Risucchio di sangue: alla fine del proprio turno, infligge 1 danno a Forza e 1 danno a Costituzione all’avversario con cui è in lotta."
+   ]
+  }
+ },
+ {
+  "nome": "Scarabeo gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d8 più una volta e mezzo il bonus di Forza)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d8",
+     "nota": null,
+     "extra": "una volta e mezzo il bonus di Forza",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 14,
+   "Des": 12,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (2d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "2d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Travolgere: come azione di round completo, può effettuare una manovra di Oltrepassare senza effettuare alcuna prova, spostandosi soltanto sopra i nemici sul cammino. Le vittime subiscono il danno del Morso + una volta e mezzo il bonus di Forza. Le vittime possono effettuare un attacco di opportunità con -4 o effettuare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Forza per dimezzare i danni del travolgimento. Una creatura può infliggere a ciascun bersaglio danni da travolgimento solo una volta per round."
+   ]
+  }
+ },
+ {
+  "nome": "Scolopendra gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), paludi (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d4 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 9,
+   "Des": 13,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Stabilità assoluta: non può essere sbilanciato.",
+   "Veleno: frequenza 1 round (massimo 4); 1 danno a Destrezza; cura 1 TS, CD basata su Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Morso (1d6 più Veleno), Antenne (1d2 non letali senza bonus di Forza più Sbilanciare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Antenne",
+      "dado": "1d2",
+      "nota": "non letali senza bonus di Forza più Sbilanciare",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Destrezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+   ]
+  }
+ },
+ {
+  "nome": "Scorpione gigante",
+  "categoria": "parassita",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), foreste (calde o temperate), paludi (calde o temperate), pianure (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 12.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "2 Artigli (1d4 più Afferrare), Pungiglione (1d4 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Pungiglione",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m, Percezione tellurica 9 m",
+  "car": {
+   "For": 11,
+   "Des": 12,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 10,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Veleno: frequenza 1 round (massimo 6); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Artigli (1d6 + Afferrare), Pungiglione (1d6 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d6",
+      "nota": "+ Afferrare",
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Pungiglione",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Afferra e pungi: se colpisce una vittima con due o più Artigli in 1 round, colpisce automaticamente la vittima con il pungiglione."
+   ]
+  }
+ },
+ {
+  "nome": "Solifugo gigante",
+  "categoria": "parassita",
+  "tipi": [
+   "aracnide"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (caldi o temperati), foreste (calde o temperate), pianure (calde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 12.0,
+   "scalare": 9.0
+  },
+  "ca_nat": 1,
+  "attacchi_testo": "Morso (1d6), 2 Artigli (1d3 più Squartare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 2,
+     "nome": "Artigli",
+     "dado": "1d3",
+     "nota": null,
+     "extra": "Squartare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 2
+  },
+  "speciali": [
+   "Molti arti: +8 DMC contro Sbilanciare.",
+   "Veleno: frequenza 1 round (massimo 4); 1 danno a Forza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d8), 2 Artigli (1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 2,
+      "nome": "Artigli",
+      "dado": "1d4",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Squartare: se colpisce una vittima con due o più Artigli in 1 round, gli infligge nuovamente il danno di Artigli più una volta e mezzo il bonus di Forza."
+   ]
+  }
+ },
+ {
+  "nome": "Cespuglio bombardiere",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "pianure (calde o temperate), foreste (calde o temperate), montagne (calde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "2 Schianti (1d6+1d2 da fuoco più Afferrare e Ustionare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Schianti",
+     "dado": "1d6+1d2",
+     "nota": "da fuoco più Afferrare e Ustionare",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 14,
+   "Des": 17,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 6
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando un comune cespuglio del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Bacche esplosive: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da fuoco ogni 2 Dadi Vita (massimo 5d6).",
+   "Ustionare: una creatura in lotta con un cespuglio di fuoco subisce 1d6 danni da fuoco all’inizio del proprio turno."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 6,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Schianti (1d8+1d3 da fuoco più Afferrare e Ustionare)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Schianti",
+      "dado": "1d8+1d3",
+      "nota": "da fuoco più Afferrare e Ustionare",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Fiore carnivoro",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 14,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 10
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Ira: 1/giorno per 6 round (vedi privilegi di classe del barbaro)."
+   ]
+  }
+ },
+ {
+  "nome": "Miceloide assalitore",
+  "categoria": "vegetale",
+  "tipi": [
+   "fungo"
+  ],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Pungiglione (1d6 +1d6 danni da Attacco furtivo)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Pungiglione",
+     "dado": "1d6+1d6",
+     "nota": "danni da Attacco furtivo",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 6
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Pungiglione (1d6 +2d6 danni da Attacco furtivo)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Pungiglione",
+      "dado": "1d6+2d6",
+      "nota": "danni da Attacco furtivo",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Ottiene Abilità focalizzata (furtività) come talento bonus."
+   ]
+  }
+ },
+ {
+  "nome": "Miceloide lanciaspore",
+  "categoria": "vegetale",
+  "tipi": [
+   "fungo"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Schianto (1d4)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 4
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Spore acide: come azione standard, può effettuare un attacco di contatto a distanza entro 9 m che infligge 1d6 danni da acido ogni 2 Dadi Vita (massimo 5d6)."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Schianto (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Scurovisione."
+   ]
+  }
+ },
+ {
+  "nome": "Miceloide tossico",
+  "categoria": "vegetale",
+  "tipi": [
+   "fungo"
+  ],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Schianto (1d4 più Veleno)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Veleno",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 13,
+   "Des": 14,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 9
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Sbuffo difensivo: una volta al minuto, come azione immediata quando viene colpito, il fungo strisciante può esporre l’attaccante al suo veleno.",
+   "Veleno: frequenza 1 round (massimo 6); 1d2 danni a Saggezza; cura 1 TS, CD 10 + metà DV + bonus di Costituzione."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Schianto (1d6 più Veleno)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Veleno",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Miceloide guerriero",
+  "categoria": "vegetale",
+  "tipi": [
+   "fungo"
+  ],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "ambienti sotterranei (freddi o temperati), foreste (fredde o temperate), montagne (fredde o temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "Schianto (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Scurovisione 36 m",
+  "car": {
+   "For": 10,
+   "Des": 15,
+   "Cos": 12,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 2
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 4,
+    "Des": -2,
+    "Cos": 2
+   },
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Pianta assassina",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "2 Schianti (1d4 più Sanguinamento 1d3)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Schianti",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Sanguinamento 1d3",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Percezione tellurica 9 m",
+  "car": {
+   "For": 10,
+   "Des": 16,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 11,
+   "Car": 15
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Cambiare fogliame: Tre volte al giorno, come azione immediata che non provoca attacchi di opportunità, può apparire come un diverso tipo di pianta della stessa propria taglia (come una vite di zucca, una pianta di fragole o di pomodori). Non può assumere la forma di un'altra creatura vegetale e può imitare solo l'aspetto delle piante che normalmente sono considerate parte del terreno circostante. Questo effetto è solo un'illusione visiva e non altera l'odore percepito o le proprietà tattili della pianta. Mentre utilizza questa capacità, la pianta ottiene bonus razziale +10 Furtività. Per identificare la vera natura della pianta è necessaria una prova di Conoscenze (natura) o Sopravvivenza con CD 20. Una creatura che interagisce con una pianta assassina mentre sta utilizzando questa capacità può dubitare dell'illusione superando un tiro salvezza sulla Volontà con CD 10 + metà DV + bonus di carisma. Ritornare alla sua vera forma richiede un'azione immediata. Questo è un effetto di [illusione: mascheramento]."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 1,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "3 Schianti (1d4 più Sanguinamento 1d4)",
+   "attacchi": [
+    [
+     {
+      "n": 3,
+      "nome": "Schianti",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Sanguinamento 1d4",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Fioritura accecante: una volta al giorno, come azione standard che non provoca attacchi di opportunità, una pianta assassina può rilasciare una nuvola stazionaria con gli effetti dell’incantesimo Foschia occultante ma della durata di 1 round, dopodiché si dissipa. Tutte le altre creature all’interno della nube devono superare un Tiro Salvezza su Tempra con CD 10 + metà DV + bonus di Carisma o essere accecate per 1 round."
+   ]
+  }
+ },
+ {
+  "nome": "Pianta carnivora",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0,
+   "scalare": 3.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "2 Viticci (1d4 contundenti più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Viticci",
+     "dado": "1d4",
+     "nota": "contundenti più Afferrare",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare, Fiuto",
+  "car": {
+   "For": 12,
+   "Des": 11,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 3
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Inghiottire: Se comincia il proprio turno con un avversario in lotta all'interno della sua bocca, può effettuare una manovra in combattimento come se cercasse di bloccare un avversario. Se la manovra ha successo, ingoia la preda, che subisce 1d6 danni da acido. L'avversario deve essere di almeno una categoria di taglia inferiore a quella della creatura. Essere inghiottiti fa subire il danno del Morso ad ogni proprio round. Una creatura inghiottita mantiene la condizione in lotta, ma non la creatura che l'ha inghiottita. Una creatura inghiottita può tentare di liberarsi con un'arma leggera tagliente o perforante (l'ammontare del danno da infliggere è pari a 1/10 dei punti ferita totali della creatura, o tentare di sfuggire alla lotta. La Classe Armatura dell'interno di una creatura capace di inghiottire è normalmente 10 + metà della sua armatura naturale senza bonus di Destrezza e taglia. Se una creatura inghiottita si apre una via di fuga, la creatura che l'ha inghiottita non può utilizzare di nuovo la capacitò inghiottire fino a quando il danno non è stato guarito. Se la creatura inghiottita sfugge alla lotta, il successo la riporta nella bocca della creatura, dove può essere morsa o inghiottita di nuovo."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 6,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "2 Viticci (1d6 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Viticci",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": [
+    "Inghiottire (1d8 danni da acido)."
+   ]
+  }
+ },
+ {
+  "nome": "Pianta rampicante",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0,
+   "scalare": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Schianto (1d4 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 13,
+   "Des": 17,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 2
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "Schianto (1d6 più Afferrare e Stritolare)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Afferrare e Stritolare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Stritolare: quando afferra con successo un nemico, infligge automaticamente danni contundenti pari all’attacco in mischia usato per Afferrare."
+   ]
+  }
+ },
+ {
+  "nome": "Pianta spinosa cecchino",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Schianto (1d3 danni contundenti e perforanti) o Salva di spine (attacco a distanza entro 12 m che infligge 1d6 danni perforanti)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d3",
+     "nota": "danni contundenti e perforanti",
+     "extra": null,
+     "secondario": false
+    }
+   ],
+   [
+    {
+     "n": 1,
+     "nome": "Salva di spine",
+     "dado": null,
+     "nota": "attacco a distanza entro 12 m che infligge 1d6 danni perforanti",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 10,
+   "Des": 14,
+   "Cos": 13,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 3,
+   "mod_car": {
+    "Des": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Schianto (1d4 danni contundenti e perforanti) o Salva di spine (attacco a distanza entro 12 m che infligge 1d8 danni perforanti)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d4",
+      "nota": "danni contundenti e perforanti",
+      "extra": null,
+      "secondario": false
+     }
+    ],
+    [
+     {
+      "n": 1,
+      "nome": "Salva di spine",
+      "dado": null,
+      "nota": "attacco a distanza entro 12 m che infligge 1d8 danni perforanti",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Pianta spinosa cacciatrice",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "media",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 4,
+  "attacchi_testo": "2 Schianti (1d4 danni contundenti e perforanti)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Schianti",
+     "dado": "1d4",
+     "nota": "danni contundenti e perforanti",
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 14,
+   "Des": 13,
+   "Cos": 17,
+   "Int": 3,
+   "Sag": 13,
+   "Car": 6
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Spine: una creatura che entra in lotta o attacca il cactus cacciatore con un'arma naturale subisce 1d4 danni perforanti."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "2 Schianti (1d8 contundenti e perforanti)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Schianti",
+      "dado": "1d8",
+      "nota": "contundenti e perforanti",
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Uomoalbero",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "non comune",
+  "esclusivo": null,
+  "habitat": "foreste (calde, fredde o temperate)",
+  "taglia": "media",
+  "velocita": {
+   "terra": 9.0
+  },
+  "ca_nat": 2,
+  "attacchi_testo": "2 Schianti (1d6)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Schianti",
+     "dado": "1d6",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 15,
+   "Des": 10,
+   "Cos": 15,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 7
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "grande",
+   "ca_nat": 3,
+   "mod_car": {
+    "For": 8,
+    "Des": -2,
+    "Cos": 4
+   },
+   "attacchi_testo": "2 Schianti (1d8)",
+   "attacchi": [
+    [
+     {
+      "n": 2,
+      "nome": "Schianti",
+      "dado": "1d8",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Venere acchiappamosche",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "comune",
+  "esclusivo": null,
+  "habitat": "qualsiasi",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 6.0
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "2 Morsi (1d3 più Afferrare)",
+  "attacchi": [
+   [
+    {
+     "n": 2,
+     "nome": "Morsi",
+     "dado": "1d3",
+     "nota": null,
+     "extra": "Afferrare",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 12,
+   "Des": 15,
+   "Cos": 14,
+   "Int": 3,
+   "Sag": 12,
+   "Car": 5
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune pianta del proprio tipo).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "Des": 2,
+    "Cos": 2
+   },
+   "attacchi_testo": "3 Morsi (1d4 più Afferrare)",
+   "attacchi": [
+    [
+     {
+      "n": 3,
+      "nome": "Morsi",
+      "dado": "1d4",
+      "nota": null,
+      "extra": "Afferrare",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 7,
+   "speciali": []
+  }
+ },
+ {
+  "nome": "Zucca di fuoco",
+  "categoria": "vegetale",
+  "tipi": [],
+  "rarita": "raro",
+  "esclusivo": null,
+  "habitat": "pianure (temperate)",
+  "taglia": "piccola",
+  "velocita": {
+   "terra": 4.5
+  },
+  "ca_nat": 3,
+  "attacchi_testo": "Morso (1d4), Schianto (1d4 più Viticci strangolanti)",
+  "attacchi": [
+   [
+    {
+     "n": 1,
+     "nome": "Morso",
+     "dado": "1d4",
+     "nota": null,
+     "extra": null,
+     "secondario": false
+    },
+    {
+     "n": 1,
+     "nome": "Schianto",
+     "dado": "1d4",
+     "nota": null,
+     "extra": "Viticci strangolanti",
+     "secondario": false
+    }
+   ]
+  ],
+  "altro": [],
+  "sensi": "Visione crepuscolare",
+  "car": {
+   "For": 13,
+   "Des": 9,
+   "Cos": 10,
+   "Int": 3,
+   "Sag": 14,
+   "Car": 7
+  },
+  "speciali": [
+   "Non necessita di dormire ma deve trascorrere 8 ore di inattività per recuperare le forze.",
+   "Ottiene immunità agli tutti gli effetti di [influenza mentale: charme, compulsione, finzione, trame e morale], [paralisi], [sonno], [metamorfosi], [stordimento] e [veleno].",
+   "Immobilità: può prendere 10 alle prove di Furtività (nascondersi in piena vista sembrando una comune zucca).",
+   "Radici: +8 DMC contro Sbilanciare e Oltrepassare.",
+   "Viticci strangolanti: se l’attacco infligge danni, la vittima deve superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione o essere impossibilitata a muoversi fuori portata della zucca di fuoco; inoltre, è intralciata e incapace di parlare o lanciare incantesimi con componenti vocali. Come azione di round completo, una  vittima intralciata può tentare di spezzare i viticci superando una prova di Forza con CD 12. Quando intralcia una vittima in questo modo, la zucca di fuoco perde il suo attacco di Schianto, ma può porre termine a questa capacità come azione gratuita. Non si può intralciare in questo modo più di una creatura alla volta. Le creature di due taglie superiori a quella della zucca di fuoco sono immuni a questa capacità."
+  ],
+  "avanzamento": {
+   "taglia": "media",
+   "ca_nat": 2,
+   "mod_car": {
+    "For": 2,
+    "Des": -2,
+    "Cos": 2
+   },
+   "attacchi_testo": "Morso (1d6), Schianto (1d6 più Viticci strangolanti)",
+   "attacchi": [
+    [
+     {
+      "n": 1,
+      "nome": "Morso",
+      "dado": "1d6",
+      "nota": null,
+      "extra": null,
+      "secondario": false
+     },
+     {
+      "n": 1,
+      "nome": "Schianto",
+      "dado": "1d6",
+      "nota": null,
+      "extra": "Viticci strangolanti",
+      "secondario": false
+     }
+    ]
+   ],
+   "livello": 4,
+   "speciali": [
+    "Soffio di fuoco: ogni 1d3+1 turni, come azione standard può emettere un cono di 4,5 m che infligge 1d8 danni da fuoco + 1d8 ogni 3 livelli oltre il primo (massimo 4d8). Le creature colpite possono superare un Tiro Salvezza su Riflessi con CD 10 + metà DV + bonus di Costituzione per dimezzare il danno."
+   ]
+  }
+ }
+]
