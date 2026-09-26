@@ -12,7 +12,8 @@ Repo: `biti87-arch/compagni` · Piattaforme: HTML → Android (APK) → Windows 
 | Cumulo delle fonti + Ottimo Compagno (L–M) | ✅ confermate 26/09/2026 |
 | Estrazione Bestiario in JSON (dal PDF) | ✅ prima versione: 122 schede |
 | Bestiario in .docx corretto (Collana) | ✅ v2.5 generato da `bestiario.json` (36 pagine), in revisione |
-| Correzioni Vol. 2 ("ma non conta") e Vol. 1 (tabella taglie) | ⬜ |
+| Correzioni Vol. 2 ("ma non conta") | ✅ 14 frasi + rimando al Bestiario, anche nei 9 manuali singoli (`sorgenti/correzioni_vol2/sostituisci.py`) |
+| Correzione Vol. 1 (segni della tabella taglie) | ⬜ |
 | Fonti di classe in `fonti.json` | ⬜ |
 | Motore di calcolo del compagno | ⬜ |
 | Interfaccia HTML (mobile-first) | ⬜ |
