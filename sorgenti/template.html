@@ -161,9 +161,9 @@ const TS=Object.fromEntries(TALENTI.selvatici.map(t=>[t.id,t]));
 const TAB=[[2,1,3,3,0,2,1,0,0],[3,2,3,3,1,3,2,0,0],[3,2,3,3,1,3,2,1,1],[4,3,4,4,1,4,2,1,1],[5,3,4,4,1,5,3,1,1],[6,4,5,5,2,6,3,2,2],[6,4,5,5,2,6,3,2,2],[7,5,5,5,2,7,4,2,2],[8,6,6,6,2,8,4,3,3],[9,6,6,6,3,9,5,3,3],[9,6,6,6,3,9,5,3,3],[10,7,7,7,3,10,5,4,4],[11,8,7,7,3,11,6,4,4],[12,9,8,8,4,12,6,4,4],[12,9,8,8,4,12,6,5,5],[13,9,8,8,4,13,7,5,5],[14,10,9,9,4,14,7,5,5],[15,11,9,9,5,15,8,6,6],[15,11,9,9,5,15,8,6,6],[16,12,10,10,5,16,8,6,6]]
  .map(r=>({dv:r[0],bab:r[1],t:r[2],r:r[3],v:r[4],ab:r[5],tal:r[6],an:r[7],fd:r[8]}));
 const PRIV=[[1,'Legame'],[1,'Cavalcatura'],[1,'Condividere incantesimi'],[2,'Bardatura'],[3,'Eludere'],[6,'Devozione'],[9,'Multiattacco'],[15,'Eludere migliorato']];
-/* Modificatori di taglia (Vol. 1, segni di Volare e BMC corretti) */
+/* Modificatori di taglia (Vol. 1 2.5, versione con immagini): tiri e CA, Furtività, Volare, BMC/DMC */
 const TAGLIE=['piccolissima','minuta','minuscola','piccola','media','grande','enorme','mastodontica','colossale'];
-const TMOD={piccolissima:[8,8,8,-8],minuta:[4,6,4,-4],minuscola:[2,4,3,-2],piccola:[1,2,2,-1],media:[0,0,0,0],grande:[-1,-2,-2,1],enorme:[-2,-4,-3,2],mastodontica:[-4,-6,-4,4],colossale:[-8,-8,-8,8]};
+const TMOD={piccolissima:[8,8,8,-8],minuta:[4,6,6,-4],minuscola:[2,4,4,-3],piccola:[1,2,2,-2],media:[0,0,0,0],grande:[-1,-2,-2,2],enorme:[-2,-4,-4,3],mastodontica:[-4,-6,-6,4],colossale:[-8,-8,-8,8]};
 const tagliaPiu=(t,n)=>TAGLIE[Math.max(0,Math.min(8,TAGLIE.indexOf(t)+n))];
 const DADI=['1d2','1d3','1d4','1d6','1d8','2d6','3d6','4d6','6d6','8d6','12d6'];
 const DADI_EXTRA={'1d10':'2d8','1d12':'3d6','2d4':'2d6','2d8':'3d8','3d8':'4d8','2d10':'4d8'};

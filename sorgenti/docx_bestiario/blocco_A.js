@@ -28,16 +28,16 @@ const TABELLA = [
 ];
 const segno = n => (n >= 0 ? '+' : '') + n;
 
-// Modificatori di taglia: Vol. 1 con i segni di Volare e BMC/DMC corretti
+// Modificatori di taglia: Vol. 1 2.5 (versione con immagini)
 const TAGLIE = [
   ['Piccolissima', '+8', '+8', '+8', '-8', '0 / 0', '—'],
-  ['Minuta', '+4', '+6', '+4', '-4', '0 / 0', '—'],
-  ['Minuscola', '+2', '+4', '+3', '-2', '0 / 0', '—'],
-  ['Piccola', '+1', '+2', '+2', '-1', '1 cs / 1,5 m', '—'],
+  ['Minuta', '+4', '+6', '+6', '-4', '0 / 0', '—'],
+  ['Minuscola', '+2', '+4', '+4', '-3', '0 / 0', '—'],
+  ['Piccola', '+1', '+2', '+2', '-2', '1 cs / 1,5 m', '—'],
   ['Media', '+0', '+0', '+0', '+0', '1 cs / 1,5 m', '—'],
-  ['Grande', '-1', '-2', '-2', '+1', '2×2 cs / 3 m', '2×1 cs / 1,5 m'],
-  ['Enorme', '-2', '-4', '-3', '+2', '3×3 cs / 4,5 m', '3×3 cs / 3 m'],
-  ['Mastodontica', '-4', '-6', '-4', '+4', '4×4 cs / 6 m', '4×4 cs / 4,5 m'],
+  ['Grande', '-1', '-2', '-2', '+2', '2×2 cs / 3 m', '2×1 cs / 1,5 m'],
+  ['Enorme', '-2', '-4', '-4', '+3', '3×3 cs / 4,5 m', '3×3 cs / 3 m'],
+  ['Mastodontica', '-4', '-6', '-6', '+4', '4×4 cs / 6 m', '4×4 cs / 4,5 m'],
   ['Colossale', '-8', '-8', '-8', '+8', '6×6 cs / 9 m', '6×6 cs / 6 m'],
 ];
 

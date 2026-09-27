@@ -63,7 +63,7 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 
 | # | Tema | Esito |
 |---|---|---|
-| 1 | Tabella taglie del Vol. 1: segni invertiti in Volare e BCM/DMC | ✅ L'app usa il Vol. 1 corretto (Grande: Volare −2, BCM/DMC +1); si correggono Vol. 1 e Bestiario |
+| 1 | Tabella taglie | ✅ **Rettifica 27/09**: il Vol. 1 con immagini è corretto (Grande: Volare −2, BMC/DMC +2; Enorme −4/+3; Mastodontica −6/+4). L'errore è solo nella copia "senza immagini" su Drive. App e Bestiario usano i valori della versione con immagini |
 | 2 | Punti Fatica: punto dispari | ✅ Va ai Punti Ferita (Vol. 1). Da correggere anche la decisione F dell'app Convocatore |
 | 3 | Cumulo dei livelli | ✅ Si cumulano **tutte** le fonti di compagno o cavalcatura. Nel Vol. 2 "funziona (ma non conta) come" diventa "funziona come" |
 | 4 | Bardatura | ✅ Il privilegio dà il talento Addestramento nelle bardature leggere |
