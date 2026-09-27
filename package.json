@@ -1,0 +1,13 @@
+{
+  "name": "compagni",
+  "version": "1.0.0",
+  "description": "Compagni naturali e cavalcature della Collana",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^6.2.2",
+    "@capacitor/core": "^6.2.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.2"
+  }
+}

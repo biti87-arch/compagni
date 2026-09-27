@@ -1,0 +1,21 @@
+{
+  "name": "compagni",
+  "productName": "Compagni e Cavalcature",
+  "version": "1.0.0",
+  "description": "Compagni naturali e cavalcature (Collana)",
+  "author": "Collana",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "it.collana.compagni",
+    "productName": "Compagni e Cavalcature",
+    "files": ["main.js", "icon.png", "www/**/*"],
+    "win": { "target": ["portable", "nsis"], "icon": "icon.png" },
+    "portable": { "artifactName": "Compagni-${version}-portatile.exe" },
+    "nsis": { "artifactName": "Compagni-${version}-installazione.exe", "oneClick": false, "allowToChangeInstallationDirectory": true },
+    "publish": null
+  }
+}

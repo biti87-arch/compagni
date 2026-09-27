@@ -1,0 +1,6 @@
+{
+  "appId": "it.collana.compagni",
+  "appName": "Compagni e Cavalcature",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}

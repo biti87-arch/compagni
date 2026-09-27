@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Compagni e Cavalcature</string>
+    <string name="title_activity_main">Compagni e Cavalcature</string>
+    <string name="package_name">it.collana.compagni</string>
+    <string name="custom_url_scheme">it.collana.compagni</string>
+</resources>

@@ -17,7 +17,7 @@ Repo: `biti87-arch/compagni` · Piattaforme: HTML → Android (APK) → Windows 
 | Fonti di classe in `fonti.json` | ✅ 29 fonti (classi e archetipi) con restrizioni, scarti, resistenze e note |
 | Motore di calcolo del compagno | ✅ verificato su tutte le fonti × livelli × creature ammesse (nessun errore) |
 | Interfaccia HTML (mobile-first) | ✅ v1 da provare (Padrone, Bestiario, Compagno, In gioco) |
-| Build Android + Windows | ⬜ |
+| Build Android + Windows | ✅ configurati (Capacitor, Electron, workflow GitHub); prima release al push del 27/09/2026 |
 
 ## FONTI DATI
 
