@@ -85,6 +85,7 @@ h3{font-size:.95rem;margin:0}
 .kv div{background:var(--bg);border-radius:8px;padding:8px 10px}
 .kv b{display:block;font:500 1.1rem var(--f-mono);font-variant-numeric:tabular-nums}
 .kv small{display:block;color:var(--muted);font-size:.72rem}
+.kv.k3{grid-template-columns:repeat(3,1fr)}
 .txt{font-size:.9rem}
 .txt p{margin:4px 0}
 .atk{display:grid;gap:4px;font-size:.9rem}
@@ -173,7 +174,17 @@ const TMOD={piccolissima:[8,8,8,-8],minuta:[4,6,4,-4],minuscola:[2,4,3,-2],picco
 const tagliaPiu=(t,n)=>TAGLIE[Math.max(0,Math.min(8,TAGLIE.indexOf(t)+n))];
 const DADI=['1d2','1d3','1d4','1d6','1d8','2d6','3d6','4d6','6d6','8d6','12d6'];
 const DADI_EXTRA={'1d10':'2d8','1d12':'3d6','2d4':'2d6','2d8':'3d8','3d8':'4d8','2d10':'4d8'};
-function stepDado(d,n){for(let k=0;k<n;k++){const i=DADI.indexOf(d);if(i>=0&&i<DADI.length-1)d=DADI[i+1];else if(DADI_EXTRA[d])d=DADI_EXTRA[d];}return d;}
+const DADI_GIU={'1d3':'1d2','1d4':'1d3','1d6':'1d4','1d8':'1d6','1d10':'1d8','1d12':'1d10','2d4':'1d6','2d6':'1d8','2d8':'1d10','2d10':'2d8','3d6':'2d6','3d8':'2d8','4d6':'3d6','4d8':'3d8','6d6':'4d6','8d6':'6d6','12d6':'8d6'};
+function stepDado(d,n){
+  for(let k=0;k<n;k++){const i=DADI.indexOf(d);if(i>=0&&i<DADI.length-1)d=DADI[i+1];else if(DADI_EXTRA[d])d=DADI_EXTRA[d];}
+  for(let k=0;k>n;k--){if(DADI_GIU[d])d=DADI_GIU[d];}
+  return d;}
+const SPAZIO={piccolissima:'0 cs / 0',minuta:'0 cs / 0',minuscola:'0 cs / 0',piccola:'1 cs / 1,5 m',media:'1 cs / 1,5 m',grande:'2×2 cs / 3 m (alta) · 1,5 m (lunga)',enorme:'3×3 cs / 4,5 m (alta) · 3 m (lunga)',mastodontica:'4×4 cs / 6 m (alta) · 4,5 m (lunga)',colossale:'6×6 cs / 9 m (alta) · 6 m (lunga)'};
+/* Campi dei modificatori: chiave, etichetta */
+const MODCAMPI=[['ca','CA (tutte)'],['caNat','CA non a contatto'],['tpc','Tiri per colpire'],['danni','Danni'],['T','Tempra'],['R','Riflessi'],['V','Volontà'],['bmc','BMC'],['dmc','DMC'],['vel','Velocità (m)'],['iniz','Iniziativa'],['taglia','Taglia (passi)']];
+function effAttivi(){return (S.effetti||[]).filter(e=>e.attivo);}
+function effSomma(k){return effAttivi().reduce((a,e)=>a+(+e[k]||0),0);}
+function effCar(k){return effAttivi().reduce((a,e)=>a+(+(e.car||{})[k]||0)+(+(e.carT||{})[k]||0),0);}
 const BARD={
   '':{nome:'Nessuna',ca:0,des:99,pen:0,med:false},
   imbottita:{nome:'Gualdrappa imbottita',ca:2,des:4,pen:0,med:false},
@@ -199,8 +210,8 @@ const RIT={'comune':[75,95,25],'non comune':[50,75,50],'raro':[15,25,100]};
 const DEFAULT={esempio:true,nome:'Esempio — Mirel, druida',taglia:'media',fonti:[{id:'druido',liv:6,simbiosi:false}],livPg:'',ottimo:false,
   creatura:'cane_di_grossa_taglia',sceltaAv:'creatura',aumenti:['For','For','For'],richiamo:'',trovatoAmbiente:false,
   talenti:[{id:'intercettare_pericolo'},{id:'schivare'},{id:'attacco_naturale_migliorato',att:'Morso'}],liberi:'',gradi:{'Percezione':3,'Furtività':2,'Sopravvivenza':1},
-  bard:'imbottita',potBard:0,pfManuali:'',danni:{fatica:0,ferita:0},riservaUsata:0,ultimo:'',tab:'compagno',filtri:{q:'',cat:'',rar:'',tipo:'',solo:true},insed:4};
-function nuovoPg(n){return JSON.parse(JSON.stringify(Object.assign({},DEFAULT,{esempio:false,nome:n||'Nuovo personaggio',fonti:[{id:'druido',liv:1,simbiosi:false}],creatura:'',talenti:[],gradi:{},bard:'',tab:'padrone'})));}
+  bard:'imbottita',potBard:0,effetti:[{id:'e1',nome:'Amuleto dell\'armatura naturale +1',perm:true,attivo:true,caNat:1},{id:'e2',nome:'Esempio: aumento di taglia',perm:false,attivo:false,taglia:1,carT:{For:2,Des:-2}}],pfManuali:'',danni:{fatica:0,ferita:0},riservaUsata:0,ultimo:'',tab:'compagno',filtri:{q:'',cat:'',rar:'',tipo:'',solo:true},insed:4};
+function nuovoPg(n){return JSON.parse(JSON.stringify(Object.assign({},DEFAULT,{esempio:false,nome:n||'Nuovo personaggio',fonti:[{id:'druido',liv:1,simbiosi:false}],creatura:'',talenti:[],gradi:{},bard:'',effetti:[],tab:'padrone'})));}
 let G=loadG(), S=G.dati[G.attivo];
 function loadG(){
   try{const r=localStorage.getItem('compagni-cavalcature-v1');if(r){const g=JSON.parse(r);if(g&&g.dati&&g.dati[g.attivo])return g;}}catch(e){}
@@ -310,6 +321,9 @@ function calcola(){
   if(S.richiamo&&car[S.richiamo]!=null)car[S.richiamo]+=2;
   let stepTit=0;const nm=nuovoMondo();
   if(nm&&nm.L>=9){taglia=tagliaPiu(taglia,1);stepTit=1;const n=[9,13,17].filter(x=>nm.L>=x).length;car.For+=2*n;car.Cos+=2*n;}
+  const tagliaNat=taglia, passiEff=effSomma('taglia');
+  if(passiEff){const i0=TAGLIE.indexOf(taglia);taglia=tagliaPiu(taglia,passiEff);stepTit+=TAGLIE.indexOf(taglia)-i0;}
+  for(const k of CAR)if(car[k]!=null)car[k]+=effCar(k);
   const M=Object.fromEntries(CAR.map(k=>[k,car[k]==null?0:mod(car[k])]));
   const tm=TMOD[taglia]||TMOD.media;
   const tmCMB=haTalento('massiccio')?(TMOD[tagliaPiu(taglia,1)]||tm)[3]:tm[3];
@@ -332,13 +346,14 @@ function calcola(){
   const schiv=haTalento('schivare')?1:0;
   const nat=can+row.an;
   const potB=bdEff.ca?(+S.potBard||0):0;
-  const CA=10+desCA+tm[0]+nat+bdEff.ca+potB+schiv;
-  const contatto=10+desCA+tm[0]+schiv, impreparato=CA-Math.max(0,desCA)-schiv;
+  const eCA=effSomma('ca'), eNat=effSomma('caNat');
+  const CA=10+desCA+tm[0]+nat+bdEff.ca+potB+schiv+eCA+eNat;
+  const contatto=10+desCA+tm[0]+schiv+eCA, impreparato=CA-Math.max(0,desCA)-schiv;
   // TS
   let bonusTS=0;for(const s of le.attive)bonusTS+=s.X.bonusTS||0;
   if(S.trovatoAmbiente&&le.attive.some(s=>s.X.addestratore))bonusTS+=1;
   const prim=nm&&nm.L>=14?3:0;
-  const ts={T:row.t+M.Cos+bonusTS+prim+(haTalento('tempra')?2:0),R:row.r+M.Des+bonusTS+prim+(haTalento('riflessi')?2:0),V:row.v+M.Sag+bonusTS+(haTalento('volonta')?2:0)};
+  const ts={T:row.t+M.Cos+bonusTS+prim+(haTalento('tempra')?2:0)+effSomma('T'),R:row.r+M.Des+bonusTS+prim+(haTalento('riflessi')?2:0)+effSomma('R'),V:row.v+M.Sag+bonusTS+(haTalento('volonta')?2:0)+effSomma('V')};
   const devo=E>=6?(nm&&nm.L>=14?6:4):0;
   // attacchi
   const accurata=haTalento('arma_accurata');
@@ -358,19 +373,24 @@ function calcola(){
       let molt=sec?.5:(tot===1?1.5:1);
       if(/mezzo il bonus di Forza/.test((a.nota||'')+(a.extra||'')))molt=1.5;
       const dmgMod=M.For>0?Math.floor(M.For*molt):(sec?Math.floor(M.For/2):M.For);
-      const tpc=row.bab+(a.dado?fAtt:M.Des)+tm[0]+penSec+(focal.includes(a.nome)?1:0);
+      const tpc=row.bab+(a.dado?fAtt:M.Des)+tm[0]+penSec+(focal.includes(a.nome)?1:0)+effSomma('tpc');
       const dadoNota=!a.dado&&a.nota?(a.nota.match(/(\d+d\d+)/)||[])[1]:null;
-      const danno=dado?dado+(dmgMod?sg(dmgMod):''):(dadoNota||'—');
-      const extra=[a.extra&&a.extra.replace(/^una volta e mezzo il bonus di Forza$/,''), a.nota&&a.dado?a.nota.replace(/^\+?1? ?volta e mezzo il bonus di Forza\/?/,''):null, !a.dado?a.nota:null].filter(Boolean).join(', ');
-      righe.push({nome:(a.n>1?a.n+' ':'')+a.nome,tpc,danno,extra,sec,dist:!a.dado});
+      const dm=dmgMod+(dado?effSomma('danni'):0);
+      const danno=dado?dado+(dm?sg(dm):''):(dadoNota||'—');
+      const piu=a.extra?a.extra.replace(/^una volta e mezzo il bonus di Forza$/,''):'';
+      let nota=a.dado&&a.nota?a.nota.replace(/^\+?1? ?volta e mezzo il bonus di Forza/,'').trim():'';
+      const suff=nota?(/^\/?\d/.test(nota)?(nota.startsWith('/')?nota:'/'+nota):' '+nota):'';
+      const extra=!a.dado?[a.nota,a.extra].filter(Boolean).join(', '):'';
+      righe.push({nome:(a.n>1?a.n+' ':'')+a.nome,tpc,danno:danno+suff+(piu?' più '+piu:''),extra,sec,dist:!a.dado});
     }
     if(multi&&tot<3){const p=righe.find(r=>r.nome&&!r.sec&&!r.dist);if(p)righe.push({...p,nome:p.nome.replace(/^\d+ /,'')+' (Multiattacco)',tpc:p.tpc-5,extra:p.extra});}
     return righe;
   });
   const nAtt=att.length?att[0].reduce((a,x)=>a+((x.dado||x.nota)?(x.n||1):0),0):0;
-  const bmc=row.bab+M.For+tmCMB, dmc=10+row.bab+M.For+M.Des+tmCMB;
+  const bmc=row.bab+M.For+tmCMB+effSomma('bmc'), dmc=10+row.bab+M.For+M.Des+tmCMB+effSomma('dmc');
   // velocità
   const velE={...vel}; if(bdEff.med&&velE.terra)velE.terra=Math.max(1.5,velE.terra-3);
+  if(effSomma('vel')&&velE.terra!=null)velE.terra=Math.max(0,velE.terra+effSomma('vel'));
   // abilità
   const punti=row.ab+(M.Int>0?M.Int*dv:0);
   const speso=ABIL.reduce((a,[n])=>a+(+S.gradi[n]||0),0);
@@ -406,7 +426,7 @@ function calcola(){
   if(speso>punti)warn.push('Gradi di abilità assegnati: '+speso+' su '+punti+'.');
   const nTal=S.talenti.length, maxTal=row.tal;
   if(nTal>maxTal)warn.push('Talenti scelti: '+nTal+' su '+maxTal+'.');
-  return {E,le,b,row,taglia,can,nat,car,M,tm,pf,pfAuto,fatica,ferita,falc:!!falc,CA,contatto,impreparato,ts,devo,gruppi,nAtt,bmc,dmc,vel:velE,punti,speso,abil,priv,extra,note,spec:specCD,altri,warn,bd:bdEff,bardOk,maxTal,iniz:M.Des+(haTalento('iniziativa')?4:0),avOn,dv,bab:row.bab};
+  return {E,le,b,row,taglia,can,nat,car,M,tm,pf,pfAuto,fatica,ferita,falc:!!falc,CA,contatto,impreparato,ts,devo,gruppi,nAtt,bmc,dmc,vel:velE,punti,speso,abil,priv,extra,note,spec:specCD,altri,warn,bd:bdEff,bardOk,maxTal,iniz:M.Des+(haTalento('iniziativa')?4:0)+effSomma('iniz'),avOn,dv,bab:row.bab,tagliaNat,spazio:SPAZIO[taglia]||'',nEff:effAttivi().length};
 }
 
 /* ---------- interfaccia ---------- */
@@ -528,7 +548,7 @@ function rCompagno(){
   const b=c.b, av=b.avanzamento||{};
   let h='<section class="panel">';
   for(const w of c.warn)h+='<div class="banner warn">'+esc(w)+'</div>';
-  h+='<div class="card sheet"><div class="sheetHead"><div><h2 class="'+RCLS[b.rarita]+'">'+esc(b.nome)+'</h2><span class="note">'+(c.le.ordinanza?'Cavalcatura d\'ordinanza':'Compagno di '+c.E+'° livello')+' · '+c.dv+' DV · taglia '+c.taglia+(b.tipi.length?' · '+b.tipi.join(', '):'')+'</span></div><button class="btn sm" id="copia">Copia scheda</button></div>';
+  h+='<div class="card sheet"><div class="sheetHead"><div><h2 class="'+RCLS[b.rarita]+'">'+esc(b.nome)+'</h2><span class="note">'+(c.le.ordinanza?'Cavalcatura d\'ordinanza':'Compagno di '+c.E+'° livello')+' · '+c.dv+' DV · taglia '+c.taglia+(b.tipi.length?' · '+b.tipi.join(', '):'')+'</span></div><div class="row" style="justify-content:flex-end"><button class="btn sm'+(c.nEff?' pri':'')+'" id="modBtn">Modificatori'+(c.nEff?' ('+c.nEff+')':'')+'</button><button class="btn sm" id="copia">Copia scheda</button></div></div>';
   h+='<div class="kv">'+
     '<div><small>PF</small><b>'+c.pf+'</b><small>Fatica '+c.fatica+' · Ferita '+c.ferita+'</small></div>'+
     '<div><small>CA</small><b>'+c.CA+'</b><small>contatto '+c.contatto+' · impr. '+c.impreparato+'</small></div>'+
@@ -537,8 +557,8 @@ function rCompagno(){
     '<div><small>BAB</small><b>'+sg(c.bab)+'</b></div><div><small>BMC</small><b>'+sg(c.bmc)+'</b></div><div><small>DMC</small><b>'+c.dmc+'</b></div>'+
     '<div style="grid-column:span 2"><small>Velocità</small><b style="font-size:.95rem">'+esc(velTesto(c.vel))+'</b></div>'+
     '</div>';
-  h+='<div class="txt"><p><b>Caratteristiche:</b> '+CAR.map(k=>k+' '+(c.car[k]??'—')+(c.car[k]!=null?' ('+sg(c.M[k])+')':'')).join(', ')+'</p>'+(b.sensi?'<p><b>Sensi:</b> '+esc(b.sensi)+'</p>':'')+(c.extra.length?'<p><b>Difese:</b> '+esc(c.extra.join('; '))+'</p>':'')+(c.bd.ca?'<p><b>Bardatura:</b> '+esc(c.bd.nome)+(+S.potBard?' +'+S.potBard:'')+'</p>':'')+'</div>';
-  h+='<div><h3 style="margin-bottom:4px">Attacchi</h3><div class="atk">'+c.gruppi.map((g,i)=>(c.gruppi.length>1?'<div class="alt">'+(i?'oppure':'Attacchi')+'</div>':'')+g.map(r=>r.nome?'<div class="l"><span>'+esc(r.nome)+(r.sec?' <span class="tag">secondario</span>':'')+(r.extra?'<br><span class="note">'+rich(r.extra)+'</span>':'')+'</span><span>'+sg(r.tpc)+' ('+esc(r.danno)+')</span></div>':'<div class="l"><span>'+esc(r.testo)+'</span><span></span></div>').join('')).join('')+'</div></div>';
+  h+='<div class="txt"><p><b>Caratteristiche:</b> '+CAR.map(k=>k+' '+(c.car[k]??'—')+(c.car[k]!=null?' ('+sg(c.M[k])+')':'')).join(', ')+'</p>'+(b.sensi?'<p><b>Sensi:</b> '+esc(b.sensi)+'</p>':'')+(c.extra.length?'<p><b>Difese:</b> '+esc(c.extra.join('; '))+'</p>':'')+(c.bd.ca?'<p><b>Bardatura:</b> '+esc(c.bd.nome)+(+S.potBard?' +'+S.potBard:'')+'</p>':'')+'<p><b>Spazio / portata:</b> '+esc(c.spazio)+(c.taglia!==c.tagliaNat?' <span class="note">(taglia '+c.tagliaNat+' → '+c.taglia+' per gli effetti attivi)</span>':'')+'</p></div>';
+  h+='<div><h3 style="margin-bottom:4px">Attacchi</h3>'+attHtml(c)+'</div>';
   if(c.spec.length||c.altri.length)h+='<div><h3 style="margin-bottom:4px">Capacità speciali</h3>'+c.altri.map(a=>'<p class="spec">'+esc(a)+'</p>').join('')+c.spec.map(specHtml).join('')+'</div>';
   h+='<div class="txt"><p><b>Privilegi:</b> '+esc(c.priv.join(', '))+'.</p>'+(c.devo?'<p><b>Devozione:</b> +'+c.devo+' ai TS contro incantesimi ed effetti di [AMMALIAMENTO: CHARME E COMPULSIONE].</p>':'')+'</div>';
   if(c.note.length)h+='<details><summary>Capacità delle fonti ('+c.note.length+')</summary><div class="txt">'+c.note.map(n=>'<p>'+rich(n.testo)+' <span class="note">— '+esc(n.fonte)+'</span></p>').join('')+'</div></details>';
@@ -574,6 +594,7 @@ function rCompagno(){
   bind('f-lib','change',e=>{S.liberi=e.target.value;save();});
   bind('addT','click',()=>sceltaTalento(c));
   bind('copia','click',()=>copiaScheda(c));
+  bind('modBtn','click',()=>apriModificatori());
 }
 function sceltaTalento(c){
   const nomiAtt=[...new Set(c.gruppi.flat().filter(r=>r.nome&&!r.dist).map(r=>r.nome.replace(/^\d+ /,'').replace(/ \(Multiattacco\)$/,'')))];
@@ -615,11 +636,65 @@ function copiaScheda(c){
   try{navigator.clipboard.writeText(t).then(()=>toast('Scheda copiata'),fall);}catch(e){fall();}
 }
 
+
+/* ----- attacchi ----- */
+function attHtml(c){
+  return '<div class="atk">'+c.gruppi.map((g,i)=>(c.gruppi.length>1?'<div class="alt">'+(i?'oppure':'Attacchi')+'</div>':'')+g.map(r=>r.nome?
+    '<div class="l"><span>'+esc(r.nome)+(r.sec?' <span class="tag">secondario</span>':'')+(r.extra?'<br><span class="note">'+rich(r.extra)+'</span>':'')+'</span><span>'+sg(r.tpc)+' ('+rich(r.danno)+')</span></div>'
+    :'<div class="l"><span>'+esc(r.testo)+'</span><span></span></div>').join('')).join('')+'</div>';
+}
+
+/* ----- modificatori ----- */
+function riassuntoEff(e){
+  const p=[];
+  for(const [k,l] of MODCAMPI)if(+e[k])p.push(l.replace(' (m)','').replace(' (passi)','')+' '+sg(+e[k])+(k==='vel'?' m':''));
+  for(const k of CAR){const v=(+(e.car||{})[k]||0)+(+(e.carT||{})[k]||0);if(v)p.push(k+' '+sg(v));}
+  return p.join(', ')||'nessun valore';
+}
+function apriModificatori(){
+  S.effetti=S.effetti||[];
+  const blocco=(perm)=>{
+    const l=S.effetti.map((e,i)=>({e,i})).filter(x=>!!x.e.perm===perm);
+    return '<h3 style="margin:14px 0 6px">'+(perm?'Permanenti (oggetti magici e simili)':'Temporanei (incantesimi ed effetti)')+'</h3><div class="list">'+
+      (l.length?l.map(({e,i})=>'<div class="featRow"><label class="check" style="flex:1"><input type="checkbox" data-att="'+i+'"'+(e.attivo?' checked':'')+'><span><b>'+esc(e.nome)+'</b><br><span class="note">'+esc(riassuntoEff(e))+'</span></span></label><button class="btn sm" data-ed="'+i+'">Modifica</button></div>').join(''):'<p class="note">Nessuno.</p>')+
+      '</div><button class="btn sm" data-nuovo="'+(perm?1:0)+'" style="margin-top:8px">Aggiungi '+(perm?'permanente':'temporaneo')+'</button>';
+  };
+  modal('<div class="card"><div class="sheetHead"><h2>Modificatori</h2><button class="btn sm" data-close>Chiudi</button></div><p class="note">Si sommano a tutti i valori della scheda. La taglia sposta anche i dadi di danno e i modificatori di taglia; le caratteristiche dovute al cambio di taglia si scelgono a mano.</p>'+blocco(false)+blocco(true)+
+    (S.effetti.some(e=>!e.perm&&e.attivo)?'<div class="row" style="margin-top:14px"><button class="btn" id="spegni">Disattiva tutti i temporanei</button></div>':'')+'</div>');
+  document.querySelectorAll('[data-att]').forEach(x=>x.addEventListener('change',()=>{S.effetti[+x.dataset.att].attivo=x.checked;save();render();apriModificatori();}));
+  document.querySelectorAll('[data-ed]').forEach(x=>x.addEventListener('click',()=>editaEffetto(+x.dataset.ed)));
+  document.querySelectorAll('[data-nuovo]').forEach(x=>x.addEventListener('click',()=>{S.effetti.push({id:'e'+Date.now(),nome:x.dataset.nuovo==='1'?'Nuovo oggetto':'Nuovo effetto',perm:x.dataset.nuovo==='1',attivo:true,car:{},carT:{}});save();editaEffetto(S.effetti.length-1);}));
+  bind('spegni','click',()=>{S.effetti.forEach(e=>{if(!e.perm)e.attivo=false;});save();render();apriModificatori();});
+}
+function editaEffetto(i){
+  const e=S.effetti[i];e.car=e.car||{};e.carT=e.carT||{};
+  const inp=(id,v,lab)=>'<div class="field"><label class="label" for="'+id+'">'+lab+'</label><input id="'+id+'" type="number" value="'+(+v||0)+'"></div>';
+  let h='<div class="card"><div class="sheetHead"><h2>'+(e.perm?'Modificatore permanente':'Modificatore temporaneo')+'</h2><button class="btn sm" id="edOk">Fatto</button></div>'+
+    '<div class="grid" style="margin-top:10px"><div class="field" style="grid-column:1/-1"><label class="label" for="ed-nome">Nome</label><input id="ed-nome" value="'+esc(e.nome)+'"></div>'+
+    '<label class="check" style="grid-column:1/-1"><input type="checkbox" id="ed-att"'+(e.attivo?' checked':'')+'><span>Attivo</span></label>'+
+    '<label class="check" style="grid-column:1/-1"><input type="checkbox" id="ed-perm"'+(e.perm?' checked':'')+'><span>Permanente (oggetto magico o effetto di lunga durata)</span></label></div>'+
+    '<h3 style="margin:14px 0 6px">Valori</h3><div class="grid">'+MODCAMPI.map(([k,l])=>inp('ed-'+k,e[k],l)).join('')+'</div>'+
+    '<h3 style="margin:14px 0 6px">Caratteristiche dovute al cambio di taglia</h3><div class="grid">'+['For','Des','Cos'].map(k=>inp('ed-t'+k,e.carT[k],CAR_N[k])).join('')+'</div>'+
+    '<h3 style="margin:14px 0 6px">Altre modifiche alle caratteristiche</h3><div class="grid">'+CAR.map(k=>inp('ed-c'+k,e.car[k],CAR_N[k])).join('')+'</div>'+
+    '<div class="row" style="margin-top:14px"><button class="btn pri" id="edOk2">Salva</button><button class="btn danger" id="edDel">Elimina</button></div></div>';
+  modal(h);
+  const salva=()=>{
+    e.nome=document.getElementById('ed-nome').value||'Senza nome';
+    e.attivo=document.getElementById('ed-att').checked;e.perm=document.getElementById('ed-perm').checked;
+    for(const [k] of MODCAMPI)e[k]=+document.getElementById('ed-'+k).value||0;
+    for(const k of ['For','Des','Cos'])e.carT[k]=+document.getElementById('ed-t'+k).value||0;
+    for(const k of CAR)e.car[k]=+document.getElementById('ed-c'+k).value||0;
+    save();render();apriModificatori();
+  };
+  bind('edOk','click',salva);bind('edOk2','click',salva);
+  bind('edDel','click',()=>{S.effetti.splice(i,1);save();render();apriModificatori();});
+}
+
 /* ----- In gioco ----- */
 function rGioco(){
   const c=calcola();
   if(!c){main.innerHTML='<section class="panel"><div class="card"><h2>Nessun compagno</h2><p class="txt">Scegli prima un compagno.</p></div></section>';return;}
-  const d=S.danni;d.fatica=Math.min(d.fatica,c.fatica);d.ferita=Math.min(d.ferita,c.ferita);
+  const d=S.danni;d.fatica=Math.min(d.fatica,c.fatica);
   const fat=c.fatica-d.fatica, fer=c.ferita-d.ferita, ris=Math.max(0,c.dv-(+S.riservaUsata||0));
   let h='<section class="panel"><div class="stats"><div class="stat"><span class="label">Punti Fatica</span><b>'+fat+' / '+c.fatica+'</b></div><div class="stat"><span class="label">Punti Ferita</span><b>'+fer+' / '+c.ferita+'</b></div><div class="stat"><span class="label">Rifiatare</span><b>'+ris+' d8</b></div></div>';
   h+='<div class="card"><div class="grid" style="grid-template-columns:1fr"><div><span class="label">Fatica</span><div class="bar"><i class="fat" style="width:'+(c.fatica?100*fat/c.fatica:0)+'%"></i></div></div><div><span class="label">Ferita</span><div class="bar"><i class="'+(fer<=c.ferita/2?'low':'')+'" style="width:'+(c.ferita?100*fer/c.ferita:0)+'%"></i></div></div></div>';
@@ -627,8 +702,18 @@ function rGioco(){
   h+='<div class="row" style="margin-top:10px"><button class="btn" id="g-r"'+(ris?'':' disabled')+'>Rifiatare (1d8'+(c.M.Cos?sg(c.M.Cos):'')+')</button><button class="btn" id="g-8">Riposo di 8 ore</button></div>';
   if(S.ultimo)h+='<p class="note" style="margin-top:8px">'+esc(S.ultimo)+'</p>';
   h+='<p class="note">I danni tolgono prima i Punti Fatica. Le cure magiche ridanno prima i Punti Ferita. Rifiatare ridà solo Punti Fatica. Il riposo di 8 ore ripristina Fatica e riserva e ridà '+c.dv+' Punti Ferita.</p></div>';
-  h+='<div class="card"><h2>In breve</h2><div class="kv"><div><small>CA</small><b>'+c.CA+'</b></div><div><small>Tempra</small><b>'+sg(c.ts.T)+'</b></div><div><small>Riflessi</small><b>'+sg(c.ts.R)+'</b></div><div><small>Volontà</small><b>'+sg(c.ts.V)+'</b></div><div><small>DMC</small><b>'+c.dmc+'</b></div></div><div class="atk" style="margin-top:8px">'+c.gruppi[0].filter(r=>r.nome).map(r=>'<div class="l"><span>'+esc(r.nome)+'</span><span>'+sg(r.tpc)+' ('+esc(r.danno)+')</span></div>').join('')+'</div></div></section>';
+  const eff=S.effetti||[];
+  h+='<div class="card"><div class="sheetHead"><h2>Modificatori</h2><button class="btn sm pri" id="modBtn">Gestisci</button></div>'+(eff.length?'<div class="chips">'+eff.map((e,i)=>'<button class="chip" data-tog="'+i+'" aria-pressed="'+!!e.attivo+'">'+esc(e.nome)+(e.perm?' · perm.':'')+'</button>').join('')+'</div><p class="note">Tocca un modificatore per attivarlo o disattivarlo. I valori sotto li includono già.</p>':'<p class="note">Nessun modificatore. Aggiungi incantesimi, effetti o oggetti magici con Gestisci.</p>')+'</div>';
+  h+='<div class="card"><h2>Difese e manovre</h2><div class="kv k3">'+
+    '<div><small>CA</small><b>'+c.CA+'</b></div><div><small>Contatto</small><b>'+c.contatto+'</b></div><div><small>Impreparato</small><b>'+c.impreparato+'</b></div>'+
+    '<div><small>Tempra</small><b>'+sg(c.ts.T)+'</b></div><div><small>Riflessi</small><b>'+sg(c.ts.R)+'</b></div><div><small>Volontà</small><b>'+sg(c.ts.V)+'</b>'+(c.devo?'<small>+'+c.devo+' contro ammaliamento</small>':'')+'</div>'+
+    '<div><small>BMC</small><b>'+sg(c.bmc)+'</b></div><div><small>DMC</small><b>'+c.dmc+'</b></div><div><small>Iniziativa</small><b>'+sg(c.iniz)+'</b></div>'+
+    '<div style="grid-column:1/-1"><small>Velocità · taglia '+c.taglia+'</small><b style="font-size:.95rem">'+esc(velTesto(c.vel))+'</b></div>'+
+    '</div>'+(c.extra.length?'<p class="txt"><b>Difese:</b> '+esc(c.extra.join('; '))+'</p>':'')+'</div>';
+  h+='<div class="card"><h2>Attacchi</h2>'+attHtml(c)+'</div></section>';
   main.innerHTML=h;
+  bind('modBtn','click',()=>apriModificatori());
+  main.querySelectorAll('[data-tog]').forEach(el=>el.addEventListener('click',()=>{const e=S.effetti[+el.dataset.tog];e.attivo=!e.attivo;save();render();}));
   const q=()=>Math.max(0,+document.getElementById('g-n').value||0);
   bind('g-d','click',()=>{let n=q();const a=Math.min(n,c.fatica-d.fatica);d.fatica+=a;n-=a;d.ferita+=n;S.ultimo='Subiti '+q()+' danni.';if(d.ferita>c.ferita)S.ultimo+=' Punti Ferita sotto zero: '+(c.ferita-d.ferita)+'.';save();rGioco();});
   bind('g-c','click',()=>{let n=q();const a=Math.min(n,d.ferita);d.ferita-=a;n-=a;d.fatica=Math.max(0,d.fatica-n);S.ultimo='Curati '+q()+' PF.';save();rGioco();});

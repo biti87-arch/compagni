@@ -104,3 +104,10 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 - Attacchi a distanza (sputi, spine) al BAB + Destrezza.
 - PF: riposo di 8 ore = Fatica piena e +DV Punti Ferita; Rifiatare = 1d8 + Cos dalla riserva di DV dadi.
 - Da verificare con Massy: Guardia nera con RD 10/male (il paladino ha la stessa RD; per una guardia nera ci si aspetterebbe RD/bene).
+
+## MODIFICATORI (v2, 27/09/2026)
+
+- Pannello "Modificatori" (tasto nella scheda Compagno e in In gioco) con due gruppi: **temporanei** (incantesimi, effetti) e **permanenti** (oggetti magici). Ogni modificatore si attiva e disattiva.
+- Campi: CA (tutte), CA non a contatto, tiri per colpire, danni, Tempra, Riflessi, Volontà, BMC, DMC, velocità (su terreno), iniziativa, taglia in passi (anche più di uno, anche negativi), caratteristiche dovute alla taglia (For/Des/Cos, a mano) e altre caratteristiche.
+- La taglia ricalcola in automatico dadi di danno (su e giù), modificatori di taglia a tiri, CA, BMC/DMC, Furtività e Volare, e spazio/portata.
+- In gioco mostra CA, contatto, impreparato, TS, BMC, DMC, iniziativa, velocità e tutti gli attacchi con gli effetti (es. "più Sbilanciare").
