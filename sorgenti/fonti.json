@@ -87,7 +87,7 @@
             {"liv": 5, "testo": "Zoccoli tonanti: l'attacco di Zoccoli (o il più simile) infligge 1d6 danni extra e minaccia un critico con 1 in più."}]},
   {"id": "guardia_nera", "classe": "Guardia nera", "nome": "Guardia nera — Destriero sacrilego", "tipo": "cavalcatura", "dal": 5, "scarto": 0,
    "ammessi": {"tipi": ["domestico"]},
-   "resistenze": [{"liv": 11, "testo": "RD 10/male, RE (freddo e fuoco) 15"}], "ri": {"dal": 15, "base": 11}},
+   "resistenze": [{"liv": 11, "testo": "RD 10/bene, RE (freddo e fuoco) 15"}], "ri": {"dal": 15, "base": 11}},
 
   {"id": "cavalcaonde", "classe": "Cavaliere", "nome": "Cavaliere — Cavalcaonde", "tipo": "cavalcatura", "dal": 1, "scarto": 0,
    "ammessi": {"tipi": ["acquatico"], "esclusivi": ["Cavalcaonde"]},

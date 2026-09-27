@@ -11,6 +11,8 @@ q = lambda t: '{%s}%s' % (W, t)
 SOSTITUZIONI = [
     ('funziona (ma non conta) come', 'funziona come'),
     ('Libro dei compagni naturali', 'Bestiario dei compagni naturali'),
+    # 27/09/2026: il Destriero sacrilego della guardia nera ha RD/bene, non RD/male
+    ('RD 10/male e RE (freddo e fuoco) 15', 'RD 10/bene e RE (freddo e fuoco) 15'),
 ]
 
 def sostituisci_par(p, da, a):

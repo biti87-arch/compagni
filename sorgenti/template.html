@@ -174,8 +174,9 @@ function stepDado(d,n){
   return d;}
 const SPAZIO={piccolissima:'0 cs / 0',minuta:'0 cs / 0',minuscola:'0 cs / 0',piccola:'1 cs / 1,5 m',media:'1 cs / 1,5 m',grande:'2×2 cs / 3 m (alta) · 1,5 m (lunga)',enorme:'3×3 cs / 4,5 m (alta) · 3 m (lunga)',mastodontica:'4×4 cs / 6 m (alta) · 4,5 m (lunga)',colossale:'6×6 cs / 9 m (alta) · 6 m (lunga)'};
 /* Campi dei modificatori: chiave, etichetta */
-const MODCAMPI=[['ca','CA (tutte)'],['caNat','CA non a contatto'],['tpc','Tiri per colpire'],['danni','Danni'],['T','Tempra'],['R','Riflessi'],['V','Volontà'],['bmc','BMC'],['dmc','DMC'],['vel','Velocità (m)'],['iniz','Iniziativa'],['taglia','Taglia (passi)']];
+const MODCAMPI=[['ca','CA'],['caCont','CA di contatto'],['caImpr','CA impreparato'],['tpc','Tiri per colpire'],['danni','Danni'],['T','Tempra'],['R','Riflessi'],['V','Volontà'],['bmc','BMC'],['dmc','DMC'],['vel','Velocità (m)'],['iniz','Iniziativa'],['taglia','Taglia (passi)']];
 function effAttivi(){return (S.effetti||[]).filter(e=>e.attivo);}
+function migraEffetti(s){for(const e of (s.effetti||[])){if(e.caNat){e.ca=(+e.ca||0)+e.caNat;e.caImpr=(+e.caImpr||0)+e.caNat;delete e.caNat;}if(e.ca&&e.caCont===undefined&&e.caImpr===undefined&&!e._v2){e.caCont=e.ca;e.caImpr=e.ca;}e._v2=true;}}
 function effSomma(k){return effAttivi().reduce((a,e)=>a+(+e[k]||0),0);}
 function effCar(k){return effAttivi().reduce((a,e)=>a+(+(e.car||{})[k]||0)+(+(e.carT||{})[k]||0),0);}
 const BARD={
@@ -203,7 +204,7 @@ const RIT={'comune':[75,95,25],'non comune':[50,75,50],'raro':[15,25,100]};
 const DEFAULT={esempio:true,nome:'Esempio — Mirel, druida',taglia:'media',fonti:[{id:'druido',liv:6,simbiosi:false}],livPg:'',ottimo:false,
   creatura:'cane_di_grossa_taglia',sceltaAv:'creatura',aumenti:['For','For','For'],richiamo:'',trovatoAmbiente:false,
   talenti:[{id:'intercettare_pericolo'},{id:'schivare'},{id:'attacco_naturale_migliorato',att:'Morso'}],liberi:'',gradi:{'Percezione':3,'Furtività':2,'Sopravvivenza':1},
-  bard:'imbottita',potBard:0,effetti:[{id:'e1',nome:'Amuleto dell\'armatura naturale +1',perm:true,attivo:true,caNat:1},{id:'e2',nome:'Esempio: aumento di taglia',perm:false,attivo:false,taglia:1,carT:{For:2,Des:-2}}],pfManuali:'',danni:{fatica:0,ferita:0},riservaUsata:0,ultimo:'',tab:'compagno',filtri:{q:'',cat:'',rar:'',tipo:'',solo:true},insed:4};
+  bard:'imbottita',potBard:0,effetti:[{id:'e1',nome:'Amuleto dell\'armatura naturale +1',perm:true,attivo:true,ca:1,caImpr:1,_v2:true},{id:'e2',nome:'Esempio: aumento di taglia',perm:false,attivo:false,taglia:1,carT:{For:2,Des:-2}}],pfManuali:'',danni:{fatica:0,ferita:0},riservaUsata:0,ultimo:'',tab:'compagno',filtri:{q:'',cat:'',rar:'',tipo:'',solo:true},insed:4};
 function nuovoPg(n){return JSON.parse(JSON.stringify(Object.assign({},DEFAULT,{esempio:false,nome:n||'Nuovo personaggio',fonti:[{id:'druido',liv:1,simbiosi:false}],creatura:'',talenti:[],gradi:{},bard:'',effetti:[],tab:'padrone'})));}
 let G=loadG(), S=G.dati[G.attivo];
 function loadG(){
@@ -211,7 +212,7 @@ function loadG(){
   const id='p'+Date.now();return {attivo:id,dati:{[id]:JSON.parse(JSON.stringify(DEFAULT))}};
 }
 function save(){G.dati[G.attivo]=S;try{localStorage.setItem('compagni-cavalcature-v1',JSON.stringify(G));}catch(e){}}
-function fill(s){for(const k in DEFAULT)if(s[k]===undefined)s[k]=JSON.parse(JSON.stringify(DEFAULT[k]));return s;}
+function fill(s){for(const k in DEFAULT)if(s[k]===undefined)s[k]=JSON.parse(JSON.stringify(DEFAULT[k]));migraEffetti(s);return s;}
 fill(S);
 
 /* ---------- fonti e livello effettivo ---------- */
@@ -339,9 +340,9 @@ function calcola(){
   const schiv=haTalento('schivare')?1:0;
   const nat=can+row.an;
   const potB=bdEff.ca?(+S.potBard||0):0;
-  const eCA=effSomma('ca'), eNat=effSomma('caNat');
-  const CA=10+desCA+tm[0]+nat+bdEff.ca+potB+schiv+eCA+eNat;
-  const contatto=10+desCA+tm[0]+schiv+eCA, impreparato=CA-Math.max(0,desCA)-schiv;
+  const CA=10+desCA+tm[0]+nat+bdEff.ca+potB+schiv+effSomma('ca');
+  const contatto=10+desCA+tm[0]+schiv+effSomma('caCont');
+  const impreparato=10+Math.min(0,desCA)+tm[0]+nat+bdEff.ca+potB+effSomma('caImpr');
   // TS
   let bonusTS=0;for(const s of le.attive)bonusTS+=s.X.bonusTS||0;
   if(S.trovatoAmbiente&&le.attive.some(s=>s.X.addestratore))bonusTS+=1;
@@ -652,7 +653,7 @@ function apriModificatori(){
       (l.length?l.map(({e,i})=>'<div class="featRow"><label class="check" style="flex:1"><input type="checkbox" data-att="'+i+'"'+(e.attivo?' checked':'')+'><span><b>'+esc(e.nome)+'</b><br><span class="note">'+esc(riassuntoEff(e))+'</span></span></label><button class="btn sm" data-ed="'+i+'">Modifica</button></div>').join(''):'<p class="note">Nessuno.</p>')+
       '</div><button class="btn sm" data-nuovo="'+(perm?1:0)+'" style="margin-top:8px">Aggiungi '+(perm?'permanente':'temporaneo')+'</button>';
   };
-  modal('<div class="card"><div class="sheetHead"><h2>Modificatori</h2><button class="btn sm" data-close>Chiudi</button></div><p class="note">Si sommano a tutti i valori della scheda. La taglia sposta anche i dadi di danno e i modificatori di taglia; le caratteristiche dovute al cambio di taglia si scelgono a mano.</p>'+blocco(false)+blocco(true)+
+  modal('<div class="card"><div class="sheetHead"><h2>Modificatori</h2><button class="btn sm" data-close>Chiudi</button></div><p class="note">Si sommano ai valori della scheda. Le tre CA sono separate: un bonus di deviazione, per esempio, va messo su tutte e tre; un bonus di armatura naturale su CA e impreparato. La taglia sposta anche i dadi di danno e i modificatori di taglia; le caratteristiche dovute al cambio di taglia si scelgono a mano.</p>'+blocco(false)+blocco(true)+
     (S.effetti.some(e=>!e.perm&&e.attivo)?'<div class="row" style="margin-top:14px"><button class="btn" id="spegni">Disattiva tutti i temporanei</button></div>':'')+'</div>');
   document.querySelectorAll('[data-att]').forEach(x=>x.addEventListener('change',()=>{S.effetti[+x.dataset.att].attivo=x.checked;save();render();apriModificatori();}));
   document.querySelectorAll('[data-ed]').forEach(x=>x.addEventListener('click',()=>editaEffetto(+x.dataset.ed)));
