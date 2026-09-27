@@ -102,7 +102,7 @@ Esclusi: Destriero fantomatico (Ritualista), Cavalca eidolon (app Convocatore), 
 - Talenti generici con effetto calcolato: Arma Accurata, Arma Focalizzata, Robustezza, Schivare, Iniziativa Migliorata, Riflessi Fulminei, Tempra Possente, Volontà di Ferro (Attacco Poderoso come testo). Altri talenti: campo libero.
 - Talenti selvatici con effetto calcolato: Attacco naturale migliorato (passo di dado sull'attacco scelto), Attento (+2 Percezione), Legame speciale (+4 livelli), Massiccio (taglia +1 per BMC/DMC), Multiattacco. Requisiti controllati e segnalati.
 - Attacchi a distanza (sputi, spine) al BAB + Destrezza.
-- PF: riposo di 8 ore = Fatica piena e +DV Punti Ferita; Rifiatare = 1d8 + Cos dalla riserva di DV dadi.
+- PF: riposo di 8 ore = Fatica piena e +DV Punti Ferita; Rifiatare = 1d8 senza bonus dalla riserva di DV dadi, con tasto per ritirare una volta (oggetti o capacità).
 - Guardia nera, Destriero sacrilego: RD 10/bene (confermato da Massy il 27/09/2026; corretto anche in Vol. 2 e manuale singolo).
 
 ## MODIFICATORI (v2, 27/09/2026)

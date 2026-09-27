@@ -693,9 +693,9 @@ function rGioco(){
   let h='<section class="panel"><div class="stats"><div class="stat"><span class="label">Punti Fatica</span><b>'+fat+' / '+c.fatica+'</b></div><div class="stat"><span class="label">Punti Ferita</span><b>'+fer+' / '+c.ferita+'</b></div><div class="stat"><span class="label">Rifiatare</span><b>'+ris+' d8</b></div></div>';
   h+='<div class="card"><div class="grid" style="grid-template-columns:1fr"><div><span class="label">Fatica</span><div class="bar"><i class="fat" style="width:'+(c.fatica?100*fat/c.fatica:0)+'%"></i></div></div><div><span class="label">Ferita</span><div class="bar"><i class="'+(fer<=c.ferita/2?'low':'')+'" style="width:'+(c.ferita?100*fer/c.ferita:0)+'%"></i></div></div></div>';
   h+='<div class="row" style="margin-top:12px"><div class="hp"><label class="label" for="g-n">Quantità</label><input id="g-n" type="number" min="1" value="5"></div><button class="btn danger" id="g-d">Danni</button><button class="btn" id="g-c">Cura magica</button></div>';
-  h+='<div class="row" style="margin-top:10px"><button class="btn" id="g-r"'+(ris?'':' disabled')+'>Rifiatare (1d8'+(c.M.Cos?sg(c.M.Cos):'')+')</button><button class="btn" id="g-8">Riposo di 8 ore</button></div>';
+  h+='<div class="row" style="margin-top:10px"><button class="btn" id="g-r"'+(ris?'':' disabled')+'>Rifiatare (1d8)</button>'+(S.ultimoRif&&!S.ultimoRif.ritirato?'<button class="btn" id="g-rr">Ritira l\'ultimo dado</button>':'')+'<button class="btn" id="g-8">Riposo di 8 ore</button></div>';
   if(S.ultimo)h+='<p class="note" style="margin-top:8px">'+esc(S.ultimo)+'</p>';
-  h+='<p class="note">I danni tolgono prima i Punti Fatica. Le cure magiche ridanno prima i Punti Ferita. Rifiatare ridà solo Punti Fatica. Il riposo di 8 ore ripristina Fatica e riserva e ridà '+c.dv+' Punti Ferita.</p></div>';
+  h+='<p class="note">I danni tolgono prima i Punti Fatica. Le cure magiche ridanno prima i Punti Ferita. Rifiatare ridà solo Punti Fatica, pari al dado tirato; «Ritira» serve per oggetti o capacità che permettono di ripetere il tiro (una volta). Il riposo di 8 ore ripristina Fatica e riserva e ridà '+c.dv+' Punti Ferita.</p></div>';
   const eff=S.effetti||[];
   h+='<div class="card"><div class="sheetHead"><h2>Modificatori</h2><button class="btn sm pri" id="modBtn">Gestisci</button></div>'+(eff.length?'<div class="chips">'+eff.map((e,i)=>'<button class="chip" data-tog="'+i+'" aria-pressed="'+!!e.attivo+'">'+esc(e.nome)+(e.perm?' · perm.':'')+'</button>').join('')+'</div><p class="note">Tocca un modificatore per attivarlo o disattivarlo. I valori sotto li includono già.</p>':'<p class="note">Nessun modificatore. Aggiungi incantesimi, effetti o oggetti magici con Gestisci.</p>')+'</div>';
   h+='<div class="card"><h2>Difese e manovre</h2><div class="kv k3">'+
@@ -711,8 +711,10 @@ function rGioco(){
   const q=()=>Math.max(0,+document.getElementById('g-n').value||0);
   bind('g-d','click',()=>{let n=q();const a=Math.min(n,c.fatica-d.fatica);d.fatica+=a;n-=a;d.ferita+=n;S.ultimo='Subiti '+q()+' danni.';if(d.ferita>c.ferita)S.ultimo+=' Punti Ferita sotto zero: '+(c.ferita-d.ferita)+'.';save();rGioco();});
   bind('g-c','click',()=>{let n=q();const a=Math.min(n,d.ferita);d.ferita-=a;n-=a;d.fatica=Math.max(0,d.fatica-n);S.ultimo='Curati '+q()+' PF.';save();rGioco();});
-  bind('g-r','click',()=>{const r=1+Math.floor(Math.random()*8),t=Math.max(1,r+c.M.Cos);d.fatica=Math.max(0,d.fatica-t);S.riservaUsata=(+S.riservaUsata||0)+1;S.ultimo='Rifiatare: 1d8 = '+r+(c.M.Cos?' '+sg(c.M.Cos):'')+' → +'+t+' Punti Fatica.';save();rGioco();});
-  bind('g-8','click',()=>{d.fatica=0;d.ferita=Math.max(0,d.ferita-c.dv);S.riservaUsata=0;S.ultimo='Riposo di 8 ore completato.';save();rGioco();});
+  const rif=(r)=>{const prima=d.fatica;d.fatica=Math.max(0,d.fatica-r);S.ultimoRif={r,rec:prima-d.fatica,ritirato:false};S.ultimo='Rifiatare: 1d8 = '+r+' → +'+(prima-d.fatica)+' Punti Fatica.';};
+  bind('g-r','click',()=>{rif(1+Math.floor(Math.random()*8));S.riservaUsata=(+S.riservaUsata||0)+1;save();rGioco();});
+  bind('g-rr','click',()=>{const u=S.ultimoRif;if(!u||u.ritirato)return;d.fatica+=u.rec;const vecchio=u.r;rif(1+Math.floor(Math.random()*8));S.ultimoRif.ritirato=true;S.ultimo='Ritirato ('+vecchio+' scartato). '+S.ultimo;save();rGioco();});
+  bind('g-8','click',()=>{S.ultimoRif=null;d.fatica=0;d.ferita=Math.max(0,d.ferita-c.dv);S.riservaUsata=0;S.ultimo='Riposo di 8 ore completato.';save();rGioco();});
 }
 
 /* ---------- finestre ---------- */
